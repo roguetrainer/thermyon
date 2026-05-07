@@ -11,6 +11,9 @@ author: Ian R. C. Buckley
 # ── Just-the-docs settings ────────────────────────────────────────────────────
 color_scheme: light
 
+logo: "/assets/images/asa-logo.png"
+favicon_ico: "/assets/images/asa-logo.png"
+
 search_enabled: true
 search:
   heading_level: 2

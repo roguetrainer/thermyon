@@ -4,6 +4,10 @@ title: Home
 nav_order: 1
 ---
 
+<div style="text-align:center; margin-bottom: 1.5rem;">
+  <img src="/adelic-simplicial-architecture/assets/images/asa-logo.png" alt="ASA logo" width="220">
+</div>
+
 # Adelic Simplicial Architecture
 
 **Author:** Ian R. C. Buckley — [ORCID 0009-0004-9287-2902](https://orcid.org/0009-0004-9287-2902)
