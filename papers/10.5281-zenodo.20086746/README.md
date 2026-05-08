@@ -14,6 +14,7 @@ parent: Papers
 nav_order: 203
 has_code: true
 status: published
+upload_date: "2026-05-08"
 ---
 
 **Paper:** 203 | **Portfolio C (AI)** — AI & Deep Learning
