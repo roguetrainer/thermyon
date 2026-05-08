@@ -29,6 +29,8 @@ The **$[[7,1,3]]$ Steane code** — the smallest topological quantum error corre
 
 ### AI & Distributed Training
 
+**The Affine Holomorphic Resonance Network (A-HRN)** (Paper 203) addresses the Fine-Tuning Trilemma — the conflict between plasticity (learn new tasks), stability (retain old tasks), and efficiency (no extra parameters). The A-HRN replaces Euclidean parameter spaces with bounded hypercomplex domains governed by Möbius automorphisms, enabling the network to function as a Blum-Shub-Smale machine over $\mathbb{H}$ and $\mathbb{O}$. Its central mechanism is the **Fano-Fisher Topological Immune System**: fine-tuning gradients are projected onto the 10-dimensional Information Valley (the null space of the Fano-Fisher Hessian $\Psi$), while the 4-dimensional Information Ridge ($E_k = 8/3$, the topological skeleton) is geometrically excluded. This is categorical prevention, not soft regularisation: the ridge subspace is structurally inaccessible, giving machine-precision zero drift ($\|\delta_{\mathrm{ridge}}\| = 7 \times 10^{-16}$) with Task A retention of 100% versus 5% for standard SGD.
+
 **Papers 218 and 221** (the NAIG cluster) treat distributed LLM training as a non-associative geometry problem. See the dedicated sections on those paper pages for full details.
 
 **Volume of Thought (VoT)** (Paper 213) applies the MGE router to multi-agent AI: instead of routing gradient updates, it routes *reasoning trajectories* in a swarm of agents. The volume of the convex hull of agent trajectories in $\mathfrak{g}_2$ replaces scalar confidence scores as the quality metric, giving a geometric measure of cognitive diversity.
@@ -44,6 +46,7 @@ The **$[[7,1,3]]$ Steane code** — the smallest topological quantum error corre
 | # | Paper |
 |---|-------|
 | [199](../papers/10.5281-zenodo.20060303/) | The Quaternionic Virtual Machine (Q-VM) |
+| [203](../papers/10.5281-zenodo.20086746/) | The Affine Holomorphic Resonance Network (A-HRN) |
 | [205](../papers/10.5281-zenodo.19743800/) | The Resonance Processing Unit (RPU) |
 | [206](../papers/10.5281-zenodo.19821692/) | Fibrational Tensor Codes (FTCs) |
 | [210](../papers/10.5281-zenodo.19929360/) | Geometric Interpretation of Code Switching |
