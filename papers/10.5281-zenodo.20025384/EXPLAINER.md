@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Non-Associative Calculus"
+parent: Explainers
+nav_exclude: false
+---
+
 # Non-Associative Calculus: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20025384](https://doi.org/10.5281/zenodo.20025384) (#211)*

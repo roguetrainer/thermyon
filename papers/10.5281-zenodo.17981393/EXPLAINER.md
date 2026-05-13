@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Maslov-Gibbs Einsum (MGE)"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Maslov-Gibbs Einsum (MGE): An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.17981393](https://doi.org/10.5281/zenodo.17981393) (#201)*

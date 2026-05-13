@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Geometric Shadows in Aperys Polynomial"
+parent: Explainers
+nav_exclude: false
+---
+
 # Geometric Shadows in Apéry's Polynomial: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20031913](https://doi.org/10.5281/zenodo.20031913) (#266)*

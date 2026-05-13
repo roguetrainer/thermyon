@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Architecture of Inevitability"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Architecture of Inevitability: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19928880](https://doi.org/10.5281/zenodo.19928880) (#263)*

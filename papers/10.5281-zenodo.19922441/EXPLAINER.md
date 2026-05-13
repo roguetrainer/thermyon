@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Fibrational Lattice Surgery (FLS)"
+parent: Explainers
+nav_exclude: false
+---
+
 # Fibrational Lattice Surgery (FLS): An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19922441](https://doi.org/10.5281/zenodo.19922441) (#217)*

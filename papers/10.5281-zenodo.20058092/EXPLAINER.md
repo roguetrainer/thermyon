@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Fano Monogamy Paradox"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Fano Monogamy Paradox: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20058092](https://doi.org/10.5281/zenodo.20058092) (#270)*

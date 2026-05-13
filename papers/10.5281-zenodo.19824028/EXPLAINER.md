@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Riemann Spectrometer"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Riemann Spectrometer: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19824028](https://doi.org/10.5281/zenodo.19824028) (#240)*

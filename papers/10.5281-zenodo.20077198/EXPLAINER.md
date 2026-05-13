@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Thermodynamic Routing of Stale Gradients"
+parent: Explainers
+nav_exclude: false
+---
+
 # Thermodynamic Routing of Stale Gradients: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20077198](https://doi.org/10.5281/zenodo.20077198) (#218)*

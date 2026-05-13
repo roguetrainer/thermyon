@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The 731 Frog Calculus (Part 2)"
+parent: Explainers
+nav_exclude: false
+---
+
 # The 731 Frog Calculus (Part 2) — An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20139448](https://doi.org/10.5281/zenodo.20139448) (#281)*

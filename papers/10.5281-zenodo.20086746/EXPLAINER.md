@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Unitary Resonance Network (URN)"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Unitary Resonance Network (URN): An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20086746](https://doi.org/10.5281/zenodo.20086746) (#203)*

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The zeta(21) Apery Ladder"
+parent: Explainers
+nav_exclude: false
+---
+
 # The ζ(21) Apéry Ladder: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20029647](https://doi.org/10.5281/zenodo.20029647) (#265)*

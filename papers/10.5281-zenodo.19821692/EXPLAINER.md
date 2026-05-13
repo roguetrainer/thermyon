@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Fibrational Tensor Codes (FTCs)"
+parent: Explainers
+nav_exclude: false
+---
+
 # Fibrational Tensor Codes (FTCs): An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19821692](https://doi.org/10.5281/zenodo.19821692) (#206)*

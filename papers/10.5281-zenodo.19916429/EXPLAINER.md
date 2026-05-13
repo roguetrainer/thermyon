@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Origami ISA"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Origami ISA — An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19916429](https://doi.org/10.5281/zenodo.19916429) (#258)*

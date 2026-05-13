@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Fano-Foam Manifold"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Fano-Foam Manifold: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19869263](https://doi.org/10.5281/zenodo.19869263) (#200)*

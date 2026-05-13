@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Conserved Computation"
+parent: Explainers
+nav_exclude: false
+---
+
 # Conserved Computation: An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.20127517](https://doi.org/10.5281/zenodo.20127517) (#286)*

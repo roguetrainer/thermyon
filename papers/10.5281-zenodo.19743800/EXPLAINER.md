@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Resonance Processing Unit (RPU)"
+parent: Explainers
+nav_exclude: false
+---
+
 # The Resonance Processing Unit (RPU): An Accessible Guide
 
 *Plain-language explainer for [doi:10.5281/zenodo.19743800](https://doi.org/10.5281/zenodo.19743800) (#205)*
