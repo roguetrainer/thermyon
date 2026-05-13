@@ -3,6 +3,7 @@ layout: default
 title: "Thermodynamic Routing of Stale Gradients"
 parent: Explainers
 nav_exclude: false
+tags: [hardware-ai, ai-ml, optimisation, distributed]
 ---
 
 # Thermodynamic Routing of Stale Gradients: An Accessible Guide

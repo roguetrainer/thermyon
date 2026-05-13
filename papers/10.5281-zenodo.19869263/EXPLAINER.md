@@ -3,6 +3,7 @@ layout: default
 title: "The Fano-Foam Manifold"
 parent: Explainers
 nav_exclude: false
+tags: [foundations, geometry, fano, g2]
 ---
 
 # The Fano-Foam Manifold: An Accessible Guide

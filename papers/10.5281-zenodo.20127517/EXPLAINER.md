@@ -3,6 +3,7 @@ layout: default
 title: "Conserved Computation"
 parent: Explainers
 nav_exclude: false
+tags: [core-engine, geometry, noether, g2]
 ---
 
 # Conserved Computation: An Accessible Guide

@@ -3,6 +3,7 @@ layout: default
 title: "The zeta(21) Apery Ladder"
 parent: Explainers
 nav_exclude: false
+tags: [grand-challenges, number-theory, recurrence, g2]
 ---
 
 # The ζ(21) Apéry Ladder: An Accessible Guide

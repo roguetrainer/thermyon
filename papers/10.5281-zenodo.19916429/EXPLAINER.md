@@ -3,6 +3,7 @@ layout: default
 title: "The Origami ISA"
 parent: Explainers
 nav_exclude: false
+tags: [hardware-ai, hardware, instruction-set, fano]
 ---
 
 # The Origami ISA — An Accessible Guide

@@ -3,6 +3,7 @@ layout: default
 title: "Non-Associative Calculus"
 parent: Explainers
 nav_exclude: false
+tags: [foundations, core-engine, calculus, g2, octonions]
 ---
 
 # Non-Associative Calculus: An Accessible Guide

@@ -3,6 +3,7 @@ layout: default
 title: "The Architecture of Inevitability"
 parent: Explainers
 nav_exclude: false
+tags: [foundations, geometry, magic-square, octonions]
 ---
 
 # The Architecture of Inevitability: An Accessible Guide

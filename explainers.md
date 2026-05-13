@@ -5,27 +5,159 @@ nav_order: 3
 has_children: true
 ---
 
-# Explainers
+Plain-language guides to every paper — no prior mathematics required. Filter by theme below.
 
-Plain-language guides to each paper — no prior mathematics required.
+<div id="asa-filter-bar" style="margin: 1.5rem 0 1rem;">
+  <span style="font-size: 0.85rem; font-weight: 600; margin-right: 0.5rem;">Portfolio:</span>
+  <button class="asa-btn active" data-filter="portfolio" data-value="all">All</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="A">A — Core Engine</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="B">B — Foundations</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="C">C — Hardware &amp; AI</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="D">D — Protocols</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="E">E — Grand Challenges</button>
+  <button class="asa-btn" data-filter="portfolio" data-value="F">F — Quantum Foundations</button>
+</div>
 
-| Paper | Title |
-|-------|-------|
-| #200 | [The Fano-Foam Manifold](papers/10.5281-zenodo.19869263/EXPLAINER) |
-| #202 | [Topological Resonance Synthesis (TRS)](papers/10.5281-zenodo.19858021/EXPLAINER) |
-| #205 | [The Resonance Processing Unit (RPU)](papers/10.5281-zenodo.19743800/EXPLAINER) |
-| #206 | [Fibrational Tensor Codes (FTCs)](papers/10.5281-zenodo.19821692/EXPLAINER) |
-| #207 | [The Riemann Spectrometer](papers/10.5281-zenodo.19824028/EXPLAINER) |
-| #211 | [Non-Associative Calculus](papers/10.5281-zenodo.20025384/EXPLAINER) |
-| #218 | [Thermodynamic Routing of Stale Gradients](papers/10.5281-zenodo.20077198/EXPLAINER) |
-| #221 | [The Fano Monogamy Paradox](papers/10.5281-zenodo.20058092/EXPLAINER) |
-| #258 | [The Origami ISA](papers/10.5281-zenodo.19916429/EXPLAINER) |
-| #263 | [The Architecture of Inevitability](papers/10.5281-zenodo.19928880/EXPLAINER) |
-| #265 | [The ζ(21) Apéry Ladder](papers/10.5281-zenodo.20029647/EXPLAINER) |
-| #266 | [Geometric Shadows in Apéry's Polynomial](papers/10.5281-zenodo.20031913/EXPLAINER) |
-| #271 | [Fibrational Lattice Surgery (FLS)](papers/10.5281-zenodo.19922441/EXPLAINER) |
-| #281 | [The 731 Frog Calculus (Part 2)](papers/10.5281-zenodo.20139448/EXPLAINER) |
-| #283 | [The Maslov-Gibbs Einsum (MGE)](papers/10.5281-zenodo.17981393/EXPLAINER) |
-| #284 | [The 731 Frog Calculus (Part 1)](papers/10.5281-zenodo.19713350/EXPLAINER) |
-| #285 | [The Unitary Resonance Network (URN)](papers/10.5281-zenodo.20086746/EXPLAINER) |
-| #286 | [Conserved Computation](papers/10.5281-zenodo.20127517/EXPLAINER) |
+<div id="asa-filter-bar-tags" style="margin: 0 0 1.5rem;">
+  <span style="font-size: 0.85rem; font-weight: 600; margin-right: 0.5rem;">Tag:</span>
+  <button class="asa-btn active" data-filter="tag" data-value="all">All</button>
+  <button class="asa-btn" data-filter="tag" data-value="ai-ml">AI / ML</button>
+  <button class="asa-btn" data-filter="tag" data-value="calculus">Calculus</button>
+  <button class="asa-btn" data-filter="tag" data-value="cryptography">Cryptography</button>
+  <button class="asa-btn" data-filter="tag" data-value="fano">Fano</button>
+  <button class="asa-btn" data-filter="tag" data-value="g2">G₂</button>
+  <button class="asa-btn" data-filter="tag" data-value="hardware">Hardware</button>
+  <button class="asa-btn" data-filter="tag" data-value="number-theory">Number Theory</button>
+  <button class="asa-btn" data-filter="tag" data-value="octonions">Octonions</button>
+  <button class="asa-btn" data-filter="tag" data-value="optimisation">Optimisation</button>
+  <button class="asa-btn" data-filter="tag" data-value="qec">QEC</button>
+  <button class="asa-btn" data-filter="tag" data-value="quantum-foundations">Quantum Foundations</button>
+</div>
+
+<p id="asa-count" style="font-size: 0.8rem; color: #666; margin-bottom: 1rem;"></p>
+
+<div id="asa-grid"></div>
+
+<style>
+.asa-btn {
+  display: inline-block;
+  margin: 0.15rem 0.2rem;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.8rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background: #f5f5f5;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.asa-btn:hover { background: #e0e0e0; }
+.asa-btn.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+
+#asa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.asa-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  background: #fff;
+  transition: box-shadow 0.15s;
+}
+.asa-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.asa-card a { text-decoration: none; color: #1f6feb; font-weight: 600; }
+.asa-card a:hover { text-decoration: underline; }
+.asa-card .asa-num { font-size: 0.75rem; color: #888; margin-bottom: 0.2rem; }
+.asa-card .asa-tags { margin-top: 0.5rem; }
+.asa-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 3px;
+  padding: 0.05rem 0.35rem;
+  margin: 0.1rem 0.1rem 0 0;
+  color: #3730a3;
+}
+.asa-portfolio {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 3px;
+  padding: 0.05rem 0.35rem;
+  margin: 0.1rem 0.1rem 0 0;
+  color: #166534;
+}
+</style>
+
+<script>
+(function() {
+  var papers = {{ site.data.papers | jsonify }};
+  var activePortfolio = "all";
+  var activeTag = "all";
+
+  var PORTFOLIO_LABELS = {
+    "A": "A — Core Engine",
+    "B": "B — Foundations",
+    "C": "C — Hardware & AI",
+    "D": "D — Protocols",
+    "E": "E — Grand Challenges",
+    "F": "F — Quantum Foundations"
+  };
+
+  function baseurl(path) {
+    return "{{ site.baseurl }}" + path;
+  }
+
+  function render() {
+    var visible = papers.filter(function(p) {
+      if (!p.explainer) return false;
+      var portfolioOk = activePortfolio === "all" || p.portfolios.indexOf(activePortfolio) !== -1;
+      var tagOk = activeTag === "all" || p.tags.indexOf(activeTag) !== -1;
+      return portfolioOk && tagOk;
+    });
+
+    visible.sort(function(a, b) { return a.number - b.number; });
+
+    var grid = document.getElementById("asa-grid");
+    var count = document.getElementById("asa-count");
+    count.textContent = visible.length + " paper" + (visible.length !== 1 ? "s" : "");
+
+    grid.innerHTML = visible.map(function(p) {
+      var tags = p.tags.map(function(t) {
+        return '<span class="asa-tag">' + t + '</span>';
+      }).join("");
+      var portfolios = p.portfolios.map(function(pf) {
+        return '<span class="asa-portfolio">' + (PORTFOLIO_LABELS[pf] || pf) + '</span>';
+      }).join("");
+      var href = baseurl("/papers/" + p.slug + "/EXPLAINER");
+      return '<div class="asa-card">'
+        + '<div class="asa-num">#' + p.number + ' &nbsp;·&nbsp; <a href="https://doi.org/' + p.doi + '" target="_blank">' + p.doi + '</a></div>'
+        + '<div><a href="' + href + '">' + p.title + '</a></div>'
+        + '<div class="asa-tags">' + portfolios + tags + '</div>'
+        + '</div>';
+    }).join("");
+  }
+
+  function bindButtons(containerId, filterKey) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    container.addEventListener("click", function(e) {
+      var btn = e.target.closest(".asa-btn");
+      if (!btn || btn.dataset.filter !== filterKey) return;
+      container.querySelectorAll(".asa-btn").forEach(function(b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      if (filterKey === "portfolio") activePortfolio = btn.dataset.value;
+      else activeTag = btn.dataset.value;
+      render();
+    });
+  }
+
+  bindButtons("asa-filter-bar", "portfolio");
+  bindButtons("asa-filter-bar-tags", "tag");
+  render();
+})();
+</script>

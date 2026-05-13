@@ -3,6 +3,7 @@ layout: default
 title: "The 731 Frog Calculus (Part 2)"
 parent: Explainers
 nav_exclude: false
+tags: [foundations, geometry, fano, category-theory]
 ---
 
 # The 731 Frog Calculus (Part 2) — An Accessible Guide

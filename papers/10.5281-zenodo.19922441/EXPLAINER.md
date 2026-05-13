@@ -3,6 +3,7 @@ layout: default
 title: "Fibrational Lattice Surgery (FLS)"
 parent: Explainers
 nav_exclude: false
+tags: [hardware-ai, qec, hardware]
 ---
 
 # Fibrational Lattice Surgery (FLS): An Accessible Guide

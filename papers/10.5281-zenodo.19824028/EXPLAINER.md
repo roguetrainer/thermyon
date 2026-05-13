@@ -3,6 +3,7 @@ layout: default
 title: "The Riemann Spectrometer"
 parent: Explainers
 nav_exclude: false
+tags: [grand-challenges, number-theory, riemann, g2]
 ---
 
 # The Riemann Spectrometer: An Accessible Guide

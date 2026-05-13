@@ -3,6 +3,7 @@ layout: default
 title: "The Maslov-Gibbs Einsum (MGE)"
 parent: Explainers
 nav_exclude: false
+tags: [core-engine, optimisation, ai-ml, tropical]
 ---
 
 # The Maslov-Gibbs Einsum (MGE): An Accessible Guide

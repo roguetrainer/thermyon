@@ -3,6 +3,7 @@ layout: default
 title: "Topological Resonance Synthesis (TRS)"
 parent: Explainers
 nav_exclude: false
+tags: [core-engine, optimisation, ai-ml, geometry]
 ---
 
 # Topological Resonance Synthesis (TRS): An Accessible Guide

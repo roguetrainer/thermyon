@@ -1,0 +1,182 @@
+[
+  {
+    "number": 200,
+    "title": "The Fano-Foam Manifold",
+    "doi": "10.5281/zenodo.19869263",
+    "slug": "10.5281-zenodo.19869263",
+    "portfolios": ["B"],
+    "tags": ["foundations", "geometry", "fano", "g2"],
+    "explainer": true
+  },
+  {
+    "number": 201,
+    "title": "The Maslov-Gibbs Einsum (MGE)",
+    "doi": "10.5281/zenodo.17981393",
+    "slug": "10.5281-zenodo.17981393",
+    "portfolios": ["A"],
+    "tags": ["core-engine", "optimisation", "ai-ml", "tropical"],
+    "explainer": true
+  },
+  {
+    "number": 202,
+    "title": "Topological Resonance Synthesis (TRS)",
+    "doi": "10.5281/zenodo.19858021",
+    "slug": "10.5281-zenodo.19858021",
+    "portfolios": ["A"],
+    "tags": ["core-engine", "optimisation", "ai-ml", "geometry"],
+    "explainer": true
+  },
+  {
+    "number": 203,
+    "title": "The Unitary Resonance Network (URN)",
+    "doi": "10.5281/zenodo.20086746",
+    "slug": "10.5281-zenodo.20086746",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "ai-ml", "continual-learning"],
+    "explainer": true
+  },
+  {
+    "number": 205,
+    "title": "The Resonance Processing Unit (RPU)",
+    "doi": "10.5281/zenodo.19743800",
+    "slug": "10.5281-zenodo.19743800",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "qec", "hardware"],
+    "explainer": true
+  },
+  {
+    "number": 206,
+    "title": "Fibrational Tensor Codes (FTCs)",
+    "doi": "10.5281/zenodo.19821692",
+    "slug": "10.5281-zenodo.19821692",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "qec", "fano", "g2"],
+    "explainer": true
+  },
+  {
+    "number": 207,
+    "title": "The 731-Calculus (Part 1)",
+    "doi": "10.5281/zenodo.19713350",
+    "slug": "10.5281-zenodo.19713350",
+    "portfolios": ["B"],
+    "tags": ["foundations", "geometry", "fano", "category-theory"],
+    "explainer": true
+  },
+  {
+    "number": 208,
+    "title": "The Magmoidal Cipher",
+    "doi": "10.5281/zenodo.19826357",
+    "slug": "10.5281-zenodo.19826357",
+    "portfolios": ["D"],
+    "tags": ["protocols", "cryptography", "post-quantum"],
+    "explainer": false
+  },
+  {
+    "number": 211,
+    "title": "Non-Associative Calculus",
+    "doi": "10.5281/zenodo.20025384",
+    "slug": "10.5281-zenodo.20025384",
+    "portfolios": ["A", "B"],
+    "tags": ["foundations", "core-engine", "calculus", "g2", "octonions"],
+    "explainer": true
+  },
+  {
+    "number": 217,
+    "title": "Fibrational Lattice Surgery (FLS)",
+    "doi": "10.5281/zenodo.19922441",
+    "slug": "10.5281-zenodo.19922441",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "qec", "hardware"],
+    "explainer": true
+  },
+  {
+    "number": 218,
+    "title": "Thermodynamic Routing of Stale Gradients",
+    "doi": "10.5281/zenodo.20077198",
+    "slug": "10.5281-zenodo.20077198",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "ai-ml", "optimisation", "distributed"],
+    "explainer": true
+  },
+  {
+    "number": 221,
+    "title": "Non-Associative Information Geometry",
+    "doi": "10.5281/zenodo.20076498",
+    "slug": "10.5281-zenodo.20076498",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "ai-ml", "geometry", "fano"],
+    "explainer": false
+  },
+  {
+    "number": 240,
+    "title": "The Riemann Spectrometer",
+    "doi": "10.5281/zenodo.19824028",
+    "slug": "10.5281-zenodo.19824028",
+    "portfolios": ["E"],
+    "tags": ["grand-challenges", "number-theory", "riemann", "g2"],
+    "explainer": true
+  },
+  {
+    "number": 258,
+    "title": "The Origami ISA",
+    "doi": "10.5281/zenodo.19916429",
+    "slug": "10.5281-zenodo.19916429",
+    "portfolios": ["C"],
+    "tags": ["hardware-ai", "hardware", "instruction-set", "fano"],
+    "explainer": true
+  },
+  {
+    "number": 263,
+    "title": "The Architecture of Inevitability",
+    "doi": "10.5281/zenodo.19928880",
+    "slug": "10.5281-zenodo.19928880",
+    "portfolios": ["B"],
+    "tags": ["foundations", "geometry", "magic-square", "octonions"],
+    "explainer": true
+  },
+  {
+    "number": 265,
+    "title": "The ζ(21) Apéry Ladder",
+    "doi": "10.5281/zenodo.20029647",
+    "slug": "10.5281-zenodo.20029647",
+    "portfolios": ["E"],
+    "tags": ["grand-challenges", "number-theory", "recurrence", "g2"],
+    "explainer": true
+  },
+  {
+    "number": 266,
+    "title": "Geometric Shadows in Apéry's Polynomial",
+    "doi": "10.5281/zenodo.20031913",
+    "slug": "10.5281-zenodo.20031913",
+    "portfolios": ["E"],
+    "tags": ["grand-challenges", "number-theory", "recurrence", "g2"],
+    "explainer": true
+  },
+  {
+    "number": 270,
+    "title": "The Fano Monogamy Paradox",
+    "doi": "10.5281/zenodo.20058092",
+    "slug": "10.5281-zenodo.20058092",
+    "portfolios": ["F"],
+    "tags": ["quantum-foundations", "entanglement", "fano"],
+    "explainer": true
+  },
+  {
+    "number": 281,
+    "title": "The 731 Frog Calculus (Part 2)",
+    "doi": "10.5281/zenodo.20139448",
+    "slug": "10.5281-zenodo.20139448",
+    "portfolios": ["B"],
+    "tags": ["foundations", "geometry", "fano", "category-theory"],
+    "explainer": true
+  },
+  {
+    "number": 286,
+    "title": "Conserved Computation",
+    "doi": "10.5281/zenodo.20127517",
+    "slug": "10.5281-zenodo.20127517",
+    "portfolios": ["A"],
+    "tags": ["core-engine", "geometry", "noether", "g2"],
+    "explainer": true
+  }
+]

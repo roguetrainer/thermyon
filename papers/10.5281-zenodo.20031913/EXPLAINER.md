@@ -3,6 +3,7 @@ layout: default
 title: "Geometric Shadows in Aperys Polynomial"
 parent: Explainers
 nav_exclude: false
+tags: [grand-challenges, number-theory, recurrence, g2]
 ---
 
 # Geometric Shadows in Apéry's Polynomial: An Accessible Guide
