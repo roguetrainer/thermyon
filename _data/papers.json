@@ -1392,5 +1392,25 @@
       "phase-space"
     ],
     "explainer": false
+  },
+  {
+    "number": 393,
+    "title": "Projective Geometry as the Mother Tongue of Quantum Mechanics: From Brody & Hughston's CP^n to the Fano Orbit Decomposition",
+    "doi": "10.5281/zenodo.20634729",
+    "slug": "10.5281-zenodo.20634729",
+    "portfolios": [
+      "F",
+      "B"
+    ],
+    "tags": [
+      "fano",
+      "projective-geometry",
+      "quantum-foundations",
+      "wigner",
+      "metaplectic",
+      "category-theory",
+      "brody-hughston"
+    ],
+    "explainer": true
   }
 ]

@@ -9,7 +9,7 @@ portfolio: F
 
 ## One Geometry, Two Fields
 
-*Plain-language explainer for [doi:10.5281/zenodo.PENDING](https://doi.org/10.5281/zenodo.PENDING)*
+*Plain-language explainer for [doi:10.5281/zenodo.20634729](https://doi.org/10.5281/zenodo.20634729)*
 
 ---
 
@@ -137,4 +137,4 @@ This connection is conjectural, but it is the direction in which Brody & Hughsto
 
 ---
 
-*For the full technical treatment, see [doi:10.5281/zenodo.PENDING](https://doi.org/10.5281/zenodo.PENDING).*
+*For the full technical treatment, see [doi:10.5281/zenodo.20634729](https://doi.org/10.5281/zenodo.20634729).*
