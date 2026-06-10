@@ -117,25 +117,34 @@ Plain-language guides to every paper — no prior mathematics required. Filter b
     return "{{ site.baseurl }}" + path;
   }
 
+  function toArray(val, sep) {
+    if (!val) return [];
+    if (Array.isArray(val)) return val;
+    return String(val).split(sep).map(function(s) { return s.trim(); }).filter(Boolean);
+  }
+
   function render() {
     var visible = papers.filter(function(p) {
-      if (!p.explainer) return false;
-      var portfolioOk = activePortfolio === "all" || p.portfolios.indexOf(activePortfolio) !== -1;
-      var tagOk = activeTag === "all" || p.tags.indexOf(activeTag) !== -1;
+      var ex = p.explainer;
+      if (!ex || ex === "False" || ex === false) return false;
+      var portfolios = toArray(p.portfolios, "|");
+      var tags = toArray(p.tags, "|");
+      var portfolioOk = activePortfolio === "all" || portfolios.indexOf(activePortfolio) !== -1;
+      var tagOk = activeTag === "all" || tags.indexOf(activeTag) !== -1;
       return portfolioOk && tagOk;
     });
 
-    visible.sort(function(a, b) { return a.number - b.number; });
+    visible.sort(function(a, b) { return Number(a.number) - Number(b.number); });
 
     var grid = document.getElementById("asa-grid");
     var count = document.getElementById("asa-count");
     count.textContent = visible.length + " paper" + (visible.length !== 1 ? "s" : "");
 
     grid.innerHTML = visible.map(function(p) {
-      var tags = p.tags.map(function(t) {
+      var tags = toArray(p.tags, "|").map(function(t) {
         return '<span class="asa-tag">' + t + '</span>';
       }).join("");
-      var portfolios = p.portfolios.map(function(pf) {
+      var portfolios = toArray(p.portfolios, "|").map(function(pf) {
         return '<span class="asa-portfolio">' + (PORTFOLIO_LABELS[pf] || pf) + '</span>';
       }).join("");
       var href = baseurl("/papers/" + p.slug + "/EXPLAINER");
