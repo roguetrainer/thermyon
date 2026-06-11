@@ -1499,6 +1499,6 @@
       "econiac",
       "sheaf-cohomology"
     ],
-    "explainer": false
+    "explainer": true
   }
 ]
