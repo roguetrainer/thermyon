@@ -73,14 +73,19 @@ The founding thesis: why the division algebra ladder **ℝ → ℂ → ℍ → �
 
 The core claim: every molecular machine that processes angular momentum — a ribosome decoding a codon, the FMO photosynthetic complex funnelling energy, nitrogenase breaking the N≡N triple bond — is running an Origami ISA programme. The same five opcodes that describe quantum circuits describe these biological systems, at the same level of mathematical precision.
 
-1. **[The Decoding Engine](https://doi.org/10.5281/zenodo.20400652)** (Paper 324)
-   The ribosome reads the genetic code as an Origami ISA programme. The 6j symbol — the core object of angular momentum theory — is the codon-anticodon recognition step: it evaluates whether the anticodon wavefunction and the mRNA codon wavefunction are compatible. Mismatches produce a non-trivial 6j output (rejection); cognate pairs produce the trivial output (acceptance). Start here.
+1. **[Molecular Machines as Origami ISA Programmes](https://doi.org/10.5281/zenodo.20682101)** (Paper 413)
+   The biology entry point. Covers all three molecular machines — ribosome, FMO, nitrogenase — in one paper written for biologists with no quantum computing background. Includes the parameter-free prediction η = 0.1825 for FMO efficiency, the structural evidence for 6/7 Fano topology at the ribosomal A-site, and the G₂ triality mechanism for nitrogen fixation. Start here.
 
-2. **[The Topological Heat Engine](https://doi.org/10.5281/zenodo.20400638)** (Paper 325)
-   The FMO (Fenna-Matthews-Olson) photosynthetic complex achieves η ≈ 18.25% energy transfer efficiency. This paper proves the efficiency is topological: it arises from a broken Fano symmetry in the BChl coupling network (6 of 7 Fano lines at full coupling; 1 line weakened). The efficiency η = 1 − r where r ≈ 0.18 is the coupling ratio — fixed by the geometry, not by fine-tuning. The same broken-Fano architecture appears in the ribosomal A-site and in nitrogenase.
+**Then, for each machine in depth:**
 
-3. **[Virtual Monopoles in the FeMo-Cofactor](https://doi.org/10.5281/zenodo.20346650)** (Paper 318)
-   Nitrogenase breaks the N≡N triple bond using the [7Fe-9S-Mo] FeMo-cofactor cluster. This paper shows the cluster is a 7-site Fano-plane register running a 731 ISA programme: the seven iron atoms correspond to the seven imaginary octonion directions, the bond-breaking step is a SPIN opcode (G₂ triality), and the virtual monopoles are the topological defects that catalyse the reaction. For structural biologists and enzymologists.
+2. **[The Decoding Engine](https://doi.org/10.5281/zenodo.20400652)** (Paper 324)
+   Full treatment of the ribosome as an Origami ISA programme. The 6j symbol is the codon–anticodon recognition step; 6/7 Fano-line coverage in the cognate state (PDB: 4V9D); connection to kinetic proofreading.
+
+3. **[The Topological Heat Engine](https://doi.org/10.5281/zenodo.20400638)** (Paper 325)
+   Full proof that the broken-Fano topology is the unique 7-node graph with positive Carnot efficiency. FMO efficiency η = 0.1825 derived from crystal structure alone. Testable predictions for Tyr16 mutation and DNA origami implementation.
+
+4. **[Virtual Monopoles in the FeMo-Cofactor](https://doi.org/10.5281/zenodo.20346650)** (Paper 318)
+   Nitrogenase and the [7Fe-9S-Mo] cluster as a 731 ISA register. G₂ triality and virtual monopoles. Predictions for time-resolved EXAFS and Mössbauer spectroscopy.
 
 **Then, for spectroscopists:**
 
