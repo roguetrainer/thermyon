@@ -22,6 +22,8 @@ One instruction set. Twenty orders of magnitude. From nuclear spectroscopy to GP
 
 The **Adelic Simplicial Architecture** is a unified computational framework built around a five-opcode instruction set — the **Origami ISA** — whose operations correspond exactly to the primitives of Čech cohomology on a sheaf.
 
+The computation works because Lie groups are the natural tape for a generalised Turing machine: the Chladni resonance patterns on the group manifold encode the computational state, and the topology of those nodal lines — their H⁰/H¹/H² structure — is the skeleton of the calculation. What the MGE (Maslov-Gibbs Einsum) does is make that skeleton differentiable: discrete combinatorial models — order statistics, Nash equilibria, circuit measurements, optimal transport plans — become smooth functions of a single temperature parameter β. This is what *Topological Resonance Synthesis* means.
+
 The same five opcodes appear across twenty orders of magnitude in physical scale:
 
 | System | H⁰ (bilateral) | H¹ (triangular) | Pentagon = |
