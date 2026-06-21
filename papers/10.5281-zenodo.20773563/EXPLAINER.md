@@ -135,9 +135,9 @@ More precisely: the factory requires the objective function f to have a *hidden 
 
 ---
 
-## Connection to hardware digital twins
+## Where the speedup actually lives
 
-Any platform that simulates how quantum circuits behave on real noisy hardware can use the Meld ISA as the algebraic skeleton:
+The Meld ISA gives a precise answer to what separates quantum from classical simulation:
 
 - **Clifford gates** (SPLIT/FLIP/TWIST at Clifford angles) are classically simulable — they stay on Fano lines. A digital twin can simulate these exactly.
 - **T-gates** (BIND) are the non-Clifford obstruction — they exit Fano lines and enter non-associative territory. A digital twin needs to track T-gate noise separately from Clifford noise, because the error channels are algebraically different.
