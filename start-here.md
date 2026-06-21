@@ -29,19 +29,26 @@ The founding thesis: why the division algebra ladder **ℝ → ℂ → ℍ → �
 
 *Prerequisite: stabiliser states, the Clifford group, T-gates.*
 
-1. **[Projective Geometry as the Mother Tongue of Quantum Mechanics](https://doi.org/10.5281/zenodo.20634729)** (Paper 393)
-   The 3-qubit Pauli group is secretly the Fano plane. Brody & Hughston's CP^n formalism meets the Fano orbit decomposition of magic states.
+1. **[The Meld ISA: Complex-MGE, Quantum Algorithm Discovery, and the T-Gate as Octonion Obstruction](https://doi.org/10.5281/zenodo.20773563)** (Paper 454)
+   The quantum branch of the ISA trilogy. Shor's algorithm as a three-layer Origami/Meld/Origami programme; QFT as a SPLIT-TWIST cascade; T-gate = BIND = Fano associator obstruction; why LWE noise kills the Fourier peak and makes ML-KEM quantum-resistant. The fastest entry point for anyone working on quantum algorithms or hardware simulation.
 
-2. **[The Fano Plane is the Right Way to Think About Qubits](https://doi.org/10.5281/zenodo.20667176)** (Paper 408)
-   The practitioner primer. Stabiliser states → Origami ISA → three levels of quantum resource (stabiliser / standard magic / associamancy). No octonion knowledge required.
+2. **[Eight Derivations of a Universal Instruction Set](https://doi.org/10.5281/zenodo.20774076)** (Paper 455)
+   Eight independent routes — Pachner moves, Wigner-Racah spectroscopy, Mac Lane Pentagon, compact closed categories, Frobenius algebras, Fisher information geometry, Hodge decomposition, quantum gate sets — all landing on the same five opcodes. Explains *why* this gate set is universal at a deeper level than Solovay-Kitaev.
 
-3. **[The Origami ISA as Nature's Universal Computer](https://doi.org/10.5281/zenodo.20543454)** (Paper 370)
-   One instruction set across twenty orders of magnitude: nuclear spectroscopy, GPU matrix multiplication, quantum error correction, and financial XVA are all the same five-opcode programme.
+3. **[The H^k Complexity Ladder](https://doi.org/10.5281/zenodo.20773526)** (Paper 420)
+   H⁰ = classical (PSPACE), H¹ = statistical (BPP), H² = quantum (BQP). A graded, computable alternative to the P=NP question. The β* snap threshold identifies where on the complexity dial any given algorithm sits.
 
-**Then, for the deeper results:**
+**Then, for the ISA foundations:**
+
+- [The Origami ISA](https://doi.org/10.5281/zenodo.19916429) (Paper 258) — the classical β→∞ ISA; FLIP/FLOP/SPLIT/SPLAT/TWIST/SWAP/LABEL; Wigner 6j symbol as H¹
+- [The Forge ISA](https://doi.org/10.5281/zenodo.20694527) (Paper 419) — the statistical 0<β<∞ ISA; snap event at β*; vorton architecture; thermodynamic computation
+- [Projective Geometry as the Mother Tongue of QM](https://doi.org/10.5281/zenodo.20634729) (Paper 393) — the 3-qubit Pauli group is the Fano plane; Fano orbit decomposition of magic states
+- [The Fano Plane is the Right Way to Think About Qubits](https://doi.org/10.5281/zenodo.20667176) (Paper 408) — practitioner primer; stabiliser / standard magic / associamancy hierarchy
+
+**For quantum error correction specifically:**
 
 - [Fano Geometry as a Unifying Language for QEC](https://doi.org/10.5281/zenodo.20541595) (Paper 363) — GHZ generates Steane; orbit decomposition of magic; Fano self-test with C = 7/8
-- [Non-Associative Hardware is Necessary for the Non-Abelian StateHSP](https://doi.org/10.5281/zenodo.20667170) (Paper 405) — PSL(2,7) solved; why associative hardware provably fails
+- [Non-Associative Hardware is Necessary for the Non-Abelian HSP](https://doi.org/10.5281/zenodo.20667170) (Paper 405) — PSL(2,7) solved; why associative hardware provably fails
 - [Associamancy: A Resource Theory of Non-Associative Quantum Magic](https://doi.org/10.5281/zenodo.20667174) (Paper 407) — the Schur boundary; ν₂ = 0; Freudenthal ladder
 
 ---

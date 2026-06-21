@@ -63,19 +63,21 @@ The **S** in ASA stands for four things at once:
 
 ---
 
-## Origin: the division algebra ladder
+## The temperature dial
 
-The framework grew from a simpler observation: the four normed division algebras
+The same five opcodes run at three temperatures:
 
-$$\mathbb{R} \subset \mathbb{C} \subset \mathbb{H} \subset \mathbb{O}$$
+| Regime | ISA | β | Arithmetic | Complexity |
+|--------|-----|---|------------|------------|
+| Classical | Origami ISA | β → ∞ | Tropical (min, +) | H⁰ |
+| Statistical | Forge ISA | 0 < β < ∞ | Real (Gibbs) | H¹ |
+| Quantum | Meld ISA | β = it | Complex (amplitudes) | H² |
 
-form a natural computational hierarchy. Each step drops one algebraic property — commutativity at ℍ, associativity at 𝕆 — and each dropped property unlocks a new regime. The Fano plane PG(2,2) encodes the octonion multiplication table; the octonion associator
+The bridge between them is the **⊕_β softmin** — the operation $a \oplus_\beta b = -\frac{1}{\beta}\ln(e^{-\beta a}+e^{-\beta b})$ — which interpolates continuously between standard addition (β → 0) and the tropical minimum (β → ∞). Lowering β is quantisation; raising β is the classical limit. Planck's constant, viscosity, volatility, softmax temperature, and the quantum group deformation parameter q = e^{iπβ} are all the same object seen from different fields ([Paper 443](https://doi.org/10.5281/zenodo.20752384)).
 
-$$\mathcal{A}(x, y, z) = (xy)z - x(yz)$$
+Gibbs annealing is parallel transport on the Fisher manifold. The snap event at β* = (3/8)ln(1/(1−ρ)) is the phase transition between exploratory and committed regimes. Shor's algorithm is a three-layer Origami/Meld/Origami programme. The T-gate is the Fano associator obstruction.
 
-vanishes on the seven Fano lines and equals ±2 elsewhere.
-
-The associative sector (regime 2 of the ISA) now dominates the application papers — the Origami ISA, spectroscopic circuits, cohomological risk — but the non-associative residual remains an active frontier: the 0.32% of nuclear three-body forces that lives in the G₂ sector, the F₄ conjecture on J³(𝕆), the octonion calculus.
+The non-associative frontier (G₂, octonions, the F₄ conjecture) remains active — but it is the boundary of the framework, not its centre.
 
 ---
 
@@ -90,12 +92,14 @@ Papers are grouped by portfolio. The full index is in [README.md](README.md).
 | 000 | [An Adelic Invitation](papers/10.5281-zenodo.19977475/) | [19977475](https://zenodo.org/records/19977475) |
 | 201 | [The Maslov-Gibbs Einsum (MGE)](papers/10.5281-zenodo.17981393/) | [17981393](https://zenodo.org/records/17981393) |
 | 202 | [Topological Resonance Synthesis (TRS)](papers/10.5281-zenodo.19858021/) | [19858021](https://zenodo.org/records/19858021) |
-| 207 | [The 731-Calculus](papers/10.5281-zenodo.19713350/) | [19713350](https://zenodo.org/records/19713350) |
-| 211 | [Non-Associative Calculus](papers/10.5281-zenodo.20025384/) | [20025384](https://zenodo.org/records/20025384) |
 | 258 | [The Origami ISA](papers/10.5281-zenodo.19916429/) | [19916429](https://zenodo.org/records/19916429) |
 | 370 | [The Origami ISA as Nature's Universal Computer](papers/10.5281-zenodo.20543454/) | [20543454](https://zenodo.org/records/20543454) |
 | 393 | [Projective Geometry as the Mother Tongue of QM](papers/10.5281-zenodo.20634729/) | [20634729](https://zenodo.org/records/20634729) |
-| 396 | [The Unhedgeability Theorem](papers/10.5281-zenodo.20635479/) | [20635479](https://zenodo.org/records/20635479) |
+| 419 | [The Forge ISA](https://doi.org/10.5281/zenodo.20694527) | [20694527](https://zenodo.org/records/20694527) |
+| 420 | [The H^k Complexity Ladder](https://doi.org/10.5281/zenodo.20773526) | [20773526](https://zenodo.org/records/20773526) |
+| 443 | [Planck's Constant in Disguise](papers/10.5281-zenodo.20752384/) | [20752384](https://zenodo.org/records/20752384) |
+| 454 | [The Meld ISA](https://doi.org/10.5281/zenodo.20773563) | [20773563](https://zenodo.org/records/20773563) |
+| 455 | [Eight Derivations of a Universal Instruction Set](https://doi.org/10.5281/zenodo.20774076) | [20774076](https://zenodo.org/records/20774076) |
 
 **Quantum Hardware & AI (C)**
 
