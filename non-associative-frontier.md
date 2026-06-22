@@ -133,7 +133,7 @@ The 731-ISA exploits this: the **BIND** opcode returns a non-zero residual preci
 | [357 — MIP* = RE at the Physical Level](https://doi.org/10.5281/zenodo.20541583) | Fano plane as MIP* constraint graph; GHZ stabiliser = Fano plane (7/7 lines) |
 | [405 — Non-Abelian State HSP](https://doi.org/10.5281/zenodo.20667170) | Hidden subgroup problem for non-abelian groups; 731-ISA query complexity |
 | [407 — Associamancy](https://doi.org/10.5281/zenodo.20667174) | Obstruction theory for the associator; when does non-associativity matter? |
-| [445 — Kitaev Origami](https://doi.org/10.5281/zenodo.20761315) | Anyon hierarchy = ISA hierarchy; Fibonacci = 731-ISA; toric code = H¹ |
+| [445 — Kitaev Origami](https://doi.org/10.5281/zenodo.20752352) | Anyon hierarchy = ISA hierarchy; Fibonacci = 731-ISA; toric code = H¹ |
 
 ---
 
