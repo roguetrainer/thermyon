@@ -38,6 +38,8 @@ The simplest possible non-trivial simplex — four objects, six edges, four face
 3. **[The H^k Complexity Ladder](https://doi.org/10.5281/zenodo.20773526)** (Paper 420)
    H⁰ = classical (PSPACE), H¹ = statistical (BPP), H² = quantum (BQP). A graded, computable alternative to the P=NP question. The β* snap threshold identifies where on the complexity dial any given algorithm sits.
 
+**If you know ZX calculus:** four of the seven core opcodes (SPLIT, SPLAT, FLIP, LABEL) are ZX spiders; TWIST and FLOP are partial; BIND is the one opcode ZX cannot express — it requires the [731 Frog Calculus](https://doi.org/10.5281/zenodo.19713350), the non-associative extension developed here. The [opcodes page](opcodes.md) marks each opcode with 🕷️ (ZX) or 🐸 (Frog Calculus).
+
 **Then, for the ISA foundations:**
 
 - [The Origami ISA](https://doi.org/10.5281/zenodo.19916429) (Paper 258) — the classical β→∞ ISA; FLIP/FLOP/SPLIT/SPLAT/TWIST/SWAP/LABEL; Wigner 6j symbol as H¹

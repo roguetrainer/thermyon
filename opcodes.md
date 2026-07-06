@@ -14,6 +14,8 @@ portfolio: B
 computing, the Langlands programme, and more — from classical Turing machines to the
 full Meld.*
 
+**Legend:** 🕷️ present in ZX calculus · 🕷️* partial (ZX has a related construct but not the full ISA semantics) · 🐸 present in the 731 Frog Calculus · unmarked = ISA-native
+
 ---
 
 ## Why twelve opcodes, and why these twelve?
@@ -65,7 +67,7 @@ The diagrams below are described in text; the LaTeX figures appear in
 
 ---
 
-### SPLIT
+### SPLIT 🕷️
 
 **One wire becomes two** (or one tetrahedron becomes four).
 
@@ -101,7 +103,7 @@ every change of basis, every spectral decomposition is a SPLIT.
 
 ---
 
-### SPLAT
+### SPLAT 🕷️
 
 **Two wires become one** (or four tetrahedra become one).
 
@@ -144,7 +146,7 @@ condition in finance, and the topological invariance of Ponzano-Regge amplitudes
 
 ---
 
-### TWIST
+### TWIST 🕷️*
 
 **A wire acquires a phase** (a curl or loop in the diagram).
 
@@ -183,7 +185,7 @@ for the full treatment.
 
 ---
 
-### FLIP
+### FLIP 🕷️
 
 **A wire reverses orientation** (arrow pointing down instead of up).
 
@@ -224,7 +226,7 @@ of the Baez threefold way.
 
 ---
 
-### FLOP
+### FLOP 🕷️*
 
 **A wire curls under into a cup** (fermionisation).
 
@@ -263,7 +265,7 @@ deepest structural label in the AZ tenfold way — the distinction between Major
 
 ---
 
-### LABEL
+### LABEL 🕷️
 
 **A wire passes through a projector** (sector selection).
 
@@ -306,7 +308,7 @@ assignment is a LABEL.
 
 ---
 
-### BIND
+### BIND 🐸
 
 **Three wires enter a vertex** (non-Abelian fusion; associator).
 
@@ -361,15 +363,15 @@ most powerful: systems with BIND can encode computations that BIND-free
 
 ## The full opcode table
 
-| Opcode | String diagram | Pachner move | AZ symmetry | Division algebra | Langlands |
-|--------|---------------|--------------|-------------|-----------------|-----------|
-| SPLIT | $\Delta: A \to A \otimes A$ (split) | $1 \to 4$ | — | All rungs | Hecke eigendecomposition |
-| SPLAT | $\varepsilon: A \to k$ (cap/cup) | $4 \to 1$ | — | All rungs | L-function evaluation |
-| TWIST | $\theta\_V: V \to V$ (curl) | Gauge move | $S$ (chiral) | All rungs | Monodromy of local system |
-| FLIP | $(-)^\dagger$ (wire reversal) | $1 \to 3$ | $T$ (time reversal) | $\mathbb{R}$ / $\mathbb{H}$ | Langlands duality $G \leftrightarrow G^\vee$ |
-| FLOP | $\mathrm{tr}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
-| LABEL | $e^2 = e$ (projector) | Colouring | — (parity in PT) | All rungs | Automorphic representation $\pi$ |
-| BIND | Associator $\alpha\_{A,B,C}$ (trivalent) | Obstruction | — | $\mathbb{O}$ only | Non-Abelian Hecke interaction |
+| Opcode | Graphical calculi | String diagram | Pachner move | AZ symmetry | Division algebra | Langlands |
+|--------|------------------|---------------|--------------|-------------|-----------------|-----------|
+| SPLIT | 🕷️ | $\Delta: A \to A \otimes A$ (split) | $1 \to 4$ | — | All rungs | Hecke eigendecomposition |
+| SPLAT | 🕷️ | $\varepsilon: A \to k$ (cap/cup) | $4 \to 1$ | — | All rungs | L-function evaluation |
+| TWIST | 🕷️* | $\theta\_V: V \to V$ (curl) | Gauge move | $S$ (chiral) | All rungs | Monodromy of local system |
+| FLIP | 🕷️ | $(-)^\dagger$ (wire reversal) | $1 \to 3$ | $T$ (time reversal) | $\mathbb{R}$ / $\mathbb{H}$ | Langlands duality $G \leftrightarrow G^\vee$ |
+| FLOP | 🕷️* | $\mathrm{tr}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
+| LABEL | 🕷️ | $e^2 = e$ (projector) | Colouring | — (parity in PT) | All rungs | Automorphic representation $\pi$ |
+| BIND | 🐸 | Associator $\alpha\_{A,B,C}$ (trivalent) | Obstruction | — | $\mathbb{O}$ only | Non-Abelian Hecke interaction |
 
 ---
 
@@ -407,6 +409,38 @@ columns. The opcodes are the same in all three; only the number system changes.
 
 The **731-ISA** extends beyond all three to the $\mathbb{O}$ (octonion) rung,
 adding BIND and SPIN. See [The Non-Associative Frontier](non-associative-frontier.md).
+
+---
+
+## Relationship to other graphical calculi
+
+The ISA opcodes did not emerge from nowhere. Two graphical calculi were the direct predecessors.
+
+**ZX calculus** (Coecke and Duncan, 2008) is a complete graphical language for qubit
+quantum mechanics built from two spider generators (Z and X) obeying the Frobenius
+equations. It covers SPLIT, SPLAT, FLIP, and LABEL fully, and handles TWIST partially
+(phase gates exist in ZX but the full ribbon/topological twist — Berry phase, anyonic
+spin, BKT transition — is not expressible). FLOP is partially present as the compact
+structure (cups and caps) but the fermion-statistics interpretation ($C^2 = \pm 1$)
+is outside ZX's scope. BIND is entirely absent: ZX is strictly associative.
+
+**The 731 Frog Calculus** extends ZX to the non-associative regime by adding the
+*frog vertex* — a trivalent node with a non-trivial associator, realised physically
+as $G_2$/octonion symmetry. The frog vertex is exactly the BIND opcode. The two
+foundational papers are:
+
+- [The 731 Frog Calculus, Part 1](https://doi.org/10.5281/zenodo.19713350) (Paper 207) — three-dimensional spin foams, magmoidal category theory, and non-associative topology
+- [The 731 Frog Calculus, Part 2](https://doi.org/10.5281/zenodo.20139448) (Paper 281) — two-dimensional frog diagrams, ribbon-leg syntax, and $G_2$ spin foam rewriting rules
+
+The containment is strict:
+
+$$\text{ZX calculus} \;\subset\; \text{731 Frog Calculus} \;\subset\; \text{Origami ISA}$$
+
+ZX lives at H¹ (Clifford/stabiliser regime, $\mathbb{C}$-rung of the division algebra
+ladder). The Frog Calculus adds the H² BIND opcode ($\mathbb{O}$-rung). The full
+Origami ISA extends both to all physical domains — spectroscopy, molecular computing,
+financial risk, climate economics — running the same categorical morphisms on
+different hardware.
 
 ---
 
