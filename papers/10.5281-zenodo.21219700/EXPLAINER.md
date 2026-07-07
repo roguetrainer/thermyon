@@ -65,7 +65,7 @@ For dark-magic states formed by a single T-gate acting on an otherwise Clifford 
 
 $$\mathrm{TV} = \frac{1 + \sqrt{2}}{2} \approx 1.207 \qquad (\text{but} = 1 \text{ for genuine magic tier boundary})$$
 
-Wait — the boundary is TV = 1 for stabiliser/dark, TV > 1 for genuine. The single-T-gate state has $\sum_u |W(u)| = 1$ exactly (normalised), while a T-gate magic state used for distillation has TV > 1. The dark-magic states are at TV = 1: they are on the boundary of the genuine-magic cone, not inside it.
+Wait — the boundary is TV = 1 for stabiliser/dark, TV > 1 for genuine. The single-T-gate state has $\sum_u \lvert W(u)\rvert = 1$ exactly (normalised), while a T-gate magic state used for distillation has TV > 1. The dark-magic states are at TV = 1: they are on the boundary of the genuine-magic cone, not inside it.
 
 This geometric picture — the three tiers as concentric regions in state space, with dark magic on the boundary — gives the resource theory its name: "Hot Logic" because dark-magic states sit at the *thermal boundary* of the magic cone, neither cool (stabiliser) nor fully hot (genuine magic).
 

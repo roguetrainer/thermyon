@@ -81,8 +81,8 @@ The SevenQ-diode is the quantum analogue of the FMO biological light-harvesting 
 ## Gauge selection vs magic state distillation
 
 The standard route to a CS gate:
-1. Prepare $|T\rangle$ state (requires ~100 noisy copies + distillation protocol)
-2. Consume $|T\rangle$ in a gate teleportation circuit
+1. Prepare $\lvert T\rangle$ state (requires ~100 noisy copies + distillation protocol)
+2. Consume $\lvert T\rangle$ in a gate teleportation circuit
 3. Total cost: ~100–1000 physical qubits
 
 The SevenQ route:

@@ -45,9 +45,9 @@ The six dark-magic classes are the discovery: circuits that *appear* non-classic
 
 ## Why Wigner negativity $N$ fails here
 
-The Wigner negativity $N = \sum_{W < 0} |W(u)|$ is a standard measure of non-classicality. For single-qubit states, $N = 0$ if and only if the state is stabiliser. But for multi-qubit states, $N > 0$ is *not* sufficient for genuine magic: a product of a Wigner-negative single-qubit state with a Clifford circuit can have $N > 0$ while remaining simulable.
+The Wigner negativity $N = \sum_{W < 0} \lvert W(u)\rvert$ is a standard measure of non-classicality. For single-qubit states, $N = 0$ if and only if the state is stabiliser. But for multi-qubit states, $N > 0$ is *not* sufficient for genuine magic: a product of a Wigner-negative single-qubit state with a Clifford circuit can have $N > 0$ while remaining simulable.
 
-Dark magic is exactly this phenomenon at the three-qubit level. The six dark-magic classes have $N > 0$ — they are Wigner-negative — but their total variation $\mathrm{TV} = \sum_u |W(u)| = 1$, matching the stabiliser value. TV = 1 is a conserved quantity under Clifford operations and under the dark-magic rewrite rules; TV > 1 is the invariant that correctly flags genuine magic.
+Dark magic is exactly this phenomenon at the three-qubit level. The six dark-magic classes have $N > 0$ — they are Wigner-negative — but their total variation $\mathrm{TV} = \sum_u \lvert W(u)\rvert = 1$, matching the stabiliser value. TV = 1 is a conserved quantity under Clifford operations and under the dark-magic rewrite rules; TV > 1 is the invariant that correctly flags genuine magic.
 
 This was proved computationally: for each of the 9 SWAP-classes, TV and $N$ were computed on representative states, confirming that $N$ disagrees with the correct classification for all six dark-magic classes.
 

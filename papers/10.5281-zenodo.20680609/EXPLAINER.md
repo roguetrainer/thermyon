@@ -27,7 +27,7 @@ The Origami ISA programme specifies *what* a gate should do algebraically. The o
 
 ## The three results
 
-**DRAG is the ISA type checker.** In a transmon qubit, the $|2\rangle$ state (second excited level) is always present. A TWIST pulse that leaks amplitude into $|2\rangle$ is, in ISA terms, an *ill-typed* operation — TWIST should stay within the computational subspace $\{|0\rangle, |1\rangle\}$. DRAG (Derivative Removal via Adiabatic Gate) suppresses this leakage by adding a derivative term to the pulse envelope. DRAG is the pulse-level implementation of the ISA typing rule. ISA-augmented GRAPE reduces leakage by 63% vs standard GRAPE.
+**DRAG is the ISA type checker.** In a transmon qubit, the $\lvert 2\rangle$ state (second excited level) is always present. A TWIST pulse that leaks amplitude into $\lvert 2\rangle$ is, in ISA terms, an *ill-typed* operation — TWIST should stay within the computational subspace $\{\lvert 0\rangle, \lvert 1\rangle\}$. DRAG (Derivative Removal via Adiabatic Gate) suppresses this leakage by adding a derivative term to the pulse envelope. DRAG is the pulse-level implementation of the ISA typing rule. ISA-augmented GRAPE reduces leakage by 63% vs standard GRAPE.
 
 **SPIN costs 12 CNOTs as a permutation, then hits an obstruction.** The SPIN opcode (G₂ triality) acts on 7 Fano-point qubits as a permutation of order 3. As a permutation, it costs exactly 12 CNOTs. But its phase component — $i\sqrt{7}/2$ — is not a root of unity, so it cannot be implemented exactly by any standard gate set. This is the hardware signature of associamancy.
 

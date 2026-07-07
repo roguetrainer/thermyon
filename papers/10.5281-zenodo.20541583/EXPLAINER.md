@@ -71,7 +71,7 @@ where each orbit $\mathcal{O}_L$ has exactly 8 points, determined by commuting w
 ## The magic valence label
 
 **Definition.** For a magic state $\rho$, the *orbit negativity* is
-$$\mathcal{N}_L(\rho) = \sum_{u \in \mathcal{O}_L,\, W_\rho(u) < 0} |W_\rho(u)|$$
+$$\mathcal{N}_L(\rho) = \sum_{u \in \mathcal{O}_L,\, W_\rho(u) < 0} \lvert W_\rho(u)\rvert$$
 and the *magic valence label* is $\{p_L(\rho)\} = \{\mathcal{N}_L / \mathcal{N}\}_{L=0}^6$ — a probability distribution over the 7 orbits.
 
 This is a strictly finer invariant than the total negativity $\mathcal{N}$. Two states can agree on $\mathcal{N}$ but differ on every $p_L$.

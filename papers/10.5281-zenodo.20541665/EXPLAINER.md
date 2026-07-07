@@ -40,7 +40,7 @@ A routing or calibration bug that applies $\mathrm{CS}_{02}$ when $\mathrm{CS}_{
 
 ## What is a CS gate and why does its identity matter?
 
-The controlled-S gate $\mathrm{CS}_{ij}$ applies a phase of $i$ to qubit $j$ conditioned on qubit $i$ being in state $|1\rangle$. On a 3-qubit register, there are three choices: $\mathrm{CS}_{01}$, $\mathrm{CS}_{02}$, $\mathrm{CS}_{12}$.
+The controlled-S gate $\mathrm{CS}_{ij}$ applies a phase of $i$ to qubit $j$ conditioned on qubit $i$ being in state $\lvert 1\rangle$. On a 3-qubit register, there are three choices: $\mathrm{CS}_{01}$, $\mathrm{CS}_{02}$, $\mathrm{CS}_{12}$.
 
 These are physically distinct operations on hardware with a fixed coupling map (as on all current superconducting processors). A routing bug or miscalibration can apply the wrong one. Standard fidelity benchmarking measures *total gate error rate* — it cannot detect a gate that works perfectly but is the wrong gate.
 

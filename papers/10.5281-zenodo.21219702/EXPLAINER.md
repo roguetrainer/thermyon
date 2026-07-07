@@ -21,13 +21,13 @@ When a single T gate acts on an otherwise Clifford state of $N$ qubits, the resu
 
 ## The discrete Wigner function
 
-For an $N$-qubit state $|\psi\rangle$, the **discrete Wigner function** $W: \mathbb{F}_2^{2N} \to \mathbb{R}$ assigns a real number to each point in the $2N$-dimensional binary phase space. For stabiliser states, $W \geq 0$ everywhere (Hudson's theorem). For magic states, $W$ takes negative values somewhere.
+For an $N$-qubit state $\lvert\psi\rangle$, the **discrete Wigner function** $W: \mathbb{F}_2^{2N} \to \mathbb{R}$ assigns a real number to each point in the $2N$-dimensional binary phase space. For stabiliser states, $W \geq 0$ everywhere (Hudson's theorem). For magic states, $W$ takes negative values somewhere.
 
 The Wigner function encodes the full quantum state: knowing $W$ everywhere is equivalent to knowing the density matrix. The key quantities are:
 
-$$N = \sum_{W < 0} |W(u)| \quad \text{(Wigner negativity)}$$
+$$N = \sum_{W < 0} \lvert W(u)\rvert \quad \text{(Wigner negativity)}$$
 $$M = \sum_u W(u) = 1 \quad \text{(normalisation — always 1)}$$
-$$\mathrm{TV} = \sum_u |W(u)| \quad \text{(total variation)}$$
+$$\mathrm{TV} = \sum_u \lvert W(u)\rvert \quad \text{(total variation)}$$
 
 For stabiliser states, $N = 0$ and $\mathrm{TV} = 1$. For magic states, $N > 0$ and $\mathrm{TV} > 1$... except for dark-magic states, where $N > 0$ but $\mathrm{TV} = 1$.
 
@@ -37,7 +37,7 @@ For stabiliser states, $N = 0$ and $\mathrm{TV} = 1$. For magic states, $N > 0$ 
 
 Consider the $N$-qubit state:
 
-$$|\psi_N\rangle = \mathrm{CZ}_{01} \cdot (T \otimes I^{\otimes N-1}) \cdot |{+}^{\otimes N}\rangle$$
+$$\lvert\psi_N\rangle = \mathrm{CZ}_{01} \cdot (T \otimes I^{\otimes N-1}) \cdot \lvert{+}^{\otimes N}\rangle$$
 
 A T gate on qubit 0, then a CZ between qubits 0 and 1, applied to the all-plus state. This is the canonical dark-magic state: it has $N > 0$ (negative Wigner values exist) but $\mathrm{TV} = 1$ (total variation equals the stabiliser value).
 
@@ -63,7 +63,7 @@ The implication for resource theory: dark magic does not become more or less exp
 
 ## The $N$-independence of $N$ (Wigner negativity)
 
-A corollary that resolves a puzzle: the Wigner negativity $N$ of the canonical state $|\psi_N\rangle$ is also $N$-independent (equal to $\sqrt{2}/8$ for all $N \geq 2$). This seems surprising — one might expect that adding more entangled Clifford qubits would spread the negativity around and change the total. But it does not: the negativity is locked to the T-gate qubit and does not flow.
+A corollary that resolves a puzzle: the Wigner negativity $N$ of the canonical state $\lvert\psi_N\rangle$ is also $N$-independent (equal to $\sqrt{2}/8$ for all $N \geq 2$). This seems surprising — one might expect that adding more entangled Clifford qubits would spread the negativity around and change the total. But it does not: the negativity is locked to the T-gate qubit and does not flow.
 
 This $N$-independence of $N$ (the quantity, not the qubit count) was the key result that settled a priority question about dark magic: the $N$-independence had not been recorded in the literature before this paper, even though the Wigner negativity of individual states had been computed in many prior works.
 

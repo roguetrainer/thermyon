@@ -51,7 +51,7 @@ $$\text{LABEL} \to \text{FLIP}^{\otimes 4} \to \text{FLOP}(U_f) \to \text{FLIP}(
 
 At every step, the mana (total variation of the Wigner function minus one) is exactly zero. No TWIST fires. The abelian quantum Fourier transform (QFT) over $\mathbb{Z}_{2^n}$ decomposes into Hadamard gates and controlled-phase gates with angles $\pi / 2^k$; all of these are in $C_2$.
 
-The mechanism of the speedup is *stabiliser complexity*, not magic. After the FLOP step, the state $\frac{1}{\sqrt{2^n}} \sum_x |x\rangle|f(x)\rangle$ is still a stabiliser state — but its stabiliser generators have exponential weight, implicitly encoding the entire function table of $f$. The QFT then decompresses this exponential-weight description in $O(n^2)$ gates, by constructive interference at multiples of $1/r$ and destructive interference everywhere else. Classical computation cannot do this because the tropical (classical) limit discards phases, leaving no mechanism for destructive interference.
+The mechanism of the speedup is *stabiliser complexity*, not magic. After the FLOP step, the state $\frac{1}{\sqrt{2^n}} \sum_x \lvert x\rangle\lvert f(x)\rangle$ is still a stabiliser state — but its stabiliser generators have exponential weight, implicitly encoding the entire function table of $f$. The QFT then decompresses this exponential-weight description in $O(n^2)$ gates, by constructive interference at multiples of $1/r$ and destructive interference everywhere else. Classical computation cannot do this because the tropical (classical) limit discards phases, leaving no mechanism for destructive interference.
 
 **The punchline:** Shor's exponential speedup over classical factoring is real and deep, but it requires no magic at all. The speedup lives entirely in $C_2$.
 
