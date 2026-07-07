@@ -511,6 +511,51 @@ The distinction matters because:
 
 ---
 
+## G-Walk
+
+**G-Walk** names the closed orbit walks that implement orbit computing on a molecular state space. The name carries three meanings simultaneously:
+
+- **Group** — the site symmetry group $G$ of the metal centre (e.g.\ $O_h$ for an octahedral iron centre, $T_d$ for tetrahedral) defines the orbit structure. The irreducible representations of $G$ label the discrete orbit slots.
+- **Graph** — execution is a walk on the Cayley graph of $G$: each ISA opcode moves the system one step along an edge of that graph. The ORBIT opcode closes the walk and reads the orbit label.
+- **Galois** — the original name for this research programme before renaming; the Galois group of the crystal-field polynomial determines which symmetry operations are physically realised. Galois chemistry, orbit theory, and G-Walk chemistry all refer to the same mathematical framework.
+
+In G-Walk chemistry, the state of a metal complex is an orbit occupancy vector $\mathbf{v} \in \mathbb{Z}^k$ (e.g.\ $(v_{t_{2g}}, v_{e_g})$ for an octahedral $d^n$ system), and G-Walk is the walk on the orbit graph induced by ligand-field perturbations. G-Walk chemistry achieves 20/20 on spin-crossover benchmarks where DFT achieves 14/20, because it operates natively in the tropical semiring — the correct algebraic structure for the strong-crystal-field limit.
+
+*See also:* [→ Orbit Computing](#orbit-computing) for the general paradigm; [→ Tropical Limit / Crystallisation](#tropical-limit--crystallisation) for the connection to tropical algebraic geometry.
+
+*Defined:* [Paper 488 (G-Walk Chemistry)](papers/10.5281-zenodo.21224107/), [Paper 491 (Tropical DFT)](papers/10.5281-zenodo.21224113/), [Paper 487 (Valence as Orbit Occupancy)](papers/10.5281-zenodo.21219722/)
+
+---
+
+## Orbit Computing
+
+**Orbit computing** is a proposed fourth paradigm of computation in which:
+
+- **State** is a G-orbit occupancy vector $\mathbf{v} \in \mathbb{Z}^k$, where $G$ is the site symmetry group of the physical substrate (a molecule);
+- **Transitions** are G-orbit walks implemented by seven ISA opcodes (FLIP, FLOP, TWIST, SPLIT, SPLAT, ORBIT, LABEL);
+- **Output** is the discrete orbit label returned by the ORBIT opcode.
+
+The four paradigms and their distinguishing features:
+
+| Paradigm | State | Temperature | Error model |
+|----------|-------|-------------|-------------|
+| Classical | Bit string | 300 K | Thermal bit-flip |
+| Quantum-gate | Qubit superposition | ~15 mK | Decoherence of amplitudes |
+| Quantum-annealing | Ising configuration | ~15 mK | Coupling-constant drift |
+| **Orbit (proposed)** | G-orbit occupancy vector | 300 K | None (structural immunity) |
+
+**Why "proposed":** Orbit computing is Turing-complete — it is not a new *model of computation* in the Church-Turing sense. The paradigm claim rests on a different set of axes: physical substrate (molecular symmetry group, not transistors or qubits), native problem class (G-orbit problems are hard to encode as bits or superpositions), and error model (structural decoherence immunity: the orbit label is a nuclear-geometry invariant, stable against electronic decoherence). Until synthetic orbit computers — as opposed to naturally occurring enzyme active sites — have been experimentally demonstrated and programmed, "proposed fourth paradigm" is the accurate description.
+
+**Structural Decoherence Immunity.** The orbit label is determined by nuclear geometry (set by the protein or ligand scaffold), not by the electronic wavefunction. Electronic decoherence scrambles the wavefunction *within* an orbit but cannot change *which orbit* is occupied without supplying energy $\Delta \gg kT$. This is why nitrogenase fixes nitrogen at 300 K with zero engineered error correction: the Fano orbit structure of the FeMo-cofactor is enforced by the protein scaffold.
+
+Biology discovered orbit computing 3.8 billion years ago. Every enzyme is a fixed-function orbit computer. The ISA provides the instruction set; the synthetic chemist is the chip fabricator.
+
+*See also:* [→ G-Walk](#g-walk) for the molecular chemistry specialisation; [→ Origami ISA](#origami-isa-origami-instruction-set-architecture) for the opcode definitions.
+
+*Defined:* [Paper 489 (Orbit Computing)](papers/10.5281-zenodo.21224109/), [Paper 487 (Valence as Orbit Occupancy)](papers/10.5281-zenodo.21219722/)
+
+---
+
 ## Tropical Limit / Crystallisation
 
 As $\beta \to \infty$ in the MGE, the softmax collapses to the **tropical** $(\max,+)$ semiring: the BOIL phase explores continuously; the SNAP phase crystallises to a discrete logical output.

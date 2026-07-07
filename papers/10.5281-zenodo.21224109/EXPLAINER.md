@@ -88,9 +88,29 @@ The crucial distinction from gate-model quantum computing is that stored orbit l
 
 ---
 
+## Is Orbit computing just a Turing machine in disguise?
+
+The short answer: yes, Orbit computing is Turing-complete. It is not a new *model of computation* in the Church-Turing sense. So why call it a fourth paradigm?
+
+"Paradigm" here means something different from "model of computation." Classical, quantum-gate, and quantum-annealing computing are all Turing-complete, yet we distinguish them because they differ in physical substrate, native problem class, error model, and engineering challenge. Orbit computing occupies a genuinely different position on all four axes:
+
+**Physical substrate.** The state variable is a group-orbit occupancy label — a discrete, combinatorial object — not a bit, a qubit amplitude, or an Ising energy. The hardware is a molecule whose site symmetry group $G$ is the computational resource.
+
+**Native problem class.** An orbit computer is naturally suited to problems whose solution is an element of a G-orbit graph: chemical catalysis, protein conformational switching, symmetry identification. These problems are hard to encode efficiently as bit strings (classical), as superpositions (quantum-gate), or as Ising couplings (annealing). The physical state space *is* the problem structure.
+
+**Error model.** Classical bits can be flipped by thermal noise. Qubit amplitudes can be scrambled by decoherence. Ising couplings drift under parameter noise. But a G-orbit label is determined by nuclear geometry — a property set by the molecular scaffold, not by electronic state. **Structural Decoherence Immunity** is not error correction; it is the absence of the relevant error channel. There is no thermal mechanism that moves an electron from one orbit to another without first supplying the energy cost $\Delta \gg kT$. This is the sense in which orbit labels are structurally immune to decoherence: the noise is there, but it acts on a variable (electronic wavefunction within an orbit) that is not the stored state (which orbit is occupied).
+
+**Engineering challenge.** Classical computers require precise fabrication of millions of transistors. Quantum-gate and annealing computers require millikelvin refrigeration. Orbit computers exist in nature already: every enzyme is one. Engineering an orbit computer means synthesising a molecule with the right site symmetry group, not building a dilution refrigerator.
+
+Turing-completeness is about what is computable in principle. Paradigm is about how it is computed in practice — what the natural state space is, where errors originate, and what engineering is required. On all of these, Orbit computing is genuinely different from the three existing paradigms.
+
+The honest caveat: **"proposed fourth paradigm"** is more accurate than "established fourth paradigm" until synthetic orbit computers (not just naturally occurring enzymes) have been experimentally demonstrated and programmed. The theoretical foundations are complete; the hardware demonstration is the next step.
+
+---
+
 ## Honest scope: what Orbit computing cannot do
 
-Orbit computing is not universal. The computation is restricted to G-orbit walks for the specific group $G$ of the physical substrate. To change the computation you must change the molecule. For problems whose structure does not match any molecular G-orbit graph — arbitrary Boolean satisfiability, arbitrary integer arithmetic, arbitrary graph problems — Orbit computing is not applicable.
+Orbit computing is not universal in the practical sense. The computation is restricted to G-orbit walks for the specific group $G$ of the physical substrate. To change the computation you must change the molecule. For problems whose structure does not match any molecular G-orbit graph — arbitrary Boolean satisfiability, arbitrary integer arithmetic, arbitrary graph problems — Orbit computing is not applicable.
 
 It also cannot compute fine structure *within* an orbit. Bond lengths, reaction energies, vibrational spectra, and non-adiabatic dynamics all require the electronic wavefunction in detail. DFT and wavefunction methods remain essential for these. The boundary is precise: if the property in question depends only on *which orbit* electrons occupy (not on their wavefunction within the orbit), Orbit computing is sufficient. If not, conventional methods are needed.
 
