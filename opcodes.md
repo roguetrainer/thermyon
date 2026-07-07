@@ -560,3 +560,11 @@ different hardware.
 - **[The H^k Complexity Ladder](https://doi.org/10.5281/zenodo.20773526)** (Paper 420) — H⁰ classical / H¹ Clifford / H² magic; TWIST failure as phase boundary; β* snap threshold
 - **[BIND at the octonion rung](non-associative-frontier.md)** — the Non-Associative Frontier page; division algebra ladder ℝ→ℂ→ℍ→𝕆
 - **[BKT Transition / TWIST Failure](glossary.md#bkt-transition--twist-failure)** — TWIST in depth; quantum dimension, $d_{1/2}(\beta)=0$ at $\beta=1/2$
+
+**For number theorists and algebraic geometers:**
+
+- **[The Langlands Perspective](langlands.md)** — how each opcode column in the
+  tables above maps onto the Langlands programme: SPLIT = spectral decomposition
+  of $L^2(G(\mathbb{Q})\backslash G(\mathbb{A}))$; TWIST = Tate twist / Hecke
+  character; BIND = Rankin-Selberg convolution; FLOP = Arthur-Selberg trace
+  formula. The Langlands correspondence as adèlic ISA semiring-polymorphism.
