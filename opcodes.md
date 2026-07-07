@@ -83,6 +83,48 @@ categorical morphisms, running on different physical hardware.
 
 ---
 
+## The ISA is semiring-polymorphic
+
+The Origami ISA is not tied to a specific number system. Every opcode has a
+**semiring-polymorphic** definition: the same programme computes different things
+depending on the semiring in which it is evaluated. The semiring is the *runtime*;
+the ISA is the *programme*.
+
+| Semiring | Runtime name | Hardware |
+| -------- | ------------ | -------- |
+| $(\mathbb{R}\cup\{-\infty\}, \max, +)$ | Tropical / Origami ISA | CPU |
+| $(\mathbb{R}_{>0}, +, \times)$ | Gibbs / Forge ISA | GPU / TPU |
+| $(\mathbb{C}, +, \times)$ | Meld ISA | Quantum processor |
+| $(\mathbb{Z}_p, +, \times)$ | p-adic / U-MGE | PPU |
+| $(\mathbb{A}_\mathbb{Q}, +, \times)$ | Adèlic / A-MGE | PPU array + quantum |
+
+| Semiring | SPLIT computes | TWIST computes |
+| -------- | -------------- | -------------- |
+| Tropical | argmax fan-out | phase = sign flip |
+| Gibbs | Boltzmann fan-out | Berry phase weight |
+| Meld | amplitude fan-out | ribbon / Berry phase |
+| p-adic | modular fan-out | Gauss sum $\tau_p$ |
+| Adèlic | adèlic fan-out | product of Gauss sums |
+
+This is why the ISA appears in so many domains without modification: nuclear
+spectroscopy, quantum information, financial risk, and protein folding are all
+running the same opcodes, but over different semirings suited to their physics.
+The Clifford group is the ISA's Clifford sector *evaluated in $(\mathbb{C},+,\times)$*;
+tropical optimisation is the same ISA *evaluated in $(\mathbb{R}\cup\{-\infty\},\max,+)$*.
+The Gottesman-Knill theorem says the Clifford sector admits efficient classical
+simulation — equivalently, that the $(\mathbb{C},+,\times)$ ISA collapses to the
+$(\mathbb{R}\cup\{-\infty\},\max,+)$ ISA for Clifford-only programmes. Magic
+states are the programmes that do *not* collapse.
+
+**The semiring-programmable Origami processor** is the long-term hardware vision:
+a single chip that accepts an ISA programme and a semiring specification at
+programme-load time, and routes to the appropriate arithmetic units — floating-point
+for the Forge ISA, NTT/Montgomery chain for the p-adic ISA, complex FMA for the
+Meld ISA. See [forge-meld.md](forge-meld.md) for the β-plane geometry that
+relates the semirings to each other.
+
+---
+
 ## String diagrams
 
 Every opcode has a **string diagram** — the graphical calculus of monoidal
