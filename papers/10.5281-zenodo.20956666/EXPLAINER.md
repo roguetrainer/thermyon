@@ -37,7 +37,7 @@ Run every standard diagnostic on these two states:
 | Schmidt spectrum | equal | equal |
 | Fidelity between ψ₁ and ψ₃ | — | $1/4$ |
 
-Every green light. Standard process tomography calls them equivalent. But they are *not* the same state — one was produced by $\mathrm{CZ}_{01}$, the other by $\mathrm{CZ}_{12}$. If your downstream circuit was designed expecting $\lvert\psi_1\rangle$ and receives $\lvert\psi_3\rangle$ instead, every two-qubit entangling operation it subsequently applies will be wrong — with $3/4$ error rate per use site. The scalar $\mathcal{N}$ cannot catch this.
+Every green light. Standard process tomography calls them equivalent. But they are *not* the same state — one was produced by CZ₀₁, the other by CZ₁₂. If your downstream circuit was designed expecting ψ₁ and receives ψ₃ instead, every two-qubit entangling operation it subsequently applies will be wrong — with 3/4 error rate per use site. The scalar $\mathcal{N}$ cannot catch this.
 
 What can? The *orbit label*.
 
@@ -82,8 +82,8 @@ $$p_L(\rho) = \frac{\mathcal{N}_L(\rho)}{\mathcal{N}(\rho)}, \qquad \mathcal{N}_
 The **orbit label** (or *magic valence label*) is the 7-component distribution $\{p_L(\rho)\}_{L=0}^{6}$. It tells you not just how much Wigner negativity the state has, but *which orbit it lives in*.
 
 For the two CZ-type states above:
-- $\lvert\psi_1\rangle$: all negativity in $\mathcal{O}_1$ — orbit label $(0,1,0,0,0,0,0)$
-- $\lvert\psi_3\rangle$: all negativity in $\mathcal{O}_3$ — orbit label $(0,0,0,1,0,0,0)$
+- ψ₁: all negativity in orbit 1 — orbit label $(0,1,0,0,0,0,0)$
+- ψ₃: all negativity in orbit 3 — orbit label $(0,0,0,1,0,0,0)$
 
 Different orbit labels. The spectrometer distinguishes them instantly; the luminance meter cannot.
 
@@ -97,7 +97,7 @@ Different orbit labels. The spectrometer distinguishes them instantly; the lumin
 
 **3. Mana linearity.** The orbit negativity $\mathcal{N}_L$ is linear in the Wigner function, so the orbit label of a circuit output can be tracked gate by gate without full state tomography.
 
-**4. $S_3$ SWAP-routing theorem.** Qubit-permutation gates act on the orbit label as the symmetric group $S_3$ — permuting within $\{\mathcal{O}_1, \mathcal{O}_2, \mathcal{O}_3\}$ and within $\{\mathcal{O}_4, \mathcal{O}_5, \mathcal{O}_6\}$, fixing $\mathcal{O}_0$, never crossing between the two groups.
+**4. S₃ SWAP-routing theorem.** Qubit-permutation gates act on the orbit label as the symmetric group S₃ — permuting within orbits {1,2,3} and within orbits {4,5,6}, fixing orbit 0, never crossing between the two groups.
 
 **5. Single-shot distinguishability.** For orthogonal orbit pairs (fidelity $= 0$), a *single* Pauli measurement suffices to identify the orbit, named explicitly by the Fano geometry.
 
@@ -113,7 +113,7 @@ Standard benchmarking — randomised benchmarking, cross-entropy benchmarking, p
 
 ## The Hudson's theorem subtlety
 
-A technical point matters here. Hudson's theorem — the result that stabiliser states have non-negative Wigner functions — holds for *odd-dimensional* systems (qutrits, etc.) but **not for qubits**. In even dimension, the discrete Wigner function can assign negative values to stabiliser states. This is why $\lvert\psi_1\rangle$ and $\lvert\psi_3\rangle$ can have $\mathcal{N} = 1/8 > 0$ while being stabiliser states with zero magic resource.
+A technical point matters here. Hudson's theorem — the result that stabiliser states have non-negative Wigner functions — holds for *odd-dimensional* systems (qutrits, etc.) but **not for qubits**. In even dimension, the discrete Wigner function can assign negative values to stabiliser states. This is why ψ₁ and ψ₃ can have $\mathcal{N} = 1/8 > 0$ while being stabiliser states with zero magic resource.
 
 The orbit label is therefore *not* a magic resource measure in the resource-theory sense — it is a **phase-space geometric invariant** that distinguishes stabiliser states from each other. The companion paper ([doi:10.5281/zenodo.21219712](https://doi.org/10.5281/zenodo.21219712), #476... see also #467) extends the orbit classification to genuine magic states via T-gate dressing of the CZ-type basis.
 
