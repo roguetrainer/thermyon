@@ -191,25 +191,55 @@ the ISA trilogy.
 
 ## The full picture
 
-The three ISAs and the Ambient form a single structure with two axes:
+The three ISAs and the Ambient live in the **complex β-plane** — a single
+structure indexed by β ∈ ℂ ([Paper 543](https://doi.org/10.5281/zenodo.17981393)):
 
 ```
-                    The Ambient  (β → 0; smooth; Hodge; maximum entropy)
-                         │
-                         │  β rises; Gibbs concentrates
-                         │
-                    Forge ISA    (0 < β < ∞; thermodynamic; snap at β*)
-                    /            \
-                   /              \
-          β → ∞  /                \ β = it  (Wick rotation)
-                /                  \
-         Origami ISA           Meld ISA
-    (tropical; classical)   (complex; quantum)
+                Im(β)
+                  ↑
+                  │         Meld ISA  (β = it: quantum, unitary, ℂ amplitudes)
+                  │        /
+                  │       / Wick rotation
+                  │      /
+  ─────────────┬──┼──────────────────────────────────→ Re(β)
+               │  │
+        The    │  0     Forge ISA        Origami ISA
+        Ambient      ←──────────────────────────────→
+               β→0    (0 < β < ∞)       (β → ∞, tropical)
 ```
 
-The 731-ISA extends the diagram along a third axis — *associativity* — adding the
-BIND opcode and reaching the 𝕆-rung. See
+Each prime p adds a **p-adic axis** into the β-plane, carrying the p-adic ISA
+(U-MGE over ℤ_p, NTT as QFT, Hensel lifting as optimisation). The full
+**adèlic β-plane** has one real axis and one p-adic axis per prime:
+
+| β | Arithmetic | ISA | Key operation |
+| --- | --- | --- | --- |
+| $\beta \to \infty$ | Tropical $(\max,+)$ | Origami | Argmax; discrete logic |
+| $0 < \beta < \infty$ | Gibbs ($\mathbb{R}_{>0}$) | Forge | Snap at $\beta^*$; annealing |
+| $\beta = it$ | Complex ($\mathbb{C}$) | Meld | Unitary; T-gate; interference |
+| $\beta \to 0$ | Uniform; Hodge | *The Ambient* | Containing manifold; not an ISA |
+| $\beta \in \mathbb{Q}_p$ | p-adic ($\mathbb{Z}_p$) | U-MGE / p-adic ISA | NTT = QFT; Hensel = VQE |
+| $\beta \in \mathbb{A}_\mathbb{Q}$ | Adèlic ($\mathbb{A}$) | Adèlic ISA | All primes simultaneously |
+
+**Which ISA should I use?**
+
+- **Origami** — discrete, combinatorial, zero temperature. Protein structure
+  (Ramachandran), nuclear spectroscopy, classical algorithms.
+- **Forge** — probabilistic, thermodynamic, finite temperature. Annealing,
+  belief propagation, kinetic proofreading. Snap at β* separates H¹ from H⁰.
+- **Meld** — quantum, unitary. QFT, anyons, Shor's algorithm, magic state
+  distillation. Requires BIND for universality (T-gate).
+- **p-adic ISA** — exact integer arithmetic, ultrametric geometry. Lattice-based
+  cryptography (NTT), p-adic VQE (Hensel lifting), p-adic Grover.
+
+The 731-ISA extends the diagram along a third axis — *associativity* — adding
+the BIND opcode and reaching the 𝕆-rung. See
 [The Non-Associative Frontier](non-associative-frontier.md).
+
+**Ostrowski's theorem** guarantees completeness: the only completions of ℚ are
+ℝ and ℚ_p. The adèlic product ℝ × ∏_p ℚ_p contains every possible β. The ISA
+trilogy plus the p-adic ISAs form a *complete* set of arithmetic modes — there
+is no other place for β to live.
 
 ---
 
