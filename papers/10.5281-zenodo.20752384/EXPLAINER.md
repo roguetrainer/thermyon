@@ -15,7 +15,7 @@ portfolio: A
 
 ## The central idea in one sentence
 
-The Schrödinger equation, the heat equation, Black-Scholes, entropic optimal transport, and the Viterbi algorithm are five instances of a single algebraic operation — the softmin — and in every case the parameter that controls the "softness" is playing exactly the role that Planck's constant plays in quantum mechanics.
+The Schrödinger equation, the heat equation, Black-Scholes, entropic optimal transport, the Viterbi algorithm, and quantum group representation theory are six instances of a single algebraic operation — the β-softmin — and in every case the parameter that controls the "softness" is playing exactly the role that Planck's constant plays in quantum mechanics: it is a coordinate on the β-plane.
 
 ---
 
@@ -122,9 +122,26 @@ The primes that divide $2/\beta$ are the **ramified primes** of that field — t
 
 ---
 
+## Where this sits on the β-plane
+
+Paper 543 ([doi:10.5281/zenodo.21245459](https://doi.org/10.5281/zenodo.21245459)) showed that β can be complex, negative, or p-adic — and that each choice gives a different computational regime. The six dualities in this paper are all instances of β moving along the **positive real axis**: from large β (tropical / classical / discrete) back toward small β (smooth / quantum / continuous).
+
+The bridge variables are all coordinates on the same axis:
+
+| Bridge variable | Physical system | β-plane interpretation |
+|---|---|---|
+| ℏ (Planck) | Quantum → classical | $\hbar = 1/\beta$ on the imaginary axis |
+| ν (viscosity) | Heat → Burgers shocks | $\nu \propto 1/\beta$ on the real axis |
+| σ² (volatility) | Black-Scholes → HJB | $\sigma^2 \propto 1/\beta$ on the real axis |
+| ε (regularisation) | Sinkhorn → Kantorovich | $\varepsilon = 1/\beta$ on the real axis |
+| 1/β (temperature) | Forward-backward → Viterbi | β directly |
+| q = $e^{i\pi\beta}$ | Quantum group → classical SU(2) | β on the imaginary axis |
+
+The last entry — quantum groups — is the bridge to the Meld ISA: the deformation parameter $q = e^{i\pi\beta}$ is β on the imaginary axis, exactly the Wick rotation that takes Gibbs weights to quantum amplitudes.
+
 ## What the paper is not claiming
 
-None of the five individual dualities is new — all are known. What is new is the recognition that they are **the same duality**, and that the bridge variable in every case plays an identical algebraic role. The ML engineer's softmax temperature, the physicist's Planck's constant, the financial mathematician's volatility, and the transport theorist's regularisation are all the same object seen from different fields.
+None of the six individual dualities is new — all are known. What is new is the recognition that they are **the same duality**, and that the bridge variable in every case plays an identical algebraic role. The ML engineer's softmax temperature, the physicist's Planck's constant, the financial mathematician's volatility, and the transport theorist's regularisation are all the same object seen from different fields: a coordinate on the positive real β-axis.
 
 This unification suggests a research programme: any model with a hard discrete limit has a soft (differentiable) counterpart connected by the β-softmin. This is the foundation of the [Differentiable Models series](/papers/315) — Papers 315 (Nash), 316 (Shapley), 442 (SIR epidemics), and beyond.
 
@@ -136,11 +153,11 @@ The [Maslov-Gibbs Einsum (MGE)](https://doi.org/10.5281/zenodo.17981393) is the 
 
 ---
 
-## What to read next
-
-- [The Maslov-Gibbs Einsum](https://doi.org/10.5281/zenodo.17981393) — the computational implementation of the β-softmin
-- [The Kitaev Menagerie in Origami](https://doi.org/10.5281/zenodo.20752352) (#445) — the sixth pair: quantum groups and topological phases
-- [Sector Dequantization](/papers/444_sector_dequantization) (#444) — what happens when different sectors of the same system have different β values
-- [Differentiable Nash](https://doi.org/10.5281/zenodo.20318527) (#315) — the first paper in the Differentiable Models series
+*See also:*
+- [The Adèlic β-Plane](https://doi.org/10.5281/zenodo.21245459) (#543) — the full picture: β complex, negative, and p-adic; the six bridge variables are all coordinates on the same map; Ostrowski's theorem closes it
+- [The Maslov-Gibbs Einsum](https://doi.org/10.5281/zenodo.17981393) (#201) — the computational implementation of the β-softmin as an einsum tensor contraction; the MGE Dodecagon
+- [The Forge ISA](https://doi.org/10.5281/zenodo.20694527) (#419) — the positive real axis in full: snap event, vorton, thermodynamic computation at finite β
+- [The Kitaev Menagerie in Origami](https://doi.org/10.5281/zenodo.20752352) (#445) — the sixth pair in detail: quantum groups, Ising/Fibonacci anyons, conductor = 2/β
+- [Differentiable Nash](https://doi.org/10.5281/zenodo.20318527) (#315) — the β-softmin applied to game theory; the first paper in the Differentiable Models series
 
 *For the full technical treatment, see [doi:10.5281/zenodo.20752384](https://doi.org/10.5281/zenodo.20752384)*
