@@ -49,8 +49,8 @@ The same abstract opcode appears with different in/out counts depending on the d
 | FLIP | 1 tri → 3 tris | coupling ↑ by one j (raising) | dagger / time-reversal | long ↔ short position |
 | FLOP | 3 tris → 1 tri | coupling ↓ by one j (lowering) | cup / partial trace | born rule on exposure |
 | TWIST | Dehn twist | Clebsch–Gordan phase $(-1)^{j}$ | Berry phase / ribbon element | convexity correction; drift |
-| BIND | non-Pachner; obstruction | Racah recoupling ($6j → 9j$) | $F$-matrix; non-Abelian anyon | correlation regime change (H²) |
-| ORBIT | closed triangulation loop | closed G-orbit on weight lattice | feedback in quantum circuit | closed risk cycle |
+| BIND | non-Pachner; obstruction | Racah recoupling ($6j → 9j$) | $F$-matrix; non-Abelian anyon | H² snap event (systemic crisis) |
+| ORBIT | closed triangulation loop | closed G-orbit on weight lattice | feedback in quantum circuit | closed risk cycle (H¹ feedback loop) |
 | LABEL | face/edge colouring | quantum number assignment | stabiliser projection | scenario / regime selection |
 
 ---
@@ -425,6 +425,12 @@ assignment is a LABEL.
 | Interacting fermions | SYK four-body coupling | Non-factorising 4-fermion vertex |
 | Langlands (non-Abelian) | Non-commuting Hecke operators at different primes | $[T\_p, T\_q] \neq 0$ for $GL\_n$, $n \geq 2$ |
 | p-adic Langlands | Pentagon failure in p-adic Hodge theory | Non-associative p-adic completions |
+
+**BIND in finance:** The interbank network accumulates systemic risk in H¹ — the cycle
+topology of mutual exposures, which is non-trivial even though balance-sheet arithmetic
+is Abelian. BIND marks the H² *snap event*: the moment when those H¹ cycles become
+globally inconsistent and cannot be unwound bilaterally. Systemic risk is measured in
+H¹; systemic crises (2008 GFC, LTCM) are H² snap events. See Papers 397–398.
 
 **BIND theorem** (*The Opcode Rosetta Stone*, Paper 447): A gapped topological phase
 has **non-Abelian anyonic order if and only if** its minimal ISA programme contains
