@@ -33,7 +33,7 @@ $$
 
 with σ₀ ≥ σ₁ ≥ ... The first term is the Hartree-Fock reference. Subsequent terms are correlation corrections.
 
-Each term \|αₖ⟩\|βₖ⟩ is a **point on the Grassmannian** Gr(n_e, n_orb). The wavefunction as a whole is a weighted sum of Grassmannian points — a quantum superposition of orbital configurations.
+Each term (αₖ, βₖ) is a **point on the Grassmannian** Gr(n_e, n_orb). The wavefunction as a whole is a weighted sum of Grassmannian points — a quantum superposition of orbital configurations.
 
 ---
 
@@ -79,7 +79,7 @@ $$E_{\rm HF} = \min_k E_k$$
 
 where E_k are the energies of individual determinant configurations. This is a tropical minimum — it selects the single dominant term, ignoring all others.
 
-The correlation energy is the "volume above the tropical floor": the contribution from all the subdominant Schmidt terms. In amplituhedron language, the correlation energy is the volume of the convex hull formed by the Schmidt vectors {σ_k² \|αₖ⟩\|βₖ⟩}, lifted above the HF floor.
+The correlation energy is the "volume above the tropical floor": the contribution from all the subdominant Schmidt terms. In amplituhedron language, the correlation energy is the volume of the convex hull formed by the Schmidt vectors {σ_k² · (αₖ, βₖ)}, lifted above the HF floor.
 
 This is the condensed-matter analogue of the positive Grassmannian volume formula for scattering amplitudes. The role played by momentum twistors in high-energy physics is played by Schmidt orbital pairs in quantum chemistry.
 

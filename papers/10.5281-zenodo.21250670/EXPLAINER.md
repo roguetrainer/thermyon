@@ -113,7 +113,7 @@ The paper's §6.2 suggests that FS8 might be provable via the L-function connect
 The connection between the atom and the zeta function is precise but indirect. The chain is:
 
 1. Ψ_Q(Z) is equivalent to a Weyl sum S(λ) where λ = Z^{1/3}, and for the TF potential this reduces to the Gauss circle problem.
-2. The best-known bound \|S(λ)\| = O(λ^{2α}) uses the **Hardy exponent** α. The current record is α = 23/73 (Huxley 1993).
+2. The best-known bound on S(λ) is O(λ^{2α}), governed by the **Hardy exponent** α. The current record is α = 23/73 (Huxley 1993).
 3. The size of α is controlled by the zero-free region of ζ(s) in the critical strip: a wider zero-free region gives a smaller α and therefore a tighter bound on Ψ_Q(Z).
 4. The Lindelöf hypothesis (α = 1/4 + ε, a consequence of RH) would give the best possible bound.
 

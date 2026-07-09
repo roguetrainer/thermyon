@@ -90,7 +90,7 @@ where E₁ − E₀ is the SA-CASSCF energy gap between symmetric and antisymmet
 SA-CASSCF with a π-only CAS(6e,6o) active space gives:
 
 - E₁ − E₀ = 141.5 mEh (the Kekulé distortion energy)
-- \|H₀₁\| = 70.75 mEh
+- H₀₁ = 70.75 mEh (magnitude)
 - Bridge formula with S = 0.23: ΔE_res = 54.5 mEh = 34.2 kcal/mol
 - **Experiment: 57.4 mEh = 36.0 kcal/mol — error 5%**
 
