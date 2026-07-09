@@ -67,7 +67,9 @@ associator, realised physically as G₂/octonion symmetry.
 
 The twelve opcodes form a **completeness hierarchy**: each new opcode lifts the ISA to
 the next level of the cohomological (H^k) computational tower, and no opcode at level
-k can be simulated by any combination of opcodes at level k−1.
+k can be simulated by any combination of opcodes at level k−1. The H^k tiers are not
+merely a grading — they are the homology groups of a genuine chain complex (see
+Theorem 3 below).
 
 Monoidal categories underlie all of mathematical physics for the same reason: any
 system in which operations compose in parallel and in sequence — quantum circuits,
@@ -469,9 +471,9 @@ most powerful: systems with BIND can encode computations that BIND-free
 
 ---
 
-## The two theorems
+## The three theorems
 
-Everything above is a dictionary. Two theorems give it teeth.
+Everything above is a dictionary. Three theorems give it teeth.
 
 **Theorem 1 — BIND = Non-Abelian** (*Paper 447*): A gapped topological phase has
 non-Abelian anyonic order if and only if its minimal ISA programme contains BIND.
@@ -482,6 +484,32 @@ be factored into products of two-body operators.
 $\mathrm{SU}(2)\_{q}$ family at $q = e^{i\pi\beta}$, the quantum phase transition is
 a TWIST failure at $\beta = \tfrac{1}{2}$, where the quantum dimension
 $d\_{1/2}(\beta) = 2\cos(\pi\beta) = 0$ exactly.
+
+**Theorem 3 — The ISA Chain Complex** (*Papers 357, 571, 572*): The H^k tiers are
+not merely a grading of computational levels. They are the homology groups of a
+well-defined chain complex
+
+$$0 \;\longrightarrow\; C^0 \;\xrightarrow{\partial^0}\; C^1 \;\xrightarrow{\partial^1}\; C^2 \;\longrightarrow\; 0$$
+
+where $C^k = \bigoplus_{|v|=k} A^{\otimes c(v)}$, $A = \mathbb{Z}[x]/(x^2)$ is the
+Frobenius algebra of SPLIT/SPLAT opcodes, and $v$ ranges over the cube of
+resolutions of an ISA programme. The boundary map $\partial$ satisfies $\partial^2 = 0$
+as a consequence of the Frobenius algebra axioms — which are exactly the pentagon
+identity and Frobenius condition proved in Paper 357.
+
+The ORBIT count is the Euler characteristic of this complex:
+$\chi = \sum_k (-1)^k \mathrm{rank}(H^k) = \mathrm{ORBIT}(P)$.
+The Poincaré polynomial $\sum_k t^k \mathrm{rank}(H^k)$ is a strictly stronger
+invariant, categorifying the ORBIT count in the same way Khovanov homology
+categorifies the Jones polynomial. At H²: the differential $\partial^1$ is given by
+the BIND vertex — the trivalent generator of the Kuperberg $G_2$ spider (CMP 1996),
+whose completeness theorem provides a full diagrammatic axiomatisation of the H² tier.
+
+*Why this matters:* earlier presentations of the ISA described H⁰, H¹, H² as three
+separate computational levels with no map between them — a graded direct sum, not a
+cohomology theory. Theorem 3 supplies the missing differential and confirms that the
+tiers are genuine homology groups. The ORBIT count was always correct; it now has a
+proof that it equals an Euler characteristic, not just a heuristic count.
 
 ---
 
