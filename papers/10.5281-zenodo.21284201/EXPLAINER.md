@@ -49,7 +49,7 @@ The two computations — bonding (colimit, left Kan extension Lan) and spectrosc
 
 $$\text{Lan} \dashv \text{Spec}$$
 
-This means: every bonding computation has a spectroscopic dual, and vice versa. The **unit** of this adjunction is the variational principle (the Rayleigh-Ritz quotient: "find the state that minimises ⟨ψ\|H\|ψ⟩/⟨ψ\|ψ⟩"). The **counit** is the spectral completeness relation (the resolution of the identity: Σ \|n⟩⟨n\| = 1).
+This means: every bonding computation has a spectroscopic dual, and vice versa. The **unit** of this adjunction is the variational principle (the Rayleigh-Ritz quotient: minimise the expectation value of H over all trial states). The **counit** is the spectral completeness relation (the resolution of the identity: every state is a superposition of eigenstates).
 
 In physical language:
 - To go from the spectrum to the ground state (Spec → Lan): use the variational principle
