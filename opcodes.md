@@ -21,14 +21,14 @@ full Meld.*
 | Opcode | Symbol | Categorical morphism | Abstract role |
 |--------|--------|---------------------|---------------|
 | SPLIT | ■ | Comultiplication $\Delta: A \to A \otimes A$ (Frobenius/bialgebra) | 1-to-many; any diagonalisation or fan-out |
-| SPLAT | ◇ | Counit $\varepsilon: A \to k$ (Frobenius); evaluation map | many-to-1; any projection or evaluation |
+| SPLAT | ◇ | Multiplication $\mu: A \otimes A \to A$ (Frobenius); evaluation map | many-to-1; any projection or evaluation |
 | FLIP | ▲ | Dagger functor $(-)^\dagger$; pivotal structure $V \cong V^{**}$ | orientation reversal; duality |
-| FLOP | △ | Trace $\mathrm{Tr}: \mathrm{End}(V) \to k$; cup in compact closed category | closure; trace; Born rule |
+| FLOP | △ | Evaluation $\varepsilon_A: A^* \otimes A \to \mathbf{1}$; cup in compact closed category | closure; trace; Born rule |
 | TWIST | ↻ | Ribbon element $\theta_V: V \to V$; topological spin | phase / monodromy; 1-to-1 with memory |
 | SPIN | ⊛ | $\mathbb{Z}_3$ gauge automorphism; triality $V \to S^+ \to S^- \to V$ | order-3 cycling; triality gauge |
-| LABEL | ▪ | Idempotent $e: A \to A$, $e^2 = e$; augmentation $\varepsilon: \mathcal{H} \to \mathbb{C}$ | sector selection; idempotent projection |
+| LABEL | ▪ | Unit morphism $\eta: \mathbf{1} \to A$ (Frobenius algebra unit); state preparation | sector selection; initial state creation |
 | BIND | ⋈ | Associator $\alpha_{A,B,C}: (A \otimes B) \otimes C \xrightarrow{\sim} A \otimes (B \otimes C)$; $F$-matrix | non-associative fusion; recoupling |
-| ORBIT | ○ | Trace in a traced monoidal category $\mathrm{Tr}^U_{A,B}: \mathcal{C}(A \otimes U, B \otimes U) \to \mathcal{C}(A,B)$ | feedback loop; G-set walk; closed orbit |
+| ORBIT | ○ | Trace of ribbon twist $\mathrm{tr}(\theta_A): \mathbf{1} \to \mathbf{1}$; scalar closed-loop evaluation | feedback loop; G-set walk; closed orbit |
 | MELD | ● | Handle operator in TQFT; filled circle = topological class creation | deepest fusion; handle attachment |
 | FORK | ⑂ | Copairing / comonoid comultiplication $\delta: A \to A \otimes A$ (asymmetric) | directed 1-to-2 branching; coboundary |
 | SUPERPOSE | ⊕ | Biproduct $A \oplus B$; direct sum in Ab-enriched category | linear superposition; direct sum |
@@ -369,10 +369,10 @@ deepest structural label in the AZ tenfold way — the distinction between Major
 
 | | |
 |---|---|
-| **String diagram** | Idempotent / projector $e: A \to A$ with $e^2 = e$ — a box on a wire that squares to itself |
+| **String diagram** | Unit morphism $\eta: \mathbf{1} \to A$ — a dot (the Frobenius algebra unit); creates a wire from nothing |
 | **Pachner move** | No direct Pachner counterpart; it is the *colouring* operation that labels edges/faces before Pachner moves act |
-| **Category theory** | The splitting of an idempotent; the augmentation map $\varepsilon: \mathcal{H} \to \mathbb{C}$ selecting the $+1$ eigenspace |
-| **Algebra** | Gauge fixing; stabiliser projection; sector selection; the Satake isomorphism |
+| **Category theory** | The unit of the Frobenius algebra $(A, \mu, \eta, \Delta, \varepsilon)$; state preparation; the map $\mathbf{1} \to A$ selecting the initial sector |
+| **Algebra** | Gauge fixing; stabiliser eigenstate preparation; sector selection; the Satake isomorphism |
 
 **Where LABEL appears:**
 
@@ -439,9 +439,17 @@ has **non-Abelian anyonic order if and only if** its minimal ISA programme conta
 BIND. Associative phases are BIND-free; non-associative phases require BIND.
 
 **BIND and the division algebra ladder:**
+
 - No BIND: associative computation — $\mathbb{R}$, $\mathbb{C}$, or $\mathbb{H}$ rung
-- BIND with Pentagon identity holding: quasi-associative — $\mathbb{O}$-rung (Fibonacci anyons, $G\_2$, $E\_8$)
-- BIND with Pentagon identity **failing**: fully non-associative — 731-ISA regime; Furey's octonionic Standard Model programme
+  (pentagon holds, $\alpha = \mathrm{id}$)
+- BIND present: non-associative — $\mathbb{O}$-rung; $G\_2$, $E\_8$;
+  Furey's octonionic Standard Model programme; 731-ISA regime
+
+The canonical definition (Paper 591, Definition 4.1): BIND $= \alpha_{A,A,A} \neq \mathrm{id}$
+in the ISA magmoidal category. BIND present $\Leftrightarrow$ pentagon coherence axiom
+fails $\Leftrightarrow$ non-trivial $F$-matrix. *Note:* Fibonacci anyons have non-trivial
+$F$-matrices but still satisfy the pentagon (they are a fusion category); they live at
+the $\mathbb{H}$-rung boundary, not the $\mathbb{O}$-rung.
 
 **The Fidkowski-Kitaev collapse** ($\mathbb{Z} \to \mathbb{Z}\_8$) is BIND insertion:
 promoting a FLOP-only programme (free Majorana chain, $\mathbb{C}$-rung) to a
@@ -462,11 +470,11 @@ most powerful: systems with BIND can encode computations that BIND-free
 | Opcode | Graphical calculi | String diagram | Pachner move | AZ symmetry | Division algebra | Langlands |
 |--------|------------------|---------------|--------------|-------------|-----------------|-----------|
 | SPLIT | 🕷️ | $\Delta: A \to A \otimes A$ (split) | $1 \to 4$ | — | All rungs | Hecke eigendecomposition |
-| SPLAT | 🕷️ | $\varepsilon: A \to k$ (cap/cup) | $4 \to 1$ | — | All rungs | L-function evaluation |
+| SPLAT | 🕷️ | $\mu: A \otimes A \to A$ (merge) | $4 \to 1$ | — | All rungs | L-function evaluation |
 | TWIST | 🕷️* | $\theta\_V: V \to V$ (curl) | Gauge move | $S$ (chiral) | All rungs | Monodromy of local system |
 | FLIP | 🕷️ | $(-)^\dagger$ (wire reversal) | $1 \to 3$ | $T$ (time reversal) | $\mathbb{R}$ / $\mathbb{H}$ | Langlands duality $G \leftrightarrow G^\vee$ |
-| FLOP | 🕷️* | $\mathrm{tr}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
-| LABEL | 🕷️ | $e^2 = e$ (projector) | Colouring | — (parity in PT) | All rungs | Automorphic representation $\pi$ |
+| FLOP | 🕷️* | $\varepsilon_A: A^* \otimes A \to \mathbf{1}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
+| LABEL | 🕷️ | $\eta: \mathbf{1} \to A$ (unit / dot) | Colouring | — (parity in PT) | All rungs | Automorphic representation $\pi$ |
 | BIND | 🐸 | Associator $\alpha\_{A,B,C}$ (trivalent) | Obstruction | — | $\mathbb{O}$ only | Non-Abelian Hecke interaction |
 
 ---
