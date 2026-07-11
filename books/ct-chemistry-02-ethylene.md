@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Ch 2 — The Double Bond: Ethylene"
-parent: Books
-nav_order: 11
+parent: CT Chemistry Primer
+grand_parent: Books
+nav_order: 2
 ---
 
 # Chapter 2 — The Double Bond: Ethylene

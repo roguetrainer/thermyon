@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Ch 1 — The Single Bond: H₂"
-parent: Books
-nav_order: 10
+parent: CT Chemistry Primer
+grand_parent: Books
+nav_order: 1
 ---
 
 # Chapter 1 — The Single Bond: H₂

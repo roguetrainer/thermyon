@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "S00 — The Tetrahedron"
-parent: Books
+parent: Professor Knot Stories
+grand_parent: Books
 nav_order: 0
 ---
 
