@@ -13,7 +13,7 @@ nav_exclude: true
 | **System** | Apéry sequence and rational approximants to ζ(3) |
 | **Group** | ℤ (integer recurrence group) |
 | **H^k tier** | H² |
-| **ISA** | Meld (β → 0) |
+| **ISA** | Origami (β → ∞) |
 | **Status** | Validated |
 | **Opcodes** | ORBIT · LABEL · BIND |
 | **Papers** | Paper 553, Paper 554 |

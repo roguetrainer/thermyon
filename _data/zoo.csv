@@ -34,7 +34,7 @@ FE01,Dy3+ single-molecule magnet,f-Element Chemistry,4f SMM axial CF,SU(2),H1,Or
 FE04,Dieke diagram benchmark,f-Element Chemistry,12 Ln3+ ions,SU(2),H0,Origami,validated,FLOP SPLIT SPLAT ORBIT,527,,fe04-dieke,false
 C06,C/T skeleton active-space pre-screening,Chemistry,Any molecule with MP2 natural orbitals,U(n),H0,Forge,validated,ORBIT TWIST BIND LABEL,588 596,10.5281/zenodo.21300668,c06-ct-skeleton,true
 D01,Figure-eight 3-body choreography,Dynamical Systems,Equal-mass 3-body in R2,D6,H0,Origami,validated,ORBIT LABEL,552,,d01-figure-eight,true
-D02,G2 7-body choreography in R7,Dynamical Systems,Equal-mass 7-body in R7,G2,H2,Meld,conjectured,ORBIT TWIST BIND,552,,d02-g2-choreography,true
+D02,G2 7-body choreography in R7,Dynamical Systems,Equal-mass 7-body in R7,G2,H2,Forge,conjectured,ORBIT TWIST BIND,552,,d02-g2-choreography,true
 D03,Kolmogorov turbulence cascade,Dynamical Systems,3D incompressible Navier-Stokes,SO(3),H1,Forge,validated,ORBIT TWIST SPLIT SPLAT LABEL,512,,d03-kolmogorov-turbulence,true
 D04,Lorenz strange attractor,Dynamical Systems,Lorenz system sigma=10 rho=28,Z2,H1,Forge,validated,ORBIT TWIST LABEL,512,,d04-lorenz-attractor,true
 D05,KAM tori and chaos onset,Dynamical Systems,Nearly-integrable Hamiltonian,Tn,H0,Forge,validated,ORBIT TWIST BIND LABEL,512,,d05-kam-tori,true
@@ -52,12 +52,12 @@ QH02,Superconducting transmon cross-resonance gate,Quantum Hardware,IBM transmon
 CP01,3-SAT phase transition at alpha*,Computational Complexity,Random 3-SAT near clause density 4.267,Z2,H1,Forge,validated,ORBIT TWIST LABEL,420,,cp01-3sat-phase,false
 CP02,TSP and tropical optimisation,Computational Complexity,Complete weighted graph on n cities,Sn,H0,Origami,validated,ORBIT SPLIT SPLAT LABEL,420,,cp02-tsp-tropical,false
 CA01,Cauchy integral theorem and C-R equations,Complex Analysis,Holomorphic functions on C,U(1),H1,Origami,validated,ORBIT TWIST LABEL,543 477,,ca01-cauchy-cr,true
-CA02,Residue theorem and Laurent poles,Complex Analysis,Meromorphic functions on C,U(1),H2,Meld,validated,ORBIT TWIST BIND,543 477,,ca02-residue-theorem,true
+CA02,Residue theorem and Laurent poles,Complex Analysis,Meromorphic functions on C,U(1),H2,Origami,validated,ORBIT TWIST BIND,543 477,,ca02-residue-theorem,true
 GS01,MIMO wireless capacity,Grassmannian Systems,k transmit beams in n-antenna channel,U(n),H1,Forge,validated,ORBIT TWIST LABEL,574,,gs01-mimo-wireless,true
 GS02,PCA and subspace tracking,Grassmannian Systems,Top-k eigenspace of n x n data matrix,U(n),H0,Origami,validated,ORBIT SPLIT SPLAT LABEL,574 596,,gs02-pca-subspace,true
 GS03,Topological insulators and Chern bands,Grassmannian Systems,Occupied band subspace over Brillouin zone,U(k),H2,Forge,validated,ORBIT TWIST BIND,574,,gs03-topological-insulators,true
-MT02,Apery proof zeta(3) irrational,Mathematical Methods,Apery sequence and rational approximants,Z,H2,Meld,validated,ORBIT LABEL BIND,553 554,,mt02-apery-zeta3,true
-MT03,Busy Beaver and Godel incompleteness,Mathematical Methods,n-state 2-symbol Turing machines,Sn x Z2,H2,Meld,validated,ORBIT LABEL FLOP BIND,543,,mt03-busy-beaver,true
+MT02,Apery proof zeta(3) irrational,Mathematical Methods,Apery sequence and rational approximants,Z,H2,Origami,validated,ORBIT LABEL BIND,553 554,,mt02-apery-zeta3,true
+MT03,Busy Beaver and Godel incompleteness,Mathematical Methods,n-state 2-symbol Turing machines,Sn x Z2,H2,Origami,validated,ORBIT LABEL FLOP BIND,543,,mt03-busy-beaver,true
 IG01,EM algorithm on statistical manifold,Information Geometry,Exponential family Fisher-Rao,GL(n),H1,Forge,validated,ORBIT TWIST SPLIT SPLAT,528,,ig01-em-algorithm,true
 ST01,Metropolis-Hastings MCMC,Statistical Methods,Markov chain Monte Carlo,R,H0,Forge,validated,ORBIT LABEL FLIP,557,,st01-metropolis-mcmc,true
 P02,p-adic quantum computer (padit architecture),Computing Architectures,n-padit register over Q_p,PGL(2 Q_p),H2,Meld,speculative,ORBIT TWIST BIND LABEL,544 543,,p02-padic-qc,true

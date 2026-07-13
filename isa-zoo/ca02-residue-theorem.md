@@ -13,7 +13,7 @@ nav_exclude: true
 | **System** | Meromorphic functions on ℂ |
 | **Group** | U(1) |
 | **H^k tier** | H² |
-| **ISA** | Meld (β → 0) |
+| **ISA** | Origami (β → ∞) |
 | **Status** | Validated |
 | **Opcodes** | ORBIT · TWIST · BIND |
 | **Papers** | Paper 543, Paper 477 |

@@ -13,7 +13,7 @@ nav_exclude: true
 | **System** | Equal-mass 7-body gravitational problem in ℝ⁷ |
 | **Group** | G₂ ⊂ SO(7) |
 | **H^k tier** | H² |
-| **ISA** | Meld (β → 0) |
+| **ISA** | Forge (β ≈ β*) |
 | **Status** | Conjectured |
 | **Opcodes** | ORBIT · TWIST · BIND |
 | **Paper** | Paper 552 |

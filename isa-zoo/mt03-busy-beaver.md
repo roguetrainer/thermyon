@@ -13,7 +13,7 @@ nav_exclude: true
 | **System** | n-state, 2-symbol Turing machines |
 | **Group** | Sₙ × ℤ₂ (state permutations × symbol flip) |
 | **H^k tier** | H² |
-| **ISA** | Meld (β → 0) |
+| **ISA** | Origami (β → ∞) |
 | **Status** | Validated |
 | **Opcodes** | ORBIT · LABEL · FLOP · BIND |
 | **Papers** | Paper 543 |
