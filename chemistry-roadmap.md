@@ -1,4 +1,4 @@
----
+--
 layout: default
 title: Chemistry Roadmap
 nav_order: 7
@@ -44,7 +44,7 @@ convergence, no functional.
 CASSCF. All C-boxes = H⁰, DFT is fine. A few T-arrows = H¹, CCSD will handle
 it. Many T-arrows, or T-arrows with G₂ structure = H², CASSCF essential.
 
-**The tool.** [`flats`](https://github.com/roguetrainer/flats) — builds the
+**The tool.** [`alchemi`](https://github.com/roguetrainer/alchemi) — builds the
 sCeleTon from a molecular geometry and recommends the active space.
 
 **Papers.** [doi:10.5281/zenodo.21300667](https://doi.org/10.5281/zenodo.21300667)
@@ -214,7 +214,7 @@ Given a molecule:
     c₂ ≥ δ for any T-arrow?  ──→ H²: continue
 
   Step 3 — Run CASSCF on H² T-arrows only (Layer 2)
-    Active space = H² T-arrows identified by flats
+    Active space = H² T-arrows identified by alchemi
     CCSD on remaining H¹ T-arrows
     Freeze all C-boxes
 
@@ -236,7 +236,7 @@ active in catalysis). Papers: 574, 490 (protein design).
 
 **Computational chemist.** Start with Layer 1 (θ_G and Weyl router) — this
 is the DFT failure detector you have been missing. Then Layer 2 (automatic
-active-space selection). Tools: `flats`. Papers: 596, 588, 491.
+active-space selection). Tools: `alchemi`. Papers: 596, 588, 491.
 
 **Theoretical chemist / physicist.** Start with the ISA zoo entries C01–C05
 and S01–S05 — validated ISA programmes across chemistry and spectroscopy.

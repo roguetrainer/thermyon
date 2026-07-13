@@ -3,7 +3,7 @@ layout: default
 title: "The Topological Active Space: Weak Lifting and C/T Skeleton Pre-Screening for CASSCF"
 parent: Explainers
 nav_exclude: false
-tags: [topological-active-space, casscf, ct-skeleton, sceleton, noon, weak-lifting-theorem, flats, active-space-selection, multi-reference, quantum-chemistry, h-k-ladder, correlation-energy]
+tags: [topological-active-space, casscf, ct-skeleton, sceleton, noon, weak-lifting-theorem, alchemi, active-space-selection, multi-reference, quantum-chemistry, h-k-ladder, correlation-energy]
 portfolio: A
 ---
 
@@ -98,7 +98,7 @@ and determines which pairs go to CCSD versus CASSCF in Layer 2.
 
 ## The software
 
-[`flats`](https://github.com/roguetrainer/flats) implements the C/T skeleton
+[`alchemi`](https://github.com/roguetrainer/alchemi) implements the C/T skeleton
 builder. Given a molecular geometry (xyz file or SMILES), it:
 
 1. Runs a cheap MP2 calculation via PySCF

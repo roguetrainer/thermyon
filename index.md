@@ -77,7 +77,7 @@ The same five opcodes run at three temperatures:
 
 The bridge between them is the **⊕_β softmin** — the operation $a \oplus_\beta b = -\frac{1}{\beta}\ln(e^{-\beta a}+e^{-\beta b})$ — which interpolates continuously between standard addition (β → 0) and the tropical minimum (β → ∞). Lowering β is quantisation; raising β is the classical limit. Planck's constant, viscosity, volatility, softmax temperature, and the quantum group deformation parameter q = e^{iπβ} are all the same object seen from different fields ([Paper 443](https://doi.org/10.5281/zenodo.20752384)).
 
-Gibbs annealing is parallel transport on the Fisher manifold. The snap event at β* = (3/8)ln(1/(1−ρ)) is the phase transition between exploratory and committed regimes. Shor's algorithm is a three-layer Origami/Meld/Origami programme. The T-gate is the Fano associator obstruction.
+Gibbs annealing is parallel transport on the Fisher manifold. The snap event at β* = (3/8)ln(1/(1−ρ)) is the phase transition between exploratory and committed regimes. Shor's algorithm is a three-layer Origami/Forge/Meld programme. The T-gate is the Fano associator obstruction.
 
 The non-associative frontier (G₂, octonions, the F₄ conjecture) remains active — but it is the boundary of the framework, not its centre.
 
