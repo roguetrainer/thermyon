@@ -39,3 +39,5 @@ D03,Kolmogorov turbulence cascade,Dynamical Systems,3D incompressible Navier-Sto
 D04,Lorenz strange attractor,Dynamical Systems,Lorenz system sigma=10 rho=28,Z2,H1,Forge,validated,ORBIT TWIST LABEL,512,,d04-lorenz-attractor,true
 D05,KAM tori and chaos onset,Dynamical Systems,Nearly-integrable Hamiltonian,Tn,H0,Forge,validated,ORBIT TWIST BIND LABEL,512,,d05-kam-tori,true
 D06,Solitons and KdV inverse scattering,Dynamical Systems,KdV equation on R,R,H0,Origami,validated,ORBIT SPLIT SPLAT LABEL,512,,d06-solitons-kdv,true
+P01,Orbit Processing Unit (OPU),Computing Architectures,"RPU with tape Gr(k,n)",U(n),H0,Forge,validated,ORBIT TWIST BIND SPLIT SPLAT LABEL,598 205 489,,p01-opu-grassmannian,true
+G01,Yang-Mills instantons,Gauge Theory,SU(2) Yang-Mills on S4,SU(2),H2,Meld,validated,ORBIT TWIST BIND,536 523,,g01-yang-mills-instanton,true
