@@ -43,6 +43,8 @@ P01,Orbit Processing Unit (OPU),Computing Architectures,"RPU with tape Gr(k,n)",
 G01,Yang-Mills instantons,Gauge Theory,SU(2) Yang-Mills on S4,SU(2),H2,Meld,validated,ORBIT TWIST BIND,536 523,,g01-yang-mills-instanton,true
 D07,Burgers equation and shock formation,Dynamical Systems,Viscous Burgers on R (nu to 0),R,H0,Origami,validated,ORBIT TWIST LABEL,512 543,,d07-burgers-shocks,true
 G02,Amplituhedron (N=4 SYM scattering),Gauge Theory,Positive Grassmannian Gr+(k n) in twistor space,GL(k),H2,Meld,validated,ORBIT TWIST BIND,574 520,,g02-amplituhedron,true
+QH01,Trapped-ion MS gate circuit,Quantum Hardware,IonQ / Quantinuum ion crystal,U(1) x SU(2),H2,Meld,validated,ORBIT TWIST BIND,385 421,,qh01-trapped-ion-ms,true
+QH02,Superconducting transmon cross-resonance gate,Quantum Hardware,IBM transmon qubit pair,SU(2),H2,Meld,validated,ORBIT TWIST BIND,385 421,,qh02-transmon-cr,false
 CP01,3-SAT phase transition at alpha*,Computational Complexity,Random 3-SAT near clause density 4.267,Z2,H1,Forge,validated,ORBIT TWIST LABEL,420,,cp01-3sat-phase,false
 CP02,TSP and tropical optimisation,Computational Complexity,Complete weighted graph on n cities,Sn,H0,Origami,validated,ORBIT SPLIT SPLAT LABEL,420,,cp02-tsp-tropical,false
 CA01,Cauchy integral theorem and C-R equations,Complex Analysis,Holomorphic functions on C,U(1),H1,Origami,validated,ORBIT TWIST LABEL,543 477,,ca01-cauchy-cr,true
