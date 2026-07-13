@@ -11,8 +11,8 @@ S04,FMO exciton dynamics,Spectroscopy,7-BChl Fano complex,G2,H1,Forge,validated,
 S05,Nuclear gamma spectroscopy,Spectroscopy,28Si and 48Ca,SU(2),H0,Origami,validated,FLOP SPLIT SPLAT ORBIT,348,,s05-nuclear-gamma,false
 Q01,Shor's algorithm,Quantum Computing,Period-finding in Z_N,GL(1),H1,Origami,validated,ORBIT TWIST FLIP FLOP,472,10.5281/zenodo.21219704,q01-shor,true
 Q02,Grover's algorithm,Quantum Computing,Unstructured search,SU(2),H1,Origami,validated,ORBIT TWIST FLIP,473,10.5281/zenodo.21219706,q02-grover,false
-Q03,Steane 7-qubit code,Quantum Computing,7-qubit Hamming QEC,PSL(2.7),H1,Origami,validated,ORBIT TWIST BIND,325,,q03-steane,false
-Q04,Toric code,Quantum Computing,2D surface code,Z2 x Z2,H1,Origami,validated,ORBIT TWIST,446,,q04-toric-code,false
+Q03,Steane 7-qubit code,Quantum Computing,7-qubit Hamming QEC,PSL(2.7),H1,Origami,validated,ORBIT TWIST BIND,325,,q03-steane,true
+Q04,Toric code,Quantum Computing,2D surface code,Z2 x Z2,H1,Origami,validated,ORBIT TWIST,446,,q04-toric-code,true
 F05,Pacioli double-entry bookkeeping,Finance,Balance sheet algebra,Z,H0,Origami,validated,ORBIT SPLIT SPLAT,396,10.5281/zenodo.21158947,f05-pacioli,false
 M01,Pentagon identity,Mathematics,Rep(G) associator,Any,H1,Origami,validated,FLOP SPLIT SPLAT,357,,m01-pentagon,false
 M02,Frobenius axiom,Mathematics,Frobenius algebra,Any,H0,Origami,validated,SPLIT SPLAT,357,,m02-frobenius,false
@@ -32,3 +32,4 @@ SC01,BCS superconductor,Condensed Matter,3D metal Cooper pairs,U(1),H1,Forge,val
 SC02,Abrikosov vortex lattice,Condensed Matter,Type II SC mixed phase,U(1),H2,Forge,validated,ORBIT TWIST BIND,526,,sc02-abrikosov,false
 FE01,Dy3+ single-molecule magnet,f-Element Chemistry,4f SMM axial CF,SU(2),H1,Origami,validated,FLOP ORBIT TWIST,527,,fe01-dy-smm,false
 FE04,Dieke diagram benchmark,f-Element Chemistry,12 Ln3+ ions,SU(2),H0,Origami,validated,FLOP SPLIT SPLAT ORBIT,527,,fe04-dieke,false
+C06,C/T skeleton active-space pre-screening,Chemistry,Any molecule with MP2 natural orbitals,U(n),H0,Forge,validated,ORBIT TWIST BIND LABEL,588 596,10.5281/zenodo.21300668,c06-ct-skeleton,true
