@@ -570,6 +570,14 @@ assignment is a LABEL.
 
 **Three wires enter a vertex** (non-Abelian fusion; associator).
 
+*A naming note:* BIND is the one opcode that lives exclusively in the 🐸 Frog
+Calculus — the trivalent vertex, the non-associative fusion, the G₂ structure
+that ZX calculus cannot express. Meanwhile SPLAT, FLIP, and FLOP — which sound
+exactly like things a frog does — are all firmly in the 🕷️ ZX spider calculus.
+The missed opportunity: **GULP** would have been perfect (three wires in, one
+out; irreversible; nothing else does it). BIND is in the LaTeX of too many
+papers to change now.
+
 ```
   │   │   │
   │   │   │
