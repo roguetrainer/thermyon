@@ -87,18 +87,20 @@ The dagger map σ swaps creation ↔ annihilation: σ(■) = ◇, σ(▲) = △,
 
 ## Opcode incarnations across domains
 
-The same abstract opcode appears with different in/out counts depending on the domain. The Pachner move is the 3-manifold instance; spectroscopy, quantum information, and finance each have their own realisation.
+The same abstract opcode appears with different in/out counts depending on the
+domain. The Pachner move is the 3-manifold instance; spectroscopy, quantum
+information, chemistry, and finance each have their own realisation.
 
-| Opcode | 3-manifold (Pachner) | Spectroscopy / rep theory | Quantum information | Finance |
-|--------|---------------------|--------------------------|---------------------|---------|
-| SPLIT | 1 tet → 4 tets | 1 rep → CG sum of irreps | 1 qubit → entangled register | 1 exposure → risk factor legs |
-| SPLAT | 4 tets → 1 tet | CG sum → 1 rep (6j evaluation) | many states → 1 measurement outcome | risk factor legs → net P&L |
-| FLIP | 1 tri → 3 tris | coupling ↑ by one j (raising) | dagger / time-reversal | long ↔ short position |
-| FLOP | 3 tris → 1 tri | coupling ↓ by one j (lowering) | cup / partial trace | born rule on exposure |
-| TWIST | Dehn twist | Clebsch–Gordan phase $(-1)^{j}$ | Berry phase / ribbon element | convexity correction; drift |
-| BIND | non-Pachner; obstruction | Racah recoupling ($6j → 9j$) | $F$-matrix; non-Abelian anyon | H² snap event (systemic crisis) |
-| ORBIT | closed triangulation loop | closed G-orbit on weight lattice | feedback in quantum circuit | closed risk cycle (H¹ feedback loop) |
-| LABEL | face/edge colouring | quantum number assignment | stabiliser projection | scenario / regime selection |
+| Opcode | 3-manifold (Pachner) | Spectroscopy / rep theory | Quantum information | Chemistry / bonding | Finance |
+|--------|---------------------|--------------------------|---------------------|---------------------|---------|
+| SPLIT | 1 tet → 4 tets | 1 rep → CG sum of irreps | 1 qubit → entangled register | CASSCF orbital diagonalisation; NOON decomposition | 1 exposure → risk factor legs |
+| SPLAT | 4 tets → 1 tet | CG sum → 1 rep (6j evaluation) | many states → 1 measurement outcome | 6j evaluation; wavefunction projection to electron density | risk factor legs → net P&L |
+| FLIP | 1 tri → 3 tris | coupling ↑ by one j (raising) | dagger / time-reversal | time-reversal; particle-hole in electron correlation; raising operator | long ↔ short position |
+| FLOP | 3 tris → 1 tri | coupling ↓ by one j (lowering) | cup / partial trace | trace over environment; Born rule for electron density; lowering operator | born rule on exposure |
+| TWIST | Dehn twist | Clebsch–Gordan phase $(-1)^{j}$ | Berry phase / ribbon element | Berry phase along reaction path; Maslov index at conical intersection; spin-orbit coupling phase | convexity correction; drift |
+| BIND | non-Pachner; obstruction | Racah recoupling ($6j \to 9j$) | $F$-matrix; non-Abelian anyon | tensor-force coupling; strongly-correlated bond; FeMoco active site; DFT failure (H² obstruction) | H² snap event (systemic crisis) |
+| ORBIT | closed triangulation loop | closed G-orbit on weight lattice | feedback in quantum circuit | G-walk / Galois chemistry step; CASSCF macro-iteration; closed reaction cycle | closed risk cycle (H¹ feedback loop) |
+| LABEL | face/edge colouring | quantum number assignment | stabiliser projection | orbital symmetry label ($\sigma$/$\pi$/δ); spin-state selection; point-group irrep | scenario / regime selection |
 
 ---
 
