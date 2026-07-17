@@ -742,17 +742,27 @@ Each named ISA is a specific point (or arc) in the β-plane, with a characterist
 physical content, a set of patron thinkers, and a distinct informal name chosen
 for what it *feels* like to work in that regime.
 
-| Informal name | Formal name | β location | H^k reach | Patron(s) | Hook |
-| --- | --- | --- | --- | --- | --- |
-| **Origami** | Origami ISA | β → ∞ (tropical) | H⁰–H² | Weyl, Racah | Crisp bonds; discrete symmetry; Racah algebra |
-| **Forge** | Forge ISA | 0 < β < ∞ (real Gibbs) | H⁰–H² | Boltzmann, Gibbs | Free-energy routing; MGE soft threshold; snap at β* |
-| **Raven** | Raven ISA | β ≈ β* (physiological) | H⁰–H² | Hopfield, Ninio | Biological proofreading; enzyme catalysis; kinetic QEC |
-| **Motive** | Motive ISA | all β (abstract parent) | H⁰–H³ | Carnot, Bender | ERASE = second law; PT exceptional point; five primitive opcodes |
-| **Hum** | Hum ISA | β = it/ℏ (imaginary) | H³ | Lamb, Bethe | QFT vacuum; EMIT is the one new primitive; amplituhedron as ORBIT |
-| **Rising Sea** | Rising Sea ISA | full ℂ_β plane | all | Grothendieck | β-plane fibration of all ISAs; Noether from Aut(P_Motive) |
-| **Pentagon** | Pentagon ISA | abstract (coherence) | — | Baez, Mac Lane | Monoidal coherence theorem; five sides = five opcodes |
+| Informal name | Formal name | β location | H^k reach | Patron(s) | Hook | IMAGINE count | Algebra |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Origami** | Origami ISA | β → ∞ (tropical) | H⁰–H² | Weyl, Racah | Crisp bonds; discrete symmetry; Racah algebra | 1 | ℂ |
+| **Forge** | Forge ISA | 0 < β < ∞ (real Gibbs) | H⁰–H² | Boltzmann, Gibbs | Free-energy routing; MGE soft threshold; snap at β* | 1 | ℂ |
+| **Raven** | Raven ISA | β ≈ β* (physiological) | H⁰–H² | Hopfield, Ninio | Biological proofreading; enzyme catalysis; kinetic QEC | 1 | ℂ |
+| **Knot** | Knot ISA | β → ∞ (imaginary oscillators) | H⁰–H² | Kauffman, Spencer-Brown | Q-calculus; three imaginary marks; Jones polynomial | 3 | ℍ (Q₈) |
+| **Toad** | Toad ISA | β → ∞ (exceptional) | H⁰–H³ | Kauffman (via 731 Calculus) | Seven imaginary marks; Fano multiplication; non-associative | 7 | 𝕆 (Moufang loop) |
+| **Motive** | Motive ISA | all β (abstract parent) | H⁰–H³ | Carnot, Bender | ERASE = second law; PT exceptional point; five primitive opcodes | — | — |
+| **Hum** | Hum ISA | β = it/ℏ (imaginary) | H³ | Lamb, Bethe | QFT vacuum; EMIT is the one new primitive; amplituhedron as ORBIT | — | — |
+| **Rising Sea** | Rising Sea ISA | full ℂ_β plane | all | Grothendieck | β-plane fibration of all ISAs; Noether from Aut(P_Motive) | — | — |
+| **Pentagon** | Pentagon ISA | abstract (coherence) | — | Baez, Mac Lane | Monoidal coherence theorem; five sides = five opcodes | — | — |
 
 **Reading the table:**
+
+The IMAGINE-count column follows the **Hurwitz tower**: the only normed division
+algebras are ℝ (0 imaginary units), ℂ (1), ℍ (3), and 𝕆 (7). The ISA trilogy
+(Origami/Forge/Raven) all live at the ℂ level — one imaginary direction, associative.
+The Knot ISA extends to ℍ (three imaginary marks, Q-calculus, Jones polynomial).
+The Toad ISA extends to 𝕆 (seven imaginary marks, O-calculus, non-associative
+Moufang loop, G₂ exceptional geometry). No ISA beyond Toad is possible: the
+Hurwitz theorem ends at 𝕆.
 
 - **Motive ISA** is the abstract parent: its five opcodes {MARK, CROSS, IMAGINE, FLOW,
   ERASE} are what remains when you strip every physical specialisation away.
@@ -790,12 +800,17 @@ for what it *feels* like to work in that regime.
                │
       ┌────────┼──────────┐
       │        │          │
-  Forge ISA  Raven ISA  Hum ISA
-  (real β)  (physio β)  (β = it/ℏ)
-      │
-  Origami ISA
-  (β → ∞)
+  Forge ISA  Raven ISA  Hum ISA          Knot ISA    Toad ISA
+  (real β)  (physio β)  (β = it/ℏ)      (ℍ, Q₈)    (𝕆, G₂)
+      │                                      │           │
+  Origami ISA                         3 IMAGINEs   7 IMAGINEs
+  (β → ∞, ℂ)                         (Jones poly) (Fano plane)
 ```
+
+The Knot and Toad ISAs are siblings at β→∞ that differ from Origami/Forge/Raven
+by their number of active IMAGINE directions: 1 (ℂ), 3 (ℍ), or 7 (𝕆).
+The Hurwitz theorem closes the tower at 7 — no eighth imaginary direction is possible
+in a normed division algebra.
 
 The horizontal axis inside each ISA is the H^k degree — opcodes at H⁰, H¹, H², H³.
 The vertical axis is the β-plane location.
