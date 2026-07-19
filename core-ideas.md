@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Applications
-nav_order: 5
+nav_order: 6
 has_children: true
 description: "The Origami ISA applied across domains — each a significant result spanning a family of papers."
 ---
