@@ -2,7 +2,7 @@
 layout: default
 title: "Origami MBQC: The Origami ISA as a Measurement-Based Instruction Set"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, mbqc, measurement-based, fano, cluster-state, hardware]
 portfolio: C|F
 ---

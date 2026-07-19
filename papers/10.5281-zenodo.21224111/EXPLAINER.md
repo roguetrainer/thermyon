@@ -2,7 +2,7 @@
 layout: default
 title: "Designing Proteins by Writing Programmes"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [g-walk-protein-design, metalloenzyme, alphafold, proteinmpnn, haemoglobin, psii, rnr, orbit-design, catalysis, photosystem-ii, nitrogenase, cooperativity, hill-coefficient]
 portfolio: A
 ---

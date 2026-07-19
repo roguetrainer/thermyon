@@ -2,7 +2,7 @@
 layout: default
 title: "Non-Associative Hardware is Necessary for the Non-Abelian StateHSP"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, statehsp, psl27, sevenq, non-associative, g2, associamancy, quantum-foundations]
 portfolio: F|C
 ---

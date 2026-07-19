@@ -2,7 +2,7 @@
 layout: default
 title: "One Programme, Many Backends"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-programming, isa, pennylane, bind-count, hardware-independent, clifford, berry-phase, qft, shor, rosetta-stone, h-k-ladder, trs-framework]
 portfolio: C
 ---

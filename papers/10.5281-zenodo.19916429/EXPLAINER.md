@@ -2,7 +2,7 @@
 layout: default
 title: "The Origami ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hardware-ai, hardware, instruction-set, fano]
 ---
 

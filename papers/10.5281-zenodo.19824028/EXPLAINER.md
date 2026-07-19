@@ -2,7 +2,7 @@
 layout: default
 title: "The Riemann Spectrometer"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grand-challenges, number-theory, riemann, g2]
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Nuclear reactions are orbit programmes"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [nuclear-physics, shell-model, magic-numbers, cno-cycle, r-process, tropical-geometry, origami-isa, g-walk, nucleosynthesis, kilonova, gw170817, trs-framework]
 portfolio: A
 ---

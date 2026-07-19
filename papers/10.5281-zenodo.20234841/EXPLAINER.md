@@ -2,7 +2,7 @@
 layout: default
 title: "The Temperature of Rationality"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics, agent-based-models, ai-ml]
 ---
 

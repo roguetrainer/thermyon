@@ -2,7 +2,7 @@
 layout: default
 title: "Fibrational Lattice Surgery (FLS)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hardware-ai, qec, hardware]
 ---
 

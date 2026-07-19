@@ -2,7 +2,7 @@
 layout: default
 title: "The Forge ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [forge-isa, thermodynamic, beta, snap-event, vorton, gibbs, trs, temperature, phase-transition, origami-isa, ambient, mge, h1, critical-temperature, annealing, natural-gradient, fisher]
 portfolio: A
 ---

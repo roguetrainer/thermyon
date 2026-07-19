@@ -2,7 +2,7 @@
 layout: default
 title: "Wrong Magic Is Worse Than No Magic: A Valence Theory of Quantum Magic"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, magic, orbit-valence, cs-gate, syndrome-blindness, qec]
 portfolio: F
 ---

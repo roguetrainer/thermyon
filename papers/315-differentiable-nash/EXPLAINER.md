@@ -2,7 +2,7 @@
 layout: default
 title: "Differentiable Nash Equilibria"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, game-theory, differentiable-programming, climate]
 portfolio: G
 ---

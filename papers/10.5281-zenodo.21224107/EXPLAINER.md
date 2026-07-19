@@ -2,7 +2,7 @@
 layout: default
 title: "G-walk Chemistry: Orbit Theory Beats DFT"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [g-walk-chemistry, coordination-chemistry, dft, spin-crossover, femoco, nitrogenase, orbit-representation-theory, galois, isa, twist-opcode, fe-sco, metalloprotein, origami-isa, ligand-field, transition-metal]
 portfolio: A
 ---

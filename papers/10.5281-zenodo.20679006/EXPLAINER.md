@@ -2,7 +2,7 @@
 layout: default
 title: "EconIAC: A Differentiable Economics Engine"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [econiac, economics, gauge-theory, sheaf-cohomology, h0, h1, h2, pacioli, overview]
 portfolio: G
 ---

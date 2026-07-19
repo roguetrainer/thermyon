@@ -2,7 +2,7 @@
 layout: default
 title: "The Orbit Processing Unit"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grassmannian, opu, casscf, schubert-cells, turing-completeness, noon-spectrum, berry-phase, quantum-chemistry, computing, h-k-ladder, trs-framework]
 portfolio: C
 ---

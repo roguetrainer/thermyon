@@ -2,7 +2,7 @@
 layout: default
 title: "Valuation Adjustments as Curvature: XVA in Financial Gauge Theory"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, gauge-theory, xva, cva, fva, sheaf-cohomology, triangular-risk, bilateral-risk, origami-isa]
 portfolio: G|B
 ---

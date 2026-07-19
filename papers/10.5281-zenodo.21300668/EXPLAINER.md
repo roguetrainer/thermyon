@@ -2,7 +2,7 @@
 layout: default
 title: "The Topological Active Space: Weak Lifting and C/T Skeleton Pre-Screening for CASSCF"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [topological-active-space, casscf, ct-skeleton, sceleton, noon, weak-lifting-theorem, alchemi, active-space-selection, multi-reference, quantum-chemistry, h-k-ladder, correlation-energy]
 portfolio: A
 ---

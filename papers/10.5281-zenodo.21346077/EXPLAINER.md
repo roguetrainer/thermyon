@@ -2,7 +2,7 @@
 layout: default
 title: "Weyl DFT Accelerator"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [dft, casscf, weyl-chamber, noon-spectrum, active-space, quantum-chemistry, correlation, grassmannian, mge, h-k-ladder, trs-framework]
 portfolio: A
 ---

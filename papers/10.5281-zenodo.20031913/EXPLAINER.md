@@ -2,7 +2,7 @@
 layout: default
 title: "Geometric Shadows in Aperys Polynomial"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grand-challenges, number-theory, recurrence, g2]
 ---
 

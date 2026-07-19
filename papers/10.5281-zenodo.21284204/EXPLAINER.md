@@ -2,7 +2,7 @@
 layout: default
 title: "Your factor model is 66° wrong"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [finance, grassmannian, factor-models, systematic-risk, cointegration, model-risk, 2008-crisis, gaussian-copula, h-k-ladder, trs-framework, economics]
 portfolio: B
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "One Parameter to Rule Them All: The Complex β-Plane"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [complex-beta-plane, adelic, mge, pt-symmetry, population-inversion, p-adic, ambient, meld, forge, origami, tropical, maslov, wick-rotation, exceptional-point, bender, palmer, quantum-chaos, computation-unified]
 portfolio: A
 ---

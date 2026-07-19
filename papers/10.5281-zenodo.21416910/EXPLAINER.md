@@ -2,7 +2,7 @@
 layout: default
 title: "The Motive ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [motive-isa, carnot, dissipation, erase-opcode, laws-of-form, second-law, abstract-parent, h-k-ladder, trs-framework]
 portfolio: A
 ---

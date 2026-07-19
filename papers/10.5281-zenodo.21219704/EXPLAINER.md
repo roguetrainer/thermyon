@@ -2,7 +2,7 @@
 layout: default
 title: "The Cookie-Cutter Lifting Programme"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-algorithms, shor, grover, magic, clifford, isa, twist-opcode, mana, cookie-cutter, lifting-programme, complexity, naqft, dihedral-group, stabiliser, wigner-function, mana, eigenphase-spectrum]
 portfolio: B
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Fano Monogamy Paradox"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-foundations, entanglement, fano]
 ---
 

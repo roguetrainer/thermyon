@@ -2,7 +2,7 @@
 layout: default
 title: "Orbit Computing: A Fourth Paradigm"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [orbit-computing, fourth-paradigm, g-orbit, molecular-computation, decoherence-immunity, room-temperature, quantum-computing, isa, group-theory, galois, hello-world, femoco, nitrogenase, born-oppenheimer, origami-isa]
 portfolio: A
 ---

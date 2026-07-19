@@ -2,7 +2,7 @@
 layout: default
 title: "Credit Bundles: Survival Probabilities as Parallel Transport on the Pacioli Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics]
 portfolio: G
 ---

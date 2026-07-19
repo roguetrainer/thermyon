@@ -2,7 +2,7 @@
 layout: default
 title: "Nuclear Bonding as H²"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [nuclear-physics, deuteron, tensor-force, strong-force, bind, h2, grassmannian, obe-potential, alpha-particle, hoyle-state, h-k-ladder, trs-framework]
 portfolio: A
 ---

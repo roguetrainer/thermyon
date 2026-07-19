@@ -2,7 +2,7 @@
 layout: default
 title: "Molecular Machines as Origami ISA Programmes"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, ribosome, fmo, nitrogenase, femoco, fano, 6j-symbol, photosynthesis, molecular-machine, biology]
 portfolio: B
 ---

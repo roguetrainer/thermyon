@@ -2,7 +2,7 @@
 layout: default
 title: "The Topology of Risk: A Primer"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [sheaf-cohomology, primer, bilateral-risk, triangular-risk, systemic-risk, xva, 2008-crisis, econiac, tutorial, h0, h1, h2, finance]
 portfolio: G
 ---

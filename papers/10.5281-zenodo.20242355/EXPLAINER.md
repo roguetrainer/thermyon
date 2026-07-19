@@ -2,7 +2,7 @@
 layout: default
 title: "Currency Bundles: Foreign Exchange as Connection Curvature on the Financial Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics]
 portfolio: G
 ---

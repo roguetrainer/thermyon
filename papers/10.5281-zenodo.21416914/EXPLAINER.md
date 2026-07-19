@@ -2,7 +2,7 @@
 layout: default
 title: "The Rising Sea ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [rising-sea-isa, grothendieck, beta-plane, fibration, lawvere, universal, h-k-ladder, trs-framework]
 portfolio: B
 ---

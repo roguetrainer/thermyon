@@ -2,7 +2,7 @@
 layout: default
 title: "Associamancy: A Resource Theory of Non-Associative Quantum Magic"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [associamancy, schur-boundary, frobenius-schur, g2, triality, magic-states, resource-theory, quantum-foundations, dark-magic, tv-monotone]
 portfolio: F|B
 ---

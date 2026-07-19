@@ -2,7 +2,7 @@
 layout: default
 title: "Origami: An Open Quantum ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, quantum-computing, open-standard, risc-v, bind-opcode, simulability, zx-calculus, nisq, h-k-ladder, trs-framework]
 portfolio: C
 ---

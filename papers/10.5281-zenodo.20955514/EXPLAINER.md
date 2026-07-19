@@ -2,7 +2,7 @@
 layout: default
 title: "Resource Theory as Circuit Syntax"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [resource-theory, prop, coloured-prop, circuit-syntax, monoidal-category, frobenius, zx-calculus, origami-isa, dark-magic, stabiliser, quantum-foundations]
 portfolio: A
 ---

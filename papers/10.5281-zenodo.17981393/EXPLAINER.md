@@ -2,7 +2,7 @@
 layout: default
 title: "The Maslov-Gibbs Einsum (MGE)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [core-engine, mge, tropical, beta, maslov, gibbs, einsum, partition-function, origami-isa, forge-isa, meld-isa, ambient, dodecagon, log-sum-exp, semiring, phase-transition, snap-event, turing, adelic, beta-plane]
 portfolio: A
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Pacioli Combinator Library: A Universal Domain-Specific Language for Financial and Economic Computation on the Pacioli Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics, optimisation]
 portfolio: G
 ---

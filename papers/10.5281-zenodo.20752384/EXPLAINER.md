@@ -2,7 +2,7 @@
 layout: default
 title: "Planck's Constant in Disguise"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [semiring-deformation, maslov, tropical, cole-hopf, black-scholes, sinkhorn, kantorovich, viterbi, forward-backward, hamilton-jacobi, schrodinger, burgers, planck, duality, unification]
 portfolio: A
 ---

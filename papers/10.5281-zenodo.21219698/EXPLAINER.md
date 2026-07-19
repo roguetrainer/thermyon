@@ -2,7 +2,7 @@
 layout: default
 title: "ISA Completeness: Nine Normal Forms"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [isa-completeness, nine-normal-forms, three-qubit, prop, rewrite, dark-magic, stabiliser, wigner, quantum-foundations, origami-isa]
 portfolio: A
 ---

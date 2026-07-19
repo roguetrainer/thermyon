@@ -2,7 +2,7 @@
 layout: default
 title: "The Fano-Foam Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [foundations, geometry, fano, g2]
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: "A Primer on Economic Gauge Theory"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics]
 portfolio: G
 ---

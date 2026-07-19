@@ -2,7 +2,7 @@
 layout: default
 title: "Beyond DAGs: A Non-Associative Algebra of Policy Interventions"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, optimisation]
 portfolio: G
 ---

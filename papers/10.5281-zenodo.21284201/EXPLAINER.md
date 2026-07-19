@@ -2,7 +2,7 @@
 layout: default
 title: "Why exactly three tiers? A categorical proof"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [category-theory, kan-extension, adjunction, hilbert-syzygy, h-k-ladder, spectroscopy, bonding, grassmannian, qec, langlands, trs-framework, quantum-chemistry]
 portfolio: A
 ---

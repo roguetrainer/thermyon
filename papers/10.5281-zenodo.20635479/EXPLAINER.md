@@ -2,7 +2,7 @@
 layout: default
 title: "The Unhedgeability Theorem: Sheaf Cohomology of Interaction Diagrams and the Topology of Financial Risk"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [sheaf-cohomology, economics, gauge-theory, origami-isa, interest-rates, systemic-risk]
 portfolio: G|B
 ---

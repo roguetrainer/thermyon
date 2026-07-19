@@ -2,7 +2,7 @@
 layout: default
 title: "The Resonance Processing Unit (RPU)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hardware-ai, qec, hardware]
 ---
 

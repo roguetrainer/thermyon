@@ -2,7 +2,7 @@
 layout: default
 title: "The Origami ISA as a Structural Model for MIP*=RE"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-foundations, fano, origami-isa, complexity, mip-star, re, entanglement, verification, pentagon-identity, frobenius, g2, mip-star-re, interactive-proof]
 portfolio: B
 ---

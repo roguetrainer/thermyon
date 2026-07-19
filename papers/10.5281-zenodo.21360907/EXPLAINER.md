@@ -2,7 +2,7 @@
 layout: default
 title: "The Trapped-Ion Processor as an Orbit Processing Unit"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [trapped-ion, ms-gate, bind, opu, grassmannian, quantum-advantage, kak-decomposition, ionq, quantinuum, h-k-ladder, trs-framework, hardware]
 portfolio: C
 ---

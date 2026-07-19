@@ -2,7 +2,7 @@
 layout: default
 title: "The Raven ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [raven-isa, enzymes, proofreading, kinetic-qec, beta-star, biology, hopfield, h-k-ladder, trs-framework]
 portfolio: E
 ---

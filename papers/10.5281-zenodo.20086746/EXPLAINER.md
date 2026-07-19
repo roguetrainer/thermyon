@@ -2,7 +2,7 @@
 layout: default
 title: "The Unitary Resonance Network (URN)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hardware-ai, ai-ml, continual-learning]
 ---
 

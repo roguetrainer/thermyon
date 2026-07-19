@@ -2,7 +2,7 @@
 layout: default
 title: "Eight Derivations of a Universal Instruction Set"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, eight-derivations, pachner, wigner-racah, mac-lane, pentagon, frobenius, spiders, fisher-information, hodge, shum, universal-instruction-set, zx-calculus, category-theory, quantum-computing, spectroscopy, completeness]
 portfolio: A
 ---

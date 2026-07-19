@@ -2,7 +2,7 @@
 layout: default
 title: "H¹ = 0 is the Performance Condition"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [sheaf-cohomology, h1, elastic-hashing, gemm, max-flow, cache-coherence, slam, mittag-leffler, consensus, tda, origami-isa, pentagon-identity, coboundary, temperature, complexity]
 portfolio: F|C|G
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "One Instruction Set, Twenty Orders of Magnitude: The Origami ISA as Nature's Universal Computer"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, origami-isa, spectroscopy, universal-computer, 6j-symbol, nuclear-physics]
 portfolio: A
 ---

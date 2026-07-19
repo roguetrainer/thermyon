@@ -2,7 +2,7 @@
 layout: default
 title: "The Wigner Defect Conservation Law"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [wigner-function, wigner-defect, conservation-law, magic, dark-magic, stabiliser, symplectic, origami-isa, resource-theory, n-independence, total-variation, quantum-foundations]
 portfolio: A
 ---

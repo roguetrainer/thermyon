@@ -2,7 +2,7 @@
 layout: default
 title: "Magic Has a Kind, Not Just an Amount: The Fano Orbit Decomposition"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, magic, wigner, phase-space, qec, orbit-valence]
 portfolio: F
 ---

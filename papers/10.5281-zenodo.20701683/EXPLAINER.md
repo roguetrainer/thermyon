@@ -2,7 +2,7 @@
 layout: default
 title: "Beyond Basel: A Cohomological Framework for Systemic Risk Regulation"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [systemic-risk, regulation, basel, g-sib, network-topology, sheaf-cohomology, betti-numbers, funding-loops, capital-requirements, lcr, nsfr, lender-of-last-resort, bagehot, mehrling, ccp, macroprudential, resolution, financial-stability, 2008-crisis, marginal-capital-charge, deep-framework, economics]
 portfolio: G
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Origami ISA as a Typed Quantum DSL"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, typed-dsl, type-theory, associamancy, schur-boundary,
        no-cloning, pentagon, pacioli, linear-types, quantum-foundations]
 portfolio: B|C

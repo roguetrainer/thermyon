@@ -2,7 +2,7 @@
 layout: default
 title: "Tipping Points Are Topological"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [climate, tipping-points, sheaf-cohomology, social-cost-carbon, h1, econiac, economics]
 portfolio: G
 ---

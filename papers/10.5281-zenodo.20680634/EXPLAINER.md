@@ -2,7 +2,7 @@
 layout: default
 title: "Spin Foams as Origami: LQG from the ISA Perspective"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, spin-foam, lqg, g2, triality, barbero-immirzi, fano, quantum-foundations]
 portfolio: B|F
 ---

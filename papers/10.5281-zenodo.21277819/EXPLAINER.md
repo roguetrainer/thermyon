@@ -2,7 +2,7 @@
 layout: default
 title: "Schrödinger's Equation on the Grassmannian"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grassmannian, schrodinger, action-principle, casscf, dirac-frenkel, schmidt-decomposition, noon, berry-connection, beta-snap, bifurcation, quantum-chemistry, h-k-ladder, trs-framework]
 portfolio: A
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Topological Resonance Synthesis (TRS)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [core-engine, optimisation, ai-ml, geometry]
 ---
 

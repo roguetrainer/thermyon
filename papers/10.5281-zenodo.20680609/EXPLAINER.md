@@ -2,7 +2,7 @@
 layout: default
 title: "Origami ISA Pulse Sequences: Optimal Control of the 731 Gate Set"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, pulse-control, grape, drag, triality, berry-phase, g2, holonomic, hardware]
 portfolio: C|F
 ---

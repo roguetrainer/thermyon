@@ -2,7 +2,7 @@
 layout: default
 title: "The Meld: Discrete Algorithms as Tropical Shadows of Smooth Manifold Problems"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hodge-theory, origami-isa, tropical, information-geometry, fisher-metric, natural-gradient, spectral-gap, slam, trs, mge, harmonic-forms, meld, framework]
 portfolio: F|C
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Gaussian Copula Was the Wrong Approximation: Why the Origami ISA Gives You XVA Without a Model"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, cech-cohomology, xva, model-free, pentagon, financial-middleware, econiac, sheaf-cohomology, bilateral-risk, triangular-risk]
 portfolio: F|G|B
 ---

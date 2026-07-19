@@ -2,7 +2,7 @@
 layout: default
 title: "Each correction to the atom halves the error"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [mean-field-theory, thomas-fermi, scott-correction, schwinger, fefferman-seco, adelic-atom, number-theory, riemann-zeta, van-der-corput, h-k-ladder, trs-framework, quantum-chemistry, atomic-physics]
 portfolio: A
 ---

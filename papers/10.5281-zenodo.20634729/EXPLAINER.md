@@ -2,7 +2,7 @@
 layout: default
 title: "One Geometry, Two Fields: How Brody & Hughston's Quantum Mechanics and the Fano Plane Are the Same Construction"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, quantum-foundations, projective-geometry, wigner, metaplectic, category-theory]
 portfolio: F
 ---

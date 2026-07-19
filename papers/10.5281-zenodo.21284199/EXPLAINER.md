@@ -2,7 +2,7 @@
 layout: default
 title: "A quantum error-correcting code is a point on a curved surface"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-error-correction, grassmannian, stabiliser-codes, eastin-knill, knill-laflamme, fubini-study, parallel-transport, fault-tolerance, h-k-ladder, trs-framework, quantum-computing]
 portfolio: A
 ---

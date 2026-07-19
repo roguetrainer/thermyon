@@ -2,7 +2,7 @@
 layout: default
 title: "The Climate Hazard Yield Surface"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, climate, policy, gauge-theory]
 portfolio: G
 ---

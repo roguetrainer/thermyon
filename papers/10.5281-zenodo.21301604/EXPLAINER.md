@@ -2,7 +2,7 @@
 layout: default
 title: "The atom's energy hides the Riemann Hypothesis"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [adelic-atom, riemann-hypothesis, l-functions, thomas-fermi, fefferman-seco, selberg-trace, number-theory, atomic-physics, h-k-ladder, trs-framework, p-adic, zeta-function, plethystic-exponential, oeis]
 portfolio: A
 ---

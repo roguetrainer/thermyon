@@ -2,7 +2,7 @@
 layout: default
 title: "Why the 2008 crisis was a topology problem"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [derivatives-pricing, financial-mathematics, cohomology, arbitrage, gauge-theory, credit-derivatives, correlation, 2008-crisis, h0, h1, h2, obstruction-theory, cdo-squared]
 portfolio: A
 ---

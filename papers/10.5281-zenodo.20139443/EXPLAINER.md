@@ -2,7 +2,7 @@
 layout: default
 title: "The Geometry of the Euler–Mascheroni Constant"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [number-theory, thermodynamics]
 portfolio: E
 ---

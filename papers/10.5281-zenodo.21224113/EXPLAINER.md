@@ -2,7 +2,7 @@
 layout: default
 title: "Tanabe-Sugano Diagrams Are Tropical Varieties"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [g-walk-chemistry, tropical-geometry, dft, density-functional-theory, tropical-degeneration, tanabe-sugano, derivative-discontinuity, newton-polytope, spin-crossover, tropical-variety, coordination-chemistry]
 portfolio: A
 ---

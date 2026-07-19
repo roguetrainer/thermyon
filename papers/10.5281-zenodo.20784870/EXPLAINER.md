@@ -2,7 +2,7 @@
 layout: default
 title: "The Alchemy of Distributions, Revisited"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [rank-transmutation, beta-deformation, tropical-semiring, fisher-information, order-statistics, optimal-transport, origami-isa, jacobi-polynomials, softmax, gibbs-ensemble, differentiable-distributions, sheaf-cohomology, skew-normal, qrtm]
 portfolio: A
 ---

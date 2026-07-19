@@ -2,7 +2,7 @@
 layout: default
 title: "Hot Logic: A Complete Magic Resource Theory"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hot-logic, magic-resource-theory, dark-magic, tv-monotone, three-tier, wigner, origami-isa, stabiliser, genuine-magic, total-variation, resource-theory, quantum-foundations]
 portfolio: A
 ---

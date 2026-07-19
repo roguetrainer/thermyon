@@ -2,7 +2,7 @@
 layout: default
 title: "Fibrational Tensor Codes (FTCs)"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hardware-ai, qec, fano, g2]
 ---
 

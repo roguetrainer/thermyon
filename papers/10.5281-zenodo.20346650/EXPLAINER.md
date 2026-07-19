@@ -2,7 +2,7 @@
 layout: default
 title: "Virtual Monopoles in the FeMo-Cofactor: G₂ Symmetry, Non-Associative Bond Breaking, and Nitrogenase as a Pachner-Move Computer"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, g2, octonions, biophysics]
 portfolio: B
 ---

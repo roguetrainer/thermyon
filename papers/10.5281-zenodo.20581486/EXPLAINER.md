@@ -2,7 +2,7 @@
 layout: default
 title: "Seven Qubits, Zero Distillation: The TriQ and SevenQ Architecture"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, hardware, triq, sevenq, steane-code, origami-isa, qec]
 portfolio: C
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Volume of Thought: Why AI Swarms Need Sheaf Cohomology"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [ai-ml, multi-agent, volume-of-thought, sheaf-cohomology, h1, condorcet, origami-isa, mge, fano, voting, consensus]
 portfolio: A|C
 ---

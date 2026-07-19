@@ -2,7 +2,7 @@
 layout: default
 title: "Three Bodies, One Path: AI Discovers an Infinite Family of Choreographic Orbits"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [three-body, choreography, fano, thermion, ai-for-science]
 portfolio: B
 ---

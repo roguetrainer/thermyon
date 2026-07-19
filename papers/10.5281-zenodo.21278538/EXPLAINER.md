@@ -2,7 +2,7 @@
 layout: default
 title: "The Kuperberg G₂ Spider is the BIND Calculus"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [g2, fano, octonions, bind, h2, calculus, diagrammatic, spectroscopy, knot-theory, trs-framework]
 portfolio: B
 ---

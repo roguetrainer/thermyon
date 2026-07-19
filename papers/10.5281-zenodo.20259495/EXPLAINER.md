@@ -2,7 +2,7 @@
 layout: default
 title: "Economic Gauge Theory: Stock-Flow Consistency, Thermodynamic Constraints, and Climate Risk on the Pacioli Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics, agent-based-models]
 portfolio: G
 ---

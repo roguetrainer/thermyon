@@ -2,7 +2,7 @@
 layout: default
 title: "The Hum ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [hum-isa, qft, vacuum, emit-opcode, amplituhedron, lamb-shift, feynman, h-k-ladder, trs-framework]
 portfolio: A
 ---

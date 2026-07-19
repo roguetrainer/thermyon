@@ -2,7 +2,7 @@
 layout: default
 title: "Fano Geometry as a Unifying Language for QEC"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, qec, steane-code, ghz, hamming, origami-isa, stabiliser]
 portfolio: C|F
 ---

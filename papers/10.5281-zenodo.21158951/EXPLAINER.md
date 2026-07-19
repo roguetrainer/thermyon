@@ -2,7 +2,7 @@
 layout: default
 title: "One tensor contraction, three mathematical universes"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [maslov-gibbs-einsum, mge, tropical, clifford, metaplectic, maslov-index, h0, h1, h2, tensor-contraction, beta-deformation, complexity]
 portfolio: A
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Pentagon ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [pentagon-isa, coherence, confluence, monoidal-categories, diamond-lemma, uniqueness, h-k-ladder, trs-framework]
 portfolio: B
 ---

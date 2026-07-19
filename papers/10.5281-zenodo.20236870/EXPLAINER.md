@@ -2,7 +2,7 @@
 layout: default
 title: "Thermal Attribution: Differentiable Shapley Values, Latent Bottlenecks, and the Tropical Limit of Cooperative Game Theory"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics, ai-ml]
 portfolio: G
 ---

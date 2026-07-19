@@ -2,7 +2,7 @@
 layout: default
 title: "The Topology of Conservation: Double-Entry Accounting as a Discrete Gauge Theory of Macroeconomics"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, gauge-theory, pacioli-manifold, double-entry, stock-flow-consistency, sheaf-cohomology, bilateral-risk]
 portfolio: G|B
 ---

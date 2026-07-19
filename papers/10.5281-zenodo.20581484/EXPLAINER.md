@@ -2,7 +2,7 @@
 layout: default
 title: "In Praise of Tetrahedra: Why Four Objects Change Everything"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [tetrahedron, 6j-symbol, recoupling, abelian, cohomology, origami-isa, pentagon-identity]
 portfolio: C|F
 ---

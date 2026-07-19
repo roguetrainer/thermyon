@@ -2,7 +2,7 @@
 layout: default
 title: "The Grassmannian as the Common Parent of Bonding and Scattering"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grassmannian, bonding, scattering, amplituhedron, quantum-chemistry, pauling, reaction-mechanism, casscf, noon, theta-g, catalysis, transition-state, fubini-study, geodesic]
 portfolio: B
 ---

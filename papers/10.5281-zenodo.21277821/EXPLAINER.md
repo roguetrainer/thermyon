@@ -2,7 +2,7 @@
 layout: default
 title: "One calculation, three theories of bonding"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [chemical-bonding, grassmannian, schmidt-decomposition, casscf, lewis-theory, mo-theory, vb-theory, resonance, benzene, h-k-ladder, trs-framework, quantum-chemistry]
 portfolio: A
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "The Meld ISA"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-computing, meld-isa, shor, qft, t-gate, clifford, bind, fano, hidden-subgroup, lwe, ml-kem, post-quantum, pqc, algorithm-discovery, complexity, h2-cohomology, complex-mge]
 portfolio: A
 ---

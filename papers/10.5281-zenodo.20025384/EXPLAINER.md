@@ -2,7 +2,7 @@
 layout: default
 title: "Non-Associative Calculus"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [foundations, core-engine, calculus, g2, octonions]
 ---
 

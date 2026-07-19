@@ -2,7 +2,7 @@
 layout: default
 title: "Metabolism Is a Computer Programme"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [metabolism, biochemistry, isa, glycolysis, krebs-cycle, electron-transport, calvin-cycle, nitrogen-fixation, atp, cofactor, origami-isa, orbit-opcode, h0, h1, aerobic, anaerobic]
 portfolio: A
 ---

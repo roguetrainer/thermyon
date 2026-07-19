@@ -2,7 +2,7 @@
 layout: default
 title: "Conserved Computation"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [core-engine, geometry, noether, g2]
 ---
 

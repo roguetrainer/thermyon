@@ -2,7 +2,7 @@
 layout: default
 title: "The Clifford Hierarchy as Group Cohomology"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [clifford-hierarchy, group-cohomology, schur-multiplier, t-gate, twist-opcode, symplectic-group, magic, h2-cohomology, obstruction-theory, metaplectic, spt-phases, cluster-state, eastin-knill, gottesman-knill]
 portfolio: B
 ---

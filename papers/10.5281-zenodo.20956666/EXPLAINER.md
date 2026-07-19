@@ -2,7 +2,7 @@
 layout: default
 title: "Magic Has Valence"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [magic, stabiliser, orbit, fano, wigner, clifford, valence, origami-isa, phase-space, circuit-verification, ghz, cz-gate, qubit]
 portfolio: A
 ---

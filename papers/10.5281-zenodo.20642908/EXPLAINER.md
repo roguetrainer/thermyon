@@ -2,7 +2,7 @@
 layout: default
 title: "Systemic Risk as H²"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [sheaf-cohomology, systemic-risk, xva, wrong-way-risk, sifi, contagion, pentagon, stress-testing, econiac, h2, 2008-crisis, financial-stability]
 portfolio: G
 ---

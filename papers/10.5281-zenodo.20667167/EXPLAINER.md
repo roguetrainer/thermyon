@@ -2,7 +2,7 @@
 layout: default
 title: "The Origami ISA and the State Hidden Subgroup Problem"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [origami-isa, statehsp, splat, fourier-sampling, hidden-subgroup, quantum-foundations]
 portfolio: F|C
 ---

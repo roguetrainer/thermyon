@@ -2,7 +2,7 @@
 layout: default
 title: "The Projective Hierarchy of Computation"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [meld, classical-computation, clifford, magic, complexity-hierarchy, beta-deformation, tropical, phase-structure, projective-hierarchy, bqp, coherent-cancellation, stabiliser, interference, maslov, palmer-ist]
 portfolio: B
 ---

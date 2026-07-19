@@ -2,7 +2,7 @@
 layout: default
 title: "The Kitaev Menagerie in Origami"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [kitaev, toric-code, honeycomb, anyon, f-matrix, racah, 6j-symbol, origami-isa, 731-isa, frog-calculus, zx-calculus, topological-quantum-computation, ising-anyon, fibonacci-anyon, gibbs-isa, beta-scheduling, nishimori, h1-cohomology, error-correction, phase-transition, non-abelian]
 portfolio: A
 ---

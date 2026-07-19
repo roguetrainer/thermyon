@@ -2,7 +2,7 @@
 layout: default
 title: "The Architecture of Inevitability"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [foundations, geometry, magic-square, octonions]
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: "The quantum chemistry amplituhedron"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [grassmannian, casscf, schmidt-decomposition, amplituhedron, hubbard-model, mott-transition, correlation-energy, h-k-ladder, trs-framework, quantum-chemistry, condensed-matter]
 portfolio: A
 ---

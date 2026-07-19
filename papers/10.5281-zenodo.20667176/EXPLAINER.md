@@ -2,7 +2,7 @@
 layout: default
 title: "The Fano Plane is the Right Way to Think About Qubits"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, origami-isa, associamancy, magic-states, qec, stabiliser, sevenq, primer]
 portfolio: F|C
 ---

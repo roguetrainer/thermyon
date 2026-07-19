@@ -2,7 +2,7 @@
 layout: default
 title: "The Thermal AZ Table"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [tenfold-way, az-table, origami-isa, forge-isa, symmetry-class, topological-insulator, kitaev, bott-periodicity, thermal-classification, superconductor, majorana, g2, octonions]
 portfolio: A
 ---

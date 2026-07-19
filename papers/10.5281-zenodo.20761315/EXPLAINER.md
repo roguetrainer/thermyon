@@ -2,7 +2,7 @@
 layout: default
 title: "Codon Recognition on S³ × S³ × S³"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [biology, fano, thermodynamics]
 ---
 

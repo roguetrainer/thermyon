@@ -2,7 +2,7 @@
 layout: default
 title: "Term Structure Bundles: Interest Rates as Temporal Connections on the Pacioli Manifold"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [economics, thermodynamics]
 portfolio: G
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Every quantum error-correcting code is a chain complex"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [quantum-error-correction, qec, cohomology, steane-code, css-codes, topological-codes, toric-code, surface-code, chain-complex, h0, h1, h2, beta-threshold]
 portfolio: B
 ---

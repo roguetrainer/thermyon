@@ -2,7 +2,7 @@
 layout: default
 title: "Evolutionary Quantum Programming"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [fano, biophysics, origami-isa, evolution, fmo, photosynthesis, lhcii, pe545, directed-energy-transfer, broken-symmetry, passive-qec, quantum-biology]
 portfolio: B
 ---

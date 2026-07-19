@@ -2,7 +2,7 @@
 layout: default
 title: "The Topological Heat Engine"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [topological-heat-engine, fano-plane, 6-731, carnot, efficiency, fisher-information, gibbs-annealing, fmo, photosynthesis, ribosome, parallel-transport, beta-star, snap-event, forge-isa, thermal-directive, information-geometry, broken-symmetry, psl27, g2]
 portfolio: A
 ---

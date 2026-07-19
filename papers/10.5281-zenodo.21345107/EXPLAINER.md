@@ -2,7 +2,7 @@
 layout: default
 title: "Weyl Chamber Homology"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [weyl-chamber, bredon-cohomology, two-qubit-gates, makhlin-invariants, cnot, iswap, grassmannian, steane-code, fano-plane, quantum-computing, h-k-ladder, trs-framework]
 portfolio: A
 ---

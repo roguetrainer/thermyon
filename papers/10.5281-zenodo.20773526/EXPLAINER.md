@@ -2,7 +2,7 @@
 layout: default
 title: "The H^k Complexity Ladder"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [complexity, sheaf-cohomology, h0, h1, h2, bpp, bqp, pspace, p-np, beta-star, algorithmic-hardness, constraint-satisfaction, sat, euler-characteristic]
 portfolio: A
 ---

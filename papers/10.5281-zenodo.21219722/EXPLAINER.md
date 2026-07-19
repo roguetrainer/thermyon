@@ -2,7 +2,7 @@
 layout: default
 title: "Valence as Orbit Occupancy"
 parent: Explainers
-nav_exclude: false
+nav_exclude: true
 tags: [valence, orbit-occupancy, aufbau, hund-rules, taube, fano, coordination-chemistry, f-block, d-block, galois-chemistry, g-walk, site-symmetry, representation-theory, ligand-field, origami-isa]
 portfolio: A
 ---
