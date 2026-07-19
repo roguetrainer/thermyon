@@ -80,9 +80,9 @@ with no interior vertex. Neither calculus assigns ORBIT a node: ORBIT *closes* a
 
 | Opcode | Formal | Emoji | LaTeX sub-symbols | Categorical morphism | Abstract role |
 |--------|--------|-------|-------------------|---------------------|---------------|
-| ORBIT | 𝒪 | 🔄 | ■ fan-out · ○ closed loop | Comultiplication $\Delta: A \to A \otimes A$ · trace $\mathrm{tr}(\theta_A): \mathbf{1} \to \mathbf{1}$ | 1-to-many diagonalisation; closed feedback loop |
-| LABEL | ⊢ | 🏷️ | ◇ projection · ▪ unit | Multiplication $\mu: A \otimes A \to A$ · unit $\eta: \mathbf{1} \to A$ | Many-to-1 evaluation; sector selection |
-| FLIP | ⌁ | 👁️ | ▲ dagger · △ cup / Born rule | Dagger $(-)^\dagger$ · counit $\varepsilon_A: A^* \otimes A \to \mathbf{1}$ | Orientation reversal; duality; Born rule |
+| ORBIT | 𝒪 | 🔄 | ■ (SPLIT) fan-out · ○ (ORBIT) closed loop | Comultiplication $\Delta: A \to A \otimes A$ · trace $\mathrm{tr}(\theta_A): \mathbf{1} \to \mathbf{1}$ | 1-to-many diagonalisation; closed feedback loop |
+| LABEL | ⊢ | 🏷️ | ◇ (SPLAT) projection · ▪ (LABEL) unit | Multiplication $\mu: A \otimes A \to A$ · unit $\eta: \mathbf{1} \to A$ | Many-to-1 evaluation; sector selection |
+| FLIP | ⌁ | 👁️ | ▲ (FLIP) dagger · △ (FLOP) cup / Born rule | Dagger $(-)^\dagger$ · counit $\varepsilon_A: A^* \otimes A \to \mathbf{1}$ | Orientation reversal; duality; Born rule |
 | TWIST | ∮ | 🌀 | ↻ | Ribbon element $\theta_V: V \to V$; topological spin | Phase / monodromy; 1-to-1 with memory |
 | BIND | ⋈ | 💎 | ⋈ | Associator $\alpha_{A,B,C}: (A \otimes B) \otimes C \xrightarrow{\sim} A \otimes (B \otimes C)$; $F$-matrix | Non-associative fusion; recoupling; entanglement |
 
