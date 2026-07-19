@@ -20,11 +20,17 @@ One instruction set. Twenty orders of magnitude. From nuclear spectroscopy to qu
 
 ---
 
-## What is Thermyon?
+## Computation at finite temperature
 
-**Thermyon** is a unified computational framework built around a five-opcode instruction set — the **Origami ISA** — whose operations correspond exactly to the primitives of Čech cohomology on a sheaf.
+Classical logic is the zero-temperature limit — frozen, deterministic, β→∞. Every `if` statement, every argmax, every hard decision boundary is what you get when you turn the heat all the way down. **Thermyon** is the framework for what happens when you turn it back up.
 
-The computation works because Lie groups are the natural tape for a generalised Turing machine: the Chladni resonance patterns on the group manifold encode the computational state, and the topology of those nodal lines — their H⁰/H¹/H² structure — is the skeleton of the calculation. The **Maslov–Gibbs Einsum (MGE)** makes that skeleton differentiable: discrete combinatorial models become smooth functions of a single temperature parameter β.
+Your favourite large language model already runs at finite temperature. Softmax with temperature T is not a trick bolted onto neural networks — it is Gibbs sampling, the same Boltzmann distribution that governs a steam engine, a financial market, and an enzyme active site. Fuzzy has been the new computing paradigm for a while. Thermyon makes the mathematics explicit.
+
+At finite β, probabilistic reasoning becomes Gibbs sampling. At imaginary β = it/ℏ, quantum interference appears — the Wick rotation that connects statistical mechanics to quantum mechanics is just β going complex. Near a critical point β\*, biological computation balances exploration against commitment: too cold and the enzyme is frozen in a local minimum, too hot and selectivity vanishes.
+
+The name comes from **thermionic emission** — the process by which a heated cathode releases electrons, controlled by temperature and the Boltzmann factor e^{−βE}. A vacuum tube computes by managing thermal energy. So does Thermyon. β is the voltage; the five opcodes are the circuit.
+
+**Thermyon** is built around a five-opcode instruction set — the **Origami ISA** — that runs at every temperature, over any arithmetic, under any symmetry group. The **Maslov–Gibbs Einsum (MGE)** makes β a differentiable coordinate: discrete combinatorial models become smooth functions of temperature, and the snap at β\* is a genuine phase transition, not a metaphor.
 
 ---
 

@@ -2,15 +2,15 @@
 layout: default
 title: Pillars
 nav_order: 2
-description: "The four load-bearing ideas of the Thermyon / Origami ISA framework."
+description: "The five load-bearing ideas of the Thermyon / Origami ISA framework."
 ---
 
 {% include isa-nav.html %}
 
-# The Four Pillars
+# The Five Pillars
 {: .no_toc }
 
-*Everything else in the framework is an application of these four ideas.*
+*Everything else in the framework is an application of these five ideas.*
 {: .fs-5 .fw-300 }
 
 ---
@@ -81,6 +81,31 @@ Whether an orbit is **closed** (H² = 0, stable) or **open** (H² ≠ 0, unstabl
 The Fano plane (7 points, 7 lines, the smallest projective plane) is the minimal structure that realises H² non-trivially. The **β\* snap** — the phase transition at the critical inverse temperature — is the moment an orbit closes. It appears at the same Grassmannian angle θ_G ≈ 20° across all four domains.
 
 *Key papers: 317, 325, 357 (MIP\* = RE), 563, 570, 595, 596, 602*
+
+---
+
+## 5. Four-body interactions are irreducible
+
+Every colour you have ever seen — the blue of the sky, the green of a leaf, the orange of a flame, the entire visible spectrum of every star — is ultimately governed by spectroscopy. And spectroscopy has been understood since the 1930s to rest on a single irreducible mathematical object: the **6j symbol**, the recoupling coefficient for three angular momenta combining into a fourth. Wigner, Racah, and Weyl worked this out before the Second World War. The 6j is not a 2-body interaction dressed up in notation. It is genuinely, irreducibly a 4-body object — four particle lines meeting at a vertex — and no combination of pairwise forces can reproduce it.
+
+This surprises most people. We are trained to think that nature is pairwise at heart: Newton's gravity, Coulomb's law, the bilateral loan, the two-qubit gate. But the 6j symbol has been sitting in the spectroscopy textbooks for ninety years, quietly ruling out that picture for any system with non-Abelian symmetry.
+
+**BIND is that object.** In the Origami ISA, BIND is the opcode that encodes the non-trivial associator — the F-matrix of a fusion category, the octonion associator, the 6j recoupling coefficient. It appears identically in:
+
+| System | BIND incarnation | Known since |
+|--------|-----------------|-------------|
+| Atomic / molecular spectroscopy | Racah 6j symbol; every spectral line | Racah 1942 |
+| Nuclear physics | Tensor force $S_{12}$; mandatory in every nucleus from the deuteron up | Wigner 1933 |
+| Topological quantum computing | Non-Abelian anyon F-matrix; fault-tolerant braiding | Kitaev 2003 |
+| Systemic financial risk | H² snap event; 2008 global financial crisis | — |
+| Nitrogen fixation (FeMoco) | 4-Majorana coupling in the iron-sulfur cluster | — |
+| Non-Abelian anyons | Pentagon equation for fusion categories | Moore–Seiberg 1989 |
+
+BIND cannot be built from TWIST or FLIP applied twice. It is not a 2-body interaction in disguise. The reason DFT fails for strongly-correlated molecules, the reason Clifford circuits cannot achieve universal quantum computation, and the reason the 2008 crisis could not be unwound bilaterally are all the same theorem: you hit the H¹→H² boundary and BIND is on the other side.
+
+The irreducibility of 4-body interactions is not a new discovery. It is a ninety-year-old fact from spectroscopy that has not yet been fully absorbed by the rest of science. Thermyon names it, and makes it computable across every domain where it appears.
+
+*Key papers: 258, 357, 447, 455, 571, 572 (ISA chain complex and G₂ spider)*
 
 ---
 
