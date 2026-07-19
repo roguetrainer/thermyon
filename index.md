@@ -7,7 +7,7 @@ nav_order: 1
 {% include isa-nav.html %}
 
 <div style="text-align:center; margin-bottom: 1.5rem;">
-  <img src="/adelic-simplicial-architecture/assets/images/asa-logo.png" alt="Alchemiac logo" width="220">
+  <img src="/assets/images/asa-logo.png" alt="Thermyon logo" width="220">
 </div>
 
 **Author:** Ian R. C. Buckley — [ORCID 0009-0004-9287-2902](https://orcid.org/0009-0004-9287-2902)
@@ -16,13 +16,13 @@ One instruction set. Twenty orders of magnitude. From nuclear spectroscopy to qu
 
 [Browse all papers on Zenodo](https://zenodo.org/communities/thermyon/records){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [ISA reference →](opcodes.md){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/roguetrainer/adelic-simplicial-architecture){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/roguetrainer/thermyon){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## What is Alchemiac?
+## What is Thermyon?
 
-**Alchemiac** is a unified computational framework built around a five-opcode instruction set — the **Origami ISA** — whose operations correspond exactly to the primitives of Čech cohomology on a sheaf.
+**Thermyon** is a unified computational framework built around a five-opcode instruction set — the **Origami ISA** — whose operations correspond exactly to the primitives of Čech cohomology on a sheaf.
 
 The computation works because Lie groups are the natural tape for a generalised Turing machine: the Chladni resonance patterns on the group manifold encode the computational state, and the topology of those nodal lines — their H⁰/H¹/H² structure — is the skeleton of the calculation. The **Maslov–Gibbs Einsum (MGE)** makes that skeleton differentiable: discrete combinatorial models become smooth functions of a single temperature parameter β.
 
