@@ -34,7 +34,7 @@ The **Maslov–Gibbs Einsum (MGE)** is the operation that makes β a differentia
 
 ## 2. The H^k stratification
 
-Every computation has a cohomological address. The three tiers are not a taxonomy — they are a theorem: the Pentagon identity d² = 0 forces exactly this structure.
+Every computation has a cohomological address. The three tiers are not a taxonomy — they are a theorem: the [Pentagon identity](https://en.wikipedia.org/wiki/Biedenharn%E2%80%93Elliott_identity) d² = 0 forces exactly this structure.
 
 | Tier | Cohomology | Opcodes | Character |
 |------|------------|---------|-----------|
@@ -42,11 +42,17 @@ Every computation has a cohomological address. The three tiers are not a taxonom
 | H¹ | Gauge / triangular | + TWIST | Phase accumulation, convexity, stabiliser QC |
 | H² | Systemic / entangled | + BIND | Entanglement, correlation, fault-tolerant QC |
 
+**The triangle and the tetrahedron.** H⁰ is a closed triangle: three nodes, three edges, everything balances bilaterally. H¹ is what happens when you try to fill that triangle with a consistent phase and find you can't — there is a [Berry phase](https://en.wikipedia.org/wiki/Geometric_phase), a convexity correction, a residual that won't cancel. H² is four triangles glued into a [tetrahedron](https://en.wikipedia.org/wiki/Tetrahedron): the interior is genuinely non-trivial, and evaluating it requires the 6j symbol. The [Pachner move](https://en.wikipedia.org/wiki/Pachner_moves) that replaces one tetrahedron with four — and the identity that says both give the same amplitude — is the Pentagon identity, and it is the same equation as d² = 0.
+
+**In finance.** Three banks A→B→C→A form an H¹ cycle: bilateral netting cannot dissolve it, but it is not yet catastrophic. The 2008 crisis arrived when those H¹ cycles became globally inconsistent — H² ≠ 0 — and no bilateral deal could fix it. Only a systemic intervention (central bank, not counterparty) operates at H². The Pentagon identity is the no-arbitrage condition; its failure is a financial crisis.
+
+**In machine learning.** Each attention head is an H⁰ orbit. Multi-head attention accumulates H¹ phase across heads. The grokking phenomenon — where a network suddenly generalises after a long plateau — is an H² snap: the loss landscape crosses β* and the circuit topology discretely changes. LLM temperature is literally β⁻¹; sampling at T > 0 is Gibbs sampling at finite β.
+
+**The Weyl chamber and magic.** The same cohomological boundary that separates classically simulable (H¹, Clifford) from universal (H², magic) quantum circuits also separates DFT-tractable from DFT-failing molecules. The [Weyl chamber](https://en.wikipedia.org/wiki/Weyl_group) stratification and the Grassmannian angle θ_G are the same geometric object seen from quantum computing and chemistry respectively. This is not analogy: Paper 595 proves they carry the same Bredon H² class (Euler characteristic 2).
+
 The **Pentagon identity** (d² = 0) is simultaneously: the HJM no-arbitrage condition · the Biedenharn–Elliott identity · the MIP\* verifier constraint · the H² = 0 financial stability condition. One equation, four theorems.
 
-Quantum speedup has a cohomological address: problems that admit exponential speedup require H² resources (genuine magic / BIND). Problems solvable with H¹ resources (stabiliser / TWIST) are classically simulable by Gottesman–Knill.
-
-*Key papers: 420 (H^k complexity ladder), 421, 469 (ISA completeness), 470 (hot logic), 472 (Shor lifting), 595 (Weyl chamber homology)*
+*Key papers: 420 (H^k complexity ladder), 421, 469 (ISA completeness), 470 (hot logic), 472 (Shor lifting), 595 (Weyl chamber homology), 596 (Weyl–DFT accelerator)*
 
 ---
 

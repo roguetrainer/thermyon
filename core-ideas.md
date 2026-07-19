@@ -27,9 +27,10 @@ These are not summaries of individual papers — they are the ideas that span fa
 | [6](core-ideas/ig-carnot-cycle.md) | **Nature runs information-geometric Carnot cycles.** Every fidelity machine operates a four-leg IG Carnot cycle; β\* is the Carnot-optimal point. | Biology / chemistry | 325, 510, 574 |
 | [7](core-ideas/stratification-principle.md) | **The H^k stratification is not an analogy.** The three-tier structure makes quantitative predictions across MCMC, chemistry, and quantum computing. | Universal | 420, 533, 557, 558 |
 | [8](core-ideas/cohomological-complexity.md) | **Quantum speedup has a cohomological address.** H⁰/H¹/H² classify which problems admit which speedups. | Quantum computing | 420, 421, 472, 473 |
+| 9 | **The same boundary that separates easy from hard quantum circuits also separates DFT from CASSCF.** The Weyl chamber / Grassmannian angle θ_G detects H¹→H² transition identically in chemistry and quantum computing. Magic and molecular correlation are the same obstruction. | Chemistry / QC | 595, 596, 570, 563 |
 
 ---
 
-*The four load-bearing ideas behind all of the above are on the [Pillars](pillars.md) page.*
+*The five load-bearing ideas behind all of the above are on the [Pillars](pillars.md) page.*
 
 {% include isa-nav.html %}
