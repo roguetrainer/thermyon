@@ -2,7 +2,6 @@
 layout: default
 title: Chemistry Roadmap
 nav_order: 7
-nav_exclude: true
 ---
 
 # Chemistry Roadmap
@@ -256,3 +255,107 @@ list of validated entries. Key entries:
 | C02 | Fe(II) spin crossover | 0+1 | SCO gate = β* snap; 20/20 benchmark |
 | S01 | TM d-shell spectroscopy | 4 | Racah exact; Tanabe-Sugano from ORBIT |
 | S04 | FMO exciton dynamics | 2+4 | BIND fires at 7-BChl Fano geometry |
+
+---
+
+## Which paper for which use case?
+
+Choose your question to find the most relevant papers and entry points.
+
+### "I want to understand enzyme kinetics"
+
+1. **[Paper 515: Protein Folding ISA](https://doi.org/10.5281/zenodo.21345099)**
+   - Spontaneous symmetry making (SSM) as the H¹→H² transition
+   - Chaperones as quantum error correction (H² QEC)
+   - Validated on protein stability prediction (AUC=0.981)
+
+2. **[Paper 510: Kinetic Proofreading as QEC](https://doi.org/10.5281/zenodo.21345099)**
+   - Proofreading IS quantum error correction
+   - H⁰×H¹×H² gives 10⁹/10⁶/10⁴ fidelity for Pol III/RNAP/ribosome
+
+3. **[Paper 447: Opcode Rosetta Stone](https://doi.org/10.5281/zenodo.21219710)**
+   - Chemical reactions as PROP morphisms
+   - Composite reactions from simple opcode sequences
+
+---
+
+### "I want to predict transition metal complex properties"
+
+1. **[Paper 488: Galois Chemistry](https://doi.org/10.5281/zenodo.21373477)**
+   - DFT as H² computation; why transition metals need non-abelian treatment
+   - When DFT fails silently (derivative discontinuity at β* snap)
+
+2. **[Paper 596: Weyl-DFT Accelerator](https://doi.org/10.5281/zenodo.21373469)**
+   - Weyl c₂ as DFT failure detector (r=0.990)
+   - MGE soft routing replaces hard CASSCF threshold
+   - The optimal threshold δ* = (π/4)√α from cost-accuracy tradeoff
+
+3. **[Paper 563: Hubbard/Mott ISA](https://doi.org/10.5281/zenodo.21300671)**
+   - Hubbard model as H² computation
+   - Strongly correlated systems stratified by U/t ratio
+
+---
+
+### "I want to design a new enzyme"
+
+1. **[Paper 490: Galois Protein Design](https://doi.org/10.5281/zenodo.21277821)**
+   - Forward: AlphaFold → ISA tier stratification → design constraints
+   - Inverse: desired H² property → ProteinMPNN → candidate sequences
+   - Validated on RNR, PSII, hemoglobin cooperativity
+
+2. **[Paper 515: Protein Folding ISA](https://doi.org/10.5281/zenodo.21345099)**
+   - SSM theorem: G_fold is created by H¹→H² transition, not pre-existing
+   - Chaperones perform H² error correction
+
+---
+
+### "I think my system might be topological"
+
+1. **[Paper 565: FQHE ISA](https://doi.org/10.5281/zenodo.21219756)**
+   - Fractional quantum Hall effect as H² topology
+   - Laughlin wavefunction as ISA-tier structure
+
+2. **[Papers 414, 416, 420: Chiral & Topological Chemistry](https://zenodo.org/communities/thermyon/)**
+   - Chiral molecules as H¹/H² topological objects
+
+3. **Contact us** — H³ (affine Kac-Moody) in chemistry is frontier research.
+
+---
+
+## FAQ
+
+### Q: Is my simple organic molecule H¹ or H²?
+
+**A:** Use the sCeleTon (Layer 0). If your molecule has only σ bonds and no transition metals / radicals → mostly H⁰/H¹. If it has aromaticity (resonance) or open-shell character → H¹–H² boundary. If it has a transition metal → definitely H². Use Layer 1 (θ_G, Weyl c₂) to know exactly.
+
+---
+
+### Q: Does ISA replace DFT?
+
+**A:** No. ISA tells you **which tier** your system is in. It then tells you which computational method is appropriate for that tier. DFT is an H² method (it assumes single-determinant ground state; breaks at H² derivative discontinuity). Use ISA to know when DFT will fail silently, *before* you run it. Then use CCSD (H¹) or CASSCF (H²) as appropriate.
+
+---
+
+### Q: My system has strong correlation. Should I just use CASSCF?
+
+**A:** Not necessarily. CASSCF is H² (best for systems with real topological obstruction). If your system is H¹ (single-reference but correlated), CCSD is cheaper and often accurate. Use Layer 1 (Weyl c₂, θ_G) to know the difference. The routing table tells you the right method.
+
+---
+
+### Q: Can H³ (affine Kac-Moody) appear in chemistry?
+
+**A:** Unknown. We predict it appears in topological materials. Experiments from knot theory show H³ exists in nature. Whether it appears in *chemistry* is an open question. You might discover it first!
+
+---
+
+## Related Resources
+
+- **[Opcodes Reference](opcodes.md)** — The five generators (LABEL, ORBIT, TWIST, BIND, FLIP)
+- **[β-Plane Geometry](forge-meld.md)** — How Forge and Meld ISAs relate via Wick rotation
+- **[Start Here](start-here.md)** — Entry points by reader background
+- **[All Papers](papers.md)** — Full bibliography with Zenodo DOIs
+- **[ISA Zoo](zoo.md)** — Validated programmes across chemistry, spectroscopy, and other domains
+
+---
+
+*Last updated: 2026-07-20*
