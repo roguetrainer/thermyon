@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Key Structures
-nav_order: 3
-parent: Reference
+nav_order: 9
 description: "Six mathematical structures that are genuinely load-bearing in Thermyon — with Wikipedia pointers and one-sentence explanations of their role."
 ---
 

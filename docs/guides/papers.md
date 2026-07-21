@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Papers
-nav_order: 3
-parent: Guides
+nav_order: 6
 ---
 
 {% include isa-nav.html %}

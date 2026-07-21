@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Geometric Langlands"
-nav_order: 2
-parent: Theory
+title: "The Langlands Perspective"
+nav_order: 7
+nav_exclude: true
 description: "The Langlands programme as adèlic ISA semiring-polymorphism: motivic L-functions (Harmonic ISA), automorphic forms (Meld ISA), and local factors (p-adic ISA) are the same programme over different semirings."
 tags: [langlands, l-functions, automorphic, motives, adelic, harmonic, meld, p-adic, number-theory, geometric-langlands]
 portfolio: B

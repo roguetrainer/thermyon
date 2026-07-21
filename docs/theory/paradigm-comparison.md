@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Paradigm Comparison"
-nav_order: 4
-parent: Theory
+nav_order: 6
+nav_exclude: true
 ---
 
 # Computing Paradigm Comparison: Classical vs Quantum vs ASA

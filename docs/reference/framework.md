@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Framework
-nav_order: 4
-parent: Reference
+nav_order: 10
+nav_exclude: true
 description: "How the layers of the Thermyon framework fit together: MGE, Origami ISA, H^k ladder."
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Explainers
-nav_order: 2
-parent: Guides
+nav_order: 5
 has_children: true
 ---
 
