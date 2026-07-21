@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Explainers
-nav_order: 8
+nav_order: 6
 has_children: true
 ---
 
