@@ -105,14 +105,13 @@ The Langlands programme studies the correspondence between automorphic forms (sp
 
 | ISA opcode | Category theory | Physical meaning |
 |------------|----------------|-----------------|
-| ORBIT | Limit / equaliser | Eigenspace, stabiliser, fixed point |
-| FLIP/FLOP | Terminal/initial object | Vacuum state, phase flip |
-| SPLIT | Pullback | Tensor product decomposition |
-| SPLAT | Pushout | Projection, partial trace |
-| TWIST | Ext¹ / Berry phase | Phase correction, resonance integral |
-| BIND | Ext² / holonomy | Non-Abelian correction, covalent bond |
+| ORBIT 🔄 | Limit / trace | Eigenspace, stabiliser, fixed point; diagonalisation |
+| LABEL 🏷️ | Multiplication / unit | Quantum number assignment; projection; sector selection |
+| FLIP 👁️ | Dagger / counit | Time-reversal; particle-hole; Born rule; duality |
+| TWIST 🌀 | Ext¹ / ribbon element | Phase correction, resonance integral; Berry phase; monodromy |
+| BIND 💎 | Ext² / associator | Non-Abelian correction, covalent bond; recoupling; F-matrix |
 
-The chain complex terminating at H² is the statement that Ext^k = 0 for k > 2 in these categories — there is no BIND-of-BIND opcode.
+The chain complex terminating at H² is the statement that Ext^k = 0 for k > 2 in these categories — there is no BIND-of-BIND opcode. (Legacy names: SPLIT ⊂ ORBIT, SPLAT ⊂ LABEL, FLOP ⊂ FLIP.)
 
 ---
 
