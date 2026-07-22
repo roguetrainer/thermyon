@@ -1,21 +1,23 @@
 ---
 layout: default
-title: β-plane
+title: The β-plane
 nav_order: 4
-description: "The four ISA regimes of the TRS framework: Origami (β → ∞), Forge (finite β), Meld (β = it), and the Harmonic ISA (β → 0, Hodge) — plus the p-adic and adèlic extensions."
+description: "The β-plane: how a single inverse-temperature parameter β indexes every ISA regime — Origami (β → ∞), Forge (finite β), Meld (β = it), Raven (β ∈ ℂ), and the Ambient (β → 0) — plus the p-adic and adèlic extensions."
 tags: [isa, forge, meld, ambient, harmonic, hodge, beta, snap, mge, gibbs, wick-rotation, tropical, complexity]
 portfolio: B
 ---
 
-# The Operative and Harmonic ISAs
+# The β-plane
 {: .no_toc }
 
-*The TRS framework has four ISA regimes. Three are **operative**: they run
-programmes by composing local opcodes over a finite state space — Origami
-(β → ∞, tropical), Forge (finite β, thermodynamic), and Meld (β = it, quantum).
-The fourth is the **Harmonic ISA** (β → 0): it computes by global relaxation to
-harmonic representatives on the smooth manifold from which all three operative
-ISAs are carved.*
+*A single parameter — the inverse temperature β — indexes the entire ISA family.
+Three ISAs are **operative**: they run programmes by composing local opcodes over
+a finite state space — Origami (β → ∞, tropical), Forge (0 < β < ∞, thermodynamic),
+and Meld (β = it, quantum). Raven extends into the complex plane (β ∈ ℂ, PT-symmetric).
+The **Ambient** is the β → 0 limit: not an ISA but the smooth containing manifold
+from which all operative ISAs precipitate. The Harmonic ISA is the computational
+regime that operates in the Ambient — global relaxation to harmonic representatives
+rather than local opcode composition.*
 {: .fs-5 .fw-300 }
 
 ---
@@ -39,16 +41,22 @@ This is the **Maslov-Gibbs Einsum (MGE)** — the core operation of the entire
 framework ([Paper 201](https://doi.org/10.5281/zenodo.17981393)). The β parameter
 has two natural extensions from the real positive axis:
 
-| β | Arithmetic | ISA | Regime |
+| β | Arithmetic | ISA / regime | Character |
 |---|-----------|-----|--------|
-| $\beta \to \infty$ | Tropical $(\max,+)$ | Origami (tropical limit) | Frozen; classical; discrete logic |
+| $\beta \to \infty$ | Tropical $(\max,+)$ | Origami | Frozen; classical; discrete logic |
 | $0 < \beta < \infty$ | Real Gibbs ($\mathbb{R}_{>0}$) | Forge | Statistical; thermodynamic; snap at $\beta^*$ |
 | $\beta = it$ | Complex ($\mathbb{C}$) | Meld | Quantum; interference; unitary |
-| $\beta \to 0$ | Uniform; smooth Hodge | *The Ambient* | Hodge decomposition; harmonic representatives |
+| $\beta \in \mathbb{C}$ | PT-symmetric | Raven | Hot; dissipative; exceptional points |
+| $\beta \to 0$ | Uniform; smooth Hodge | *The Ambient* (Harmonic ISA) | Maximum entropy; Hodge decomposition |
 
-The three ISAs are not three different instruction sets — they are the same opcodes
-evaluated over three different semirings. The Ambient is not an ISA at all; it is
-the smooth manifold from which all three are carved.
+The operative ISAs are not different instruction sets — they are the same five
+opcodes evaluated over different semirings. The **Ambient** is a different kind
+of object: the smooth containing manifold at β → 0, not an operative ISA.
+The **Harmonic ISA** is the name for *computing in the Ambient* — global
+relaxation to harmonic representatives rather than local opcode composition.
+The distinction matters: the Ambient is the mathematical object (the manifold);
+the Harmonic ISA is what you do there (Hodge decomposition, optimal transport,
+diffusion).
 
 ---
 
@@ -177,15 +185,18 @@ The 731-ISA reaches the second level. Standard Meld ISA suffices for the first.
 
 ---
 
-## The Harmonic ISA: β → 0
+## The Ambient and the Harmonic ISA: β → 0
 
-The **Harmonic ISA** is the β → 0 limit of the MGE — the smooth, maximum-entropy
-manifold from which all three operative ISAs are carved. Unlike the operative ISAs,
-it does not execute programmes by composing local opcodes. Instead it computes by
+At β → 0 the Gibbs weights become uniform — every path has equal weight. This is
+the **Ambient**: the smooth, maximum-entropy manifold from which all operative ISAs
+precipitate as β rises. The Ambient is not itself an ISA; it is the medium.
+
+The **Harmonic ISA** is the name for *computation performed in the Ambient*. Unlike
+the operative ISAs, it does not compose local opcodes. Instead it computes by
 **global relaxation to harmonic representatives**: given a differential form, find
-the unique element of its cohomology class that satisfies $\Delta \omega = 0$.
-This is a definite computation with definite outputs — it is an ISA, but of a
-different kind.
+the unique element of its cohomology class satisfying $\Delta \omega = 0$.
+This is definite computation with definite outputs — an ISA of a different kind
+than the operative three.
 
 **The Harmonic ISA opcodes:**
 
@@ -271,7 +282,7 @@ Each prime p adds a **p-adic axis** into the β-plane, carrying the p-adic ISA
 | $\beta \to \infty$ | Tropical $(\max,+)$ | Origami | Argmax; discrete logic |
 | $0 < \beta < \infty$ | Gibbs ($\mathbb{R}_{>0}$) | Forge | Snap at $\beta^*$; annealing |
 | $\beta = it$ | Complex ($\mathbb{C}$) | Meld | Unitary; T-gate; interference |
-| $\beta \to 0$ | Uniform; Hodge | *Harmonic ISA* | Hodge decomposition; harmonic representatives |
+| $\beta \to 0$ | Uniform; Hodge | Harmonic ISA (in the Ambient) | Hodge decomposition; harmonic representatives |
 | $\beta \in \mathbb{Q}_p$ | p-adic ($\mathbb{Z}_p$) | U-MGE / p-adic ISA | NTT = QFT; Hensel = VQE |
 | $\beta \in \mathbb{A}_\mathbb{Q}$ | Adèlic ($\mathbb{A}$) | Adèlic ISA | All primes simultaneously |
 
