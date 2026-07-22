@@ -767,7 +767,7 @@ most powerful: systems with BIND can encode computations that BIND-free
 | LABEL | SPLAT | 🕷️ | $\mu: A \otimes A \to A$ (merge) | $4 \to 1$ | — | All rungs | L-function evaluation |
 | TWIST | — | 🕷️* | $\theta\_V: V \to V$ (curl) | Gauge move | $S$ (chiral) | All rungs | Monodromy of local system |
 | FLIP | — | 🕷️ | $(-)^\dagger$ (wire reversal) | $1 \to 3$ | $T$ (time reversal) | $\mathbb{R}$ / $\mathbb{H}$ | Langlands duality $G \leftrightarrow G^\vee$ |
-| FLOP | — | 🕷️* | $\varepsilon_A: A^* \otimes A \to \mathbf{1}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
+| ↳ FLOP | *(FLIP sub-role)* | 🕷️* | $\varepsilon_A: A^* \otimes A \to \mathbf{1}$ (cup) | $3 \to 1$ | $C$ (particle-hole) | $\mathbb{R}$ / $\mathbb{H}$ | Abelian reciprocity ($GL\_1$) |
 | BIND | — | 🐸 | Associator $\alpha\_{A,B,C}$ (trivalent) | Obstruction | — | $\mathbb{O}$ only | Non-Abelian Hecke interaction |
 
 ---
