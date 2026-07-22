@@ -1,6 +1,6 @@
-# Hot Logiq — Raven ISA and HPU Programming Model
+# Hot LogiQ — Raven ISA and HPU Programming Model
 
-Source for the [Hot Logiq website](https://hotlogiq.ca), a reference for the **Raven ISA** — instruction set architecture for hot quantum computing: open, dissipative, non-unitary quantum systems.
+Source for the [Hot LogiQ website](https://hotlogiq.ca), a reference for the **Raven ISA** — instruction set architecture for hot quantum computing: open, dissipative, non-unitary quantum systems.
 
 > *Eureka!* — Archimedes, upon jumping out of the bath. We respectfully disagree.
 
