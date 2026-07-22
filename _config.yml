@@ -1,6 +1,6 @@
-title: Thermyon — Origami ISA Framework
+title: Hot Logiq — Raven ISA and HPU Programming Model
 description: Five opcodes. One framework. Every scale of nature.
-url: "https://thermyon.ca"
+url: "https://hotlogiq.ca"
 baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs@v0.10.0
@@ -14,7 +14,7 @@ color_scheme: light
 logo: "/assets/images/asa-logo.png"
 favicon_ico: "/assets/images/asa-logo.png"
 
-custom_domain: thermyon.ca
+custom_domain: hotlogiq.ca
 
 search_enabled: true
 search:

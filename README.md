@@ -1,10 +1,13 @@
-# Alchemiac — Origami ISA Framework
+# Hot Logiq — Raven ISA and HPU Programming Model
 
-Source for the [Alchemiac website](https://roguetrainer.github.io/adelic-simplicial-architecture/), a reference for the **Origami ISA** — a five-opcode instruction set (LABEL / ORBIT / TWIST / BIND / FLIP) unifying computation across quantum mechanics, chemistry, biology, and finance via Čech cohomology and the Maslov–Gibbs Einsum.
+Source for the [Hot Logiq website](https://hotlogiq.ca), a reference for the **Raven ISA** — instruction set architecture for hot quantum computing: open, dissipative, non-unitary quantum systems.
+
+> *Eureka!* — Archimedes, upon jumping out of the bath. We respectfully disagree.
 
 **Author:** Ian R. C. Buckley · [ORCID 0009-0004-9287-2902](https://orcid.org/0009-0004-9287-2902)  
 **Zenodo community:** [thermyon](https://zenodo.org/communities/thermyon/) · 630+ papers (2024–)  
-**Live site:** <https://roguetrainer.github.io/adelic-simplicial-architecture/>
+**PyPI:** [hotlogiq](https://pypi.org/project/hotlogiq/)  
+**Live site:** <https://hotlogiq.ca>
 
 ---
 
