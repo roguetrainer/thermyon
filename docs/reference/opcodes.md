@@ -225,14 +225,15 @@ operations *within* one orbital. For **bonding** — operations *between* orbita
 PROP must carry a second Frobenius algebra structure, one where the objects carry
 orbital-knot labels. Category theory forces exactly two new opcodes and no others:
 
-| CT symbol | Name | Type | Physical meaning | Status |
-| --------- | ---- | ---- | ---------------- | ------ |
-| $\eta$    | ORBIT | $\mathbf{1} \to A$ | orbital creation, prepare torus knot eigenstate | ✓ exists |
-| $\delta$  | BIND  | $A \to A \otimes A$ | Hopf fibration split, entanglement creation | ✓ exists |
-| $\varepsilon$ | FLIP | $A \to \mathbf{1}$ | measurement, orbital annihilation | ✓ exists |
-| $\mu$     | **MERGE** | $A \otimes A \to A$ | covalent bond formation: connected sum of torus knots | ✗ **new** |
-| —         | **LINK**  | $A \otimes B \to A \otimes B$ | coordinate/dative bond: Hopf linking without topology change | ✗ **new** |
-| —         | SNAP  | **2-cell** $\mathcal{F} \to \mathcal{F}'$ | β\* tier transition; switches active PROP | primitive (see below) |
+| CT symbol | Name | Type | Frobenius dual | Physical meaning | Status |
+| --------- | ---- | ---- | -------------- | ---------------- | ------ |
+| $\eta$    | ORBIT | $\mathbf{1} \to A$ | FLIP | orbital creation, prepare torus knot eigenstate | ✓ exists |
+| $\delta$  | BIND  | $A \to A \otimes A$ | MERGE | Hopf fibration split, entanglement creation | ✓ exists |
+| $\varepsilon$ | FLIP | $A \to \mathbf{1}$ | ORBIT | measurement, orbital annihilation | ✓ exists |
+| $\mu$     | **MERGE** | $A \otimes A \to A$ | BIND | covalent bond formation: connected sum of torus knots | ✗ **new** |
+| —         | **LINK**  | $A \otimes B \to A \otimes B$ | LINK (self-dual) | coordinate/dative bond: Hopf linking without topology change | ✗ **new** |
+| —         | SNAP↑ | **2-cell** $\mathcal{F} \to \mathcal{F}'$ | SNAP↓ (inverse) | β\* tier promotion H^k → H^{k+1}; switches active PROP upward | primitive (see below) |
+| —         | SNAP↓ | **2-cell** $\mathcal{F}' \to \mathcal{F}$ | SNAP↑ (inverse) | β\* tier demotion H^{k+1} → H^k; switches active PROP downward | primitive (see below) |
 
 **Why MERGE is forced:** a Frobenius algebra requires a multiplication map
 $\mu: A \otimes A \to A$. In the single-site ISA, this role is played by the LABEL
@@ -261,6 +262,13 @@ detailed balance — lives outside the Frobenius sector. The Frobenius condition
 an extra axiom imposed on chemistry; it is the algebraic statement of a law chemistry
 already obeys.
 
+**Opcode duality:** the 1-cell opcodes come in Frobenius dual pairs: (ORBIT, FLIP) and
+(BIND, MERGE). TWIST and LINK are self-dual. Frobenius duality is *not* the same as
+inversion: MERGE is not the inverse of BIND (they are adjoint under the Frobenius
+condition, not composites that yield identity). In quantum computing terms, BIND
+creates an entangled Bell pair and MERGE fuses one — they are the creation/annihilation
+pair of the Frobenius algebra, related by $\delta^\dagger = \mu$.
+
 **Why SNAP is primitive — and not derivable from MERGE + FLIP:**
 MERGE, LINK, and all the other opcodes are **1-cell morphisms within a PROP** —
 operations that act inside a fixed computational tier (a fixed free-energy basin).
@@ -269,12 +277,21 @@ the system transitions between ISA tiers (H⁰ $\leftrightarrow$ H¹ $\leftright
 No composition of 1-cells can produce a 2-cell: they live at different categorical
 levels. SNAP is therefore primitive by categorical level, not by type.
 
-The physical analogue is exact: MERGE is a chemical reaction (reversible, within one
-thermodynamic phase, satisfies the Frobenius condition). SNAP is a phase transition
-(irreversible, crosses between phases, violates the Frobenius condition on
-the side of the transition it came from). No sequence of chemical reactions produces
-a phase transition. This is why SNAP cannot be written as FLIP∘MERGE — the two
-operations are not in the same categorical layer.
+**SNAP has no Frobenius dual but does have an inverse:** as a 2-cell, SNAP↑ (tier
+promotion, $\mathcal{F} \to \mathcal{F}'$) and SNAP↓ (tier demotion,
+$\mathcal{F}' \to \mathcal{F}$) are mutual inverses — together they form a 2-cell
+isomorphism. This corresponds physically to a reversible phase transition: increasing
+$\beta$ past $\beta^*$ fires SNAP↑; decreasing $\beta$ back fires SNAP↓. Spin-crossover
+hysteresis is the pair (SNAP↑, SNAP↓) following different paths through the
+$\beta$-plane (nonzero imaginary part during the loop). LIESST is SNAP↑ firing while
+SNAP↓ is kinetically blocked at low temperature. The irreversibility of a *particular*
+SNAP event is kinetic, not categorical: SNAP↑ and SNAP↓ are both valid 2-cells.
+
+The physical analogue of SNAP's categorical level: MERGE is a chemical reaction
+(reversible, within one thermodynamic phase, satisfies the Frobenius condition).
+SNAP is a phase transition (crosses between phases). No sequence of chemical reactions
+produces a phase transition. This is why SNAP cannot be written as FLIP∘MERGE — the
+two operations are not in the same categorical layer.
 
 **Consequence for PT-symmetric computing (Paper 664):** the exceptional point (EP)
 crossing in a PT-symmetric material is a physical realisation of the SNAP 2-cell.
