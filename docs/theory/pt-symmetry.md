@@ -261,21 +261,66 @@ structure of the multi-sheet EP locus at irrational ε.
 
 ## Papers
 
-- [PT Symmetry in Unexpected Places](https://doi.org/10.5281/zenodo.21480284) —
-  the full ISA treatment of PT systems; PiTch number derivation; H^k tier
-  identification; the place to start for the mathematics
+**Foundation — parameter space and tier structure**
 
-- [The β-plane](https://doi.org/10.5281/zenodo.21245459) — the unified
-  parameter space in which PT systems live; how classical, quantum, and
-  non-Hermitian dynamics occupy different addresses in complex β-space
+- [PT Symmetry in Unexpected Places](https://doi.org/10.5281/zenodo.21480284) (`PtSurvey`) —
+  survey across chemistry, QEC, ranking, biology, information geometry; EP = β\* snap theorem;
+  Raven ISA; FEP-PT bridge; written for Carl Bender
 
-- [HPU Architecture](https://doi.org/10.5281/zenodo.21500669) — the hardware
-  side; EP sensors as HPU-E substrate; the Raven ISA opcodes SNAP↑/↓, ERASE,
-  FLOW(β∈ℂ); routes to room-temperature dissipative computation
+- [The Non-Hermitian ISA: PT Symmetry, Exceptional Points, and the 38-Fold Way](https://doi.org/10.5281/zenodo.21480491) (`NonHermIsa2`) —
+  AZ symmetry classes in ISA language; LABEL failure = PT phase transition; EP at H¹/H² boundary
 
-- [PiTch: A Topological Invariant for PT-Symmetric Systems](https://doi.org/10.5281/zenodo.21509972)
-  — the entry-point paper written specifically for the PT community;
-  self-contained; no prior ISA knowledge assumed; 24/24 numerical checks
+- [The Adelic β-Plane](https://doi.org/10.5281/zenodo.21245459) (`AdelicBeta`) —
+  unified parameter space; classical (β real), quantum (β = it), PT-symmetric (β ∈ ℂ near imaginary axis)
+
+**The invariant**
+
+- [PiTch: A Topological Invariant for PT-Symmetric Systems](https://doi.org/10.5281/zenodo.21509972) (`PiTch`) —
+  **start here for the mathematics**; PiTch number S = n−1 for n-th order EP;
+  Berry phase Φ = πS; ℤₙ monodromy; Bender-Boettcher S = 0 certificate; 24/24 checks ·
+  [Explainer (1 page)](https://github.com/roguetrainer/differentiable-tropical-networks/blob/main/papers/678_snap_count_pt_symmetry/EXPLAINER_678.md)
+
+- [Mean-Field Breakdown, Exceptional Geometry, and H² Universality](https://doi.org/10.5281/zenodo.21427824) (`MeanFieldBreak`) —
+  mean-field collapse at the H² threshold; exceptional points as universality boundary
+
+**PT symmetry in algorithms and computation**
+
+- [PT-Symmetric Lifting](https://doi.org/10.5281/zenodo.21480495) (`PtLifting`) —
+  unified language for quantum algorithms via EP-free evolution; HSP and walk families;
+  Conditions A/B/C for lifting
+
+- [PT-Exceptional-Point Search: Beyond the BBBV Bound](https://doi.org/10.5281/zenodo.21480499) (`PtEpSearch`) —
+  EP₂ beats Grover for N > 16 after Naimark dilation; BBBV inapplicable to non-unitary;
+  code distance = EP order
+
+- [PT-Symmetric Combinatorics](https://doi.org/10.5281/zenodo.21480493) (`PtCombinato`) —
+  SAT/TSP/graph-colouring as PT-breaking; Beraha numbers = EP₂; PT-Hardness Conjecture
+
+- [The β-Rank Family](https://doi.org/10.5281/zenodo.21479920) (`BetaRank`) —
+  TropicalRank/ForgeRank/MeldRank/RavenRank as β-deformation of pairwise ranking;
+  RavenRank = complex-β PT-symmetric ranking
+
+**Hardware and substrate**
+
+- [Raven on Existing Hardware](https://doi.org/10.5281/zenodo.21480501) (`RavenHardware`) —
+  three routes to complex-β (Lindblad/Naimark/hybrid); 5-qubit Ising example; hardware roadmap 2026–2035
+
+- [The Raven ISA: Enzymes as Molecular Programs](https://doi.org/10.5281/zenodo.21416925) (`RavenEnzyme`) —
+  enzyme kinetics as PT-symmetric computation; SNAP↑/↓, ERASE, FLOW(β ∈ ℂ)
+
+- [The Motive ISA](https://doi.org/10.5281/zenodo.21416909) (`MotiveIsa`) —
+  five primitive opcodes for dissipative systems; ERASE = second law; abstract parent of Raven
+
+- [HPU Architecture](https://doi.org/10.5281/zenodo.21500669) —
+  EP sensors as HPU-E substrate; routes to room-temperature dissipative computation
+
+**Connections to other domains**
+
+- [G₂ Snap Thresholds](https://doi.org/10.5281/zenodo.21401321) (`G2SnapThresh`) —
+  why 3-, 5-, and 7-qubit codes are canonical; G₂ geometry of the snap threshold
+
+- [The Maslov Moment](https://doi.org/10.5281/zenodo.21480503) (`MaslovMoment`) —
+  financial phase transitions; spinodal = EP₂; 2008 crisis as min-plus snap
 
 ---
 
