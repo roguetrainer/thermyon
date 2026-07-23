@@ -21,7 +21,7 @@ A single inverse temperature β interpolates between classical winner-takes-all 
 ## Get Started
 
 - **New to HotLogiQ?** [Start Here](docs/getting-started/start-here.md)
-- **Browse all papers on Zenodo** [→](https://zenodo.org/communities/thermyon/records)
+- **Browse all papers on Zenodo** [→](https://zenodo.org/communities/hotlogiq/records)
 - **ISA Reference** [→](docs/reference/opcodes.md)
 - **View on GitHub** [→](https://github.com/roguetrainer/hotlogiq)
 

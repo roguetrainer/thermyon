@@ -85,5 +85,5 @@ Five pages that together cover the core of the framework — in reading order:
 
 ---
 
-[All papers →](../guides/papers.md) · [Zenodo community →](https://zenodo.org/communities/thermyon/) · [ISA Family →](/docs/guides/pillars)
+[All papers →](../guides/papers.md) · [Zenodo community →](https://zenodo.org/communities/hotlogiq/) · [ISA Family →](/docs/guides/pillars)
 
