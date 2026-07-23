@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "PT Symmetry & Exceptional Points"
-nav_order: 8
+parent: Theory
+nav_order: 3
 description: "For physicists already fluent in PT-symmetric quantum mechanics: how exceptional points, PT phase transitions, and eigenvalue braiding connect to the H^k tier ladder, PiTch number, and the computational structure of non-Hermitian systems."
 tags: [pt-symmetry, exceptional-points, non-hermitian, berry-phase, gain-loss, pitch-number, pitch, hpu]
 portfolio: A

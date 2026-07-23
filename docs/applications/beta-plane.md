@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "β is a coordinate"
-parent: Core Ideas
+parent: Applications
 nav_order: 6
 nav_exclude: true
 tags: [beta, adelic, mge, tropical, quantum, forge-isa, meld-isa, planck, ostrowski, unification]

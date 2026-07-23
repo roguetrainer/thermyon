@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Processing Units
-nav_order: 5
+parent: Theory
+nav_order: 4
 description: "From CPU to HPU: how the H^k ISA tier ladder maps onto distinct hardware classes — Orbit (OPU), Resonance (RPU), and Hot (HPU) Processing Units alongside classical CPU/GPU/NPU/QPU."
 ---
 

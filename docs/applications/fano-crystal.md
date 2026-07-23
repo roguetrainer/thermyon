@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Fano crystal is universal"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 3
 nav_exclude: true
 description: "Whether an orbit is closed or open — the same binary — governs stability from quark confinement to financial contagion to photosynthetic efficiency."

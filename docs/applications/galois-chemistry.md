@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Every molecule runs a Galois programme"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 8
 nav_exclude: true
 description: "The spin state, valence, and catalytic barrier of any transition-metal complex are determined by G-orbit walks on its molecular G-set — computable in O(1), without DFT, at 300 K."

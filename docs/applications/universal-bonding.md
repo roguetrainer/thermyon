@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The bond is a point on the Grassmannian"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 8
 nav_exclude: true
 description: "Lewis, MO, and VB bonding theories are three approximations to the same geometric object — the Schmidt decomposition of the CI matrix on the Grassmannian. Three computable ISA quantities replace the classical heuristics, and the same framework extends to nuclear bonding and scattering amplitudes."

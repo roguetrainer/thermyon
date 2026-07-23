@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Nature runs information-geometric Carnot cycles"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 10
 nav_exclude: true
 description: "Every biological fidelity machine and every enzyme catalytic cycle operates a four-leg information-geometric Carnot cycle between a high-surprise reservoir and a low-surprise reservoir, with the adiabatic leg enforced by parallel transport on the Grassmannian."

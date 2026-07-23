@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The H^k stratification is not an analogy"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 7
 nav_exclude: true
 description: "Why the three-tier H⁰/H¹/H² structure appears across mathematics, physics, statistics, and science — what is exact, what is precise, and what is organisational."

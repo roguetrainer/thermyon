@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "β: The Universal Temperature"
-nav_order: 2
+parent: Theory
+nav_order: 1
 description: "The Maslov dequantization: a single inverse-temperature parameter β interpolates between two semirings — the tropical (max,+) at β→∞ and the probabilistic (+,×) at finite β. Every hard threshold in science is β→∞ in disguise."
 tags: [maslov, dequantization, semiring, tropical, mge, beta, temperature, softmax, boltzmann, snap, gibbs]
 portfolio: A

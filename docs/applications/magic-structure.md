@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Magic has a periodic table"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 1
 nav_exclude: true
 description: "Quantum non-classicality is not binary — it has orbits, valences, and dark states. The structure of magic mirrors the periodic table of elements."

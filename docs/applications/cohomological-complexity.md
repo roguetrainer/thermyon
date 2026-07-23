@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quantum speedup has a cohomological address"
-parent: "Core Ideas"
+parent: Applications
 nav_order: 4
 nav_exclude: true
 description: "H⁰, H¹, and H² classify which computational problems admit which kinds of quantum speedup — and why some problems are hard at every cohomological level."

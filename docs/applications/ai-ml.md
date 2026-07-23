@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "AI & Machine Learning"
-nav_order: 3
+parent: Applications
+nav_order: 9
 description: "How the HotLogiQ framework connects to AI and machine learning: the β-temperature unification, 4-point networks, LLM geometry, differentiable Shapley values, agentic consensus, and the HPC stale-data problem."
 tags: [ai, machine-learning, transformer, attention, shapley, llm, boltzmann, hopfield, bilinear, agentic, hpc, temperature]
 portfolio: A

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "The Langlands Perspective"
-nav_order: 7
-nav_exclude: true
+parent: Theory
+nav_order: 5
 description: "The Langlands programme as adèlic ISA semiring-polymorphism: motivic L-functions (Origami ISA), automorphic forms (Meld ISA), and local factors (p-adic ISA) are the same programme over different semirings."
 tags: [langlands, l-functions, automorphic, motives, adelic, meld, p-adic, number-theory, geometric-langlands]
 portfolio: B

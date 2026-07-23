@@ -1,7 +1,8 @@
 ---
 layout: default
 title: The β-plane
-nav_order: 4
+parent: Theory
+nav_order: 2
 description: "The β-plane: how a single inverse-temperature parameter β indexes every ISA regime — Origami (β → ∞), Forge (finite β), Meld (β = it), Raven (β ∈ ℂ), and the Ambient (β → 0) — plus the p-adic and adèlic extensions."
 tags: [isa, forge, meld, ambient, harmonic, hodge, beta, snap, mge, gibbs, wick-rotation, tropical, complexity]
 portfolio: B

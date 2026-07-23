@@ -367,7 +367,7 @@ vertex theorem) to quantitative predictions verified by experiment (Tier B: MCMC
 optimal acceptance rates, GEV shape parameter, Shor mana = 0) to useful
 organisational language for hierarchies the field already knew were hierarchical
 (Tier C: Pearl's causal ladder, fairness taxonomies). The programme does not claim
-all mappings are equally strong — [see the full precision taxonomy](core-ideas/stratification-principle.md).
+all mappings are equally strong — [see the full precision taxonomy](/docs/applications/stratification-principle).
 
 ---
 

@@ -19,7 +19,19 @@ description: "What HotLogiQ is, why it matters, and the shortest path to the cor
 
 Experts in quantum computing, spectroscopy, financial risk, and molecular biology have independently discovered the same three-tier structure — fixed points, local phase corrections, global topological obstructions — and given it different names in each field. **HotLogiQ** makes the common pattern explicit, computable, and transferable. The five opcodes (LABEL / ORBIT / TWIST / BIND / FLIP) are not analogies — they are the same categorical morphisms running on different physical substrates. The temperature parameter β is the single dial that interpolates between classical (β→∞), statistical (0<β<∞), and quantum (β=it/ℏ) regimes.
 
-The [Pillars](../guides/pillars.md) page gives the four load-bearing ideas. The [Origami ISA manifesto](https://doi.org/10.5281/zenodo.21428853) (Paper 631) gives the full technical case.
+The [Pillars](../guides/pillars) page gives the five load-bearing ideas. The [Origami ISA manifesto](https://doi.org/10.5281/zenodo.21428853) (Paper 631) gives the full technical case.
+
+---
+
+## Read these first
+
+Five pages that together cover the core of the framework — in reading order:
+
+1. **[β: The Universal Temperature](/docs/theory/maslov-dequantization)** — the single idea the whole framework rests on: β interpolates classical, statistical, and quantum regimes. Every hard threshold is β→∞ in disguise.
+2. **[The β-plane](/docs/theory/forge-meld)** — the full complex-β map: where Forge, Meld, Raven, and Origami live, and how PT-symmetric physics fits in.
+3. **[Pillars](/docs/guides/pillars)** — the five load-bearing claims, with the key evidence for each.
+4. **[Key Structures](/docs/reference/key-structures)** — the six mathematical objects the framework is built from (Grassmannian, Fano plane, Hopf fibration, …).
+5. **[Applications](/docs/applications/)** — ten concrete results, each spanning a family of papers.
 
 ---
 
