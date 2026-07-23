@@ -7,9 +7,12 @@
 
 .site-logo {
   display: block;
-  height: 3rem;
-  width: auto;
-  max-width: 100%;
+  width: 10rem;
+  height: 10rem;
+  background-image: url("/assets/images/hotlogiq-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 // ISA nav box — subtle warm background to complement the orange-red accent.
