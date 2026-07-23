@@ -336,7 +336,8 @@ is no other place for β to live.
 - **[Planck's Constant in Disguise](https://doi.org/10.5281/zenodo.20752384)** (Paper 443) — six equations from six fields are the same MGE at different β; the fastest entry point
 - **[The H^k Complexity Ladder](https://doi.org/10.5281/zenodo.20773526)** (Paper 420) — H⁰/H¹/H² as β regimes; TWIST failure as phase boundary; β* snap threshold
 
-*See also:* [BKT Transition / TWIST Failure](../reference/glossary.md#bkt-transition--twist-failure) ·
+*See also:* [β: The Universal Temperature](/docs/theory/maslov-dequantization) — the Maslov dequantization idea and the two semirings, one level up from the ISA ·
+[BKT Transition / TWIST Failure](../reference/glossary.md#bkt-transition--twist-failure) ·
 [Maslov-Gibbs Einsum](../reference/glossary.md#maslov-gibbs-einsum-mge) · [The Opcodes](../reference/opcodes.md)
 
 *For number theorists and algebraic geometers:*
