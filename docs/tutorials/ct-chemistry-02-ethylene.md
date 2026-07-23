@@ -3,7 +3,7 @@ layout: default
 nav_exclude: true
 title: "Ch 2 — The Double Bond: Ethylene"
 parent: CT Chemistry Primer
-grand_parent: Books
+grand_parent: Tutorials
 nav_order: 2
 ---
 

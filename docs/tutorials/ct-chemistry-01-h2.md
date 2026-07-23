@@ -3,7 +3,7 @@ layout: default
 nav_exclude: true
 title: "Ch 1 — The Single Bond: H₂"
 parent: CT Chemistry Primer
-grand_parent: Books
+grand_parent: Tutorials
 nav_order: 1
 ---
 

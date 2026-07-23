@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: true
 title: Professor Knot Stories
-parent: Books
+parent: Tutorials
 nav_order: 10
 has_children: true
 ---

@@ -3,7 +3,7 @@ layout: default
 nav_exclude: true
 title: "S00 — The Tetrahedron"
 parent: Professor Knot Stories
-grand_parent: Books
+grand_parent: Tutorials
 nav_order: 0
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Books
-nav_order: 6
+title: Tutorials
+nav_order: 7
 nav_exclude: true
 has_children: true
 ---
 
-Multi-page works in two registers: *stories* (narrative, character-driven) and *primers* (tutorial, example-driven). Both use the same framework. Both are written for a reader who knows their own field well but is new to the C/T lens.
+Multi-part worked examples in two registers: *stories* (narrative, character-driven) and *primers* (side-by-side classic vs ISA method). Both are written for a reader who knows their own field but is new to the Origami ISA lens.
 
 ---
 

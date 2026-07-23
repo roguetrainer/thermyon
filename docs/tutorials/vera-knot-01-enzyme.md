@@ -3,7 +3,7 @@ layout: default
 nav_exclude: true
 title: "S01 — Professor Knot Visits the Enzyme"
 parent: Professor Knot Stories
-grand_parent: Books
+grand_parent: Tutorials
 nav_order: 1
 ---
 

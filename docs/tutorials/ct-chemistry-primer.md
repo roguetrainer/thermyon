@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: true
 title: CT Chemistry Primer
-parent: Books
+parent: Tutorials
 nav_order: 20
 has_children: true
 ---
