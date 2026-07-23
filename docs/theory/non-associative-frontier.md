@@ -65,7 +65,7 @@ The exceptional Lie algebras — G₂, F₄, E₆, E₇, E₈ — which seemed l
 
 ## Reading the square as a complexity ladder
 
-The magic square has a natural complexity ordering that matches the ASA's H^k ladder:
+The magic square has a natural complexity ordering that matches the H^k ISA tier ladder:
 
 | Cell | Algebras | Lie group | Computational regime |
 |------|----------|-----------|---------------------|
@@ -83,7 +83,7 @@ The bottom-right cell — g(𝕆, 𝕆) = E₈ — is the richest and hardest. I
 
 ## The 731-ISA as the octonion compiler
 
-The Origami, Forge, and Meld ISAs operate entirely within the associative world. Their five opcodes (SPLIT, SPLAT, FLIP, FLOP, TWIST) satisfy the Pentagon identity — the algebraic condition that corresponds to associativity of the underlying fusion category.
+The Origami, Forge, and Meld ISAs operate entirely within the associative world. Their canonical opcodes (ORBIT, TWIST, MERGE, LINK, FLIP, SNAP↑/↓) satisfy the Pentagon identity — the algebraic condition that corresponds to associativity of the underlying fusion category. This is not a limitation: almost all molecular chemistry, spectroscopy, and quantum error correction can be expressed without leaving the associative regime (see [Paper 672](https://doi.org/10.5281/zenodo.PENDING) for the formal boundary result).
 
 The **731-ISA** is the extension that enters the non-associative regime. It adds two new opcodes:
 
@@ -150,4 +150,6 @@ If you want the physics applications, jump directly to Paper 325 (FMO photosynth
 
 ---
 
-*See also: [The ASA Framework](../reference/framework.md) — where the 731-ISA sits in the five-layer hierarchy.*
+*See also: [Processing Units](/docs/theory/processing-units) — the RPU is the hardware realisation of the 731-ISA ·
+[The β-plane](/docs/theory/forge-meld) — how the full β-plane situates the non-associative H² tier ·
+[The Langlands Perspective](/docs/theory/langlands) — G₂ self-duality in the Langlands programme*
